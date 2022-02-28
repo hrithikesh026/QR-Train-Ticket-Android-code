@@ -5,4 +5,5 @@ Android app with very minimal but functional UI
 
 ##Screen Shots
 
-!Wallet Fragment(https://github.com/hrithikesh026/QR-Train-Ticket-Android-code/blob/main/screenshots/WhatsApp%20Image%202022-02-28%20at%204.24.22%20PM%20(1).jpeg?raw=true)
+![Screenshot](https://user-images.githubusercontent.com/61539176/155973445-8a34fc45-8ee8-456c-ac38-608c35558f6f.jpeg)
+
