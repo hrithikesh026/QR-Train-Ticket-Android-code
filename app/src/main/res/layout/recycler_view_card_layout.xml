@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FROM"
+            android:textSize="15dp"/>
+        <androidx.cardview.widget.CardView
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="#F872A0"
+            android:background="#FF2811"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp">
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Source will appear here"
+                android:textSize="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TO"
+            android:textSize="15dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#F872A0">
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Destination will appear here"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAIN N0"
+        android:textSize="15dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="#F872A0"
+            android:background="#170402"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp">
+            <TextView
+                android:id="@+id/train_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Train no will appear here"
+                android:textSize="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRAIN NAME"
+            android:textSize="15dp"/>
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="100sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#170402"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#F872A0">
+
+            <TextView
+                android:id="@+id/train_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Train name will appear here"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/qrImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="QR_CODE"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

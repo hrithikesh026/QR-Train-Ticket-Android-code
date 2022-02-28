@@ -1,0 +1,4468 @@
+<resources>
+    <string name="app_name">ticket</string>
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Email</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+    <string name="register_form">REGISTER</string>
+    <string name="scan">SCAN_QR</string>
+    <string name="recharge">WALLET</string>
+    <string name="mytickets">MY TICKETS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Recharge your Wallet</string>
+    <string-array name="stations">
+        <item>Abada-ABB</item>
+        <item>Abhaipur-AHA</item>
+        <item>Abhayapuri-AYU</item>
+        <item>Abohar Junction-ABS</item>
+        <item>Abu Road-ABR</item>
+        <item>Abutara Halt-ABW</item>
+        <item>Acharapakkam-ACK</item>
+        <item>Acharya Narendra Dev Nagar-ACND</item>
+        <item>Achalganj-ACH</item>
+        <item>Achalpur-ELP</item>
+        <item>Achhalda-ULD</item>
+        <item>Achhnera Junction-AH</item>
+        <item>Adarshnagar-AHO</item>
+        <item>Adarshnagar Delhi-ANDI</item>
+        <item>Adas Road-ADD</item>
+        <item>Adesar-AAR</item>
+        <item>Adgaon Buzurg-ABZ</item>
+        <item>Adilabad-ADB</item>
+        <item>Adipur Junction-AI</item>
+        <item>Adisaptagram-ADST</item>
+        <item>Adityapur-ADTP</item>
+        <item>Adoni-AD</item>
+        <item>Adra Junction-ADRA</item>
+        <item>Aduturai-ADT</item>
+        <item>Agartala-AGTL</item>
+        <item>Agas-AGAS</item>
+        <item>Agasod-AGD</item>
+        <item>Aghwanpur-AWP</item>
+        <item>Agomani-AGMN</item>
+        <item>Agori Khas-AGY</item>
+        <item>Agra Cantonment-AGC</item>
+        <item>Agra City-AGA</item>
+        <item>Agra Fort-AF</item>
+        <item>Ahalyapur-AHLR</item>
+        <item>Ahmadgarh-AHH</item>
+        <item>Ahmednagar-ANG</item>
+        <item>Ahmadpur Junction-AMP</item>
+        <item>Ahmedabad Junction-ADI</item>
+        <item>Ahraura Road-ARW</item>
+        <item>Airoli-AIRL</item>
+        <item>Aishbagh-ASH</item>
+        <item>Ait-AIT</item>
+        <item>Aithal-ATMO</item>
+        <item>Ajaibpur-AJR</item>
+        <item>Ajanti-ANI</item>
+        <item>Ajaraka-AIA</item>
+        <item>Ajgain-AJ</item>
+        <item>Ajhai-AJH</item>
+        <item>Ajit-AJIT</item>
+        <item>Ajmer Junction-AII</item>
+        <item>Ajni-AJNI</item>
+        <item>Akalkot Road-AKOR</item>
+        <item>Akaltara-AKT</item>
+        <item>Akanapet-AKE</item>
+        <item>Akbarganj-AKJ</item>
+        <item>Akbarpur Junction-ABP</item>
+        <item>Akividu-AKVD</item>
+        <item>Akodia-AKD</item>
+        <item>Akola Junction-AK</item>
+        <item>Akolner-AKR</item>
+        <item>Akona-AKW</item>
+        <item>Akot-AKOT</item>
+        <item>Akurdi-AKRD</item>
+        <item>Alamnagar-AMG</item>
+        <item>Aler-ALER</item>
+        <item>Algapur-ALGP</item>
+        <item>Algawan-AIG</item>
+        <item>Alia Bada-ALB</item>
+        <item>Aligarh Junction-ALJN</item>
+        <item>Alipurduar-APD</item>
+        <item>Alipurduar Junction-APDJ</item>
+        <item>Alirajpur-ARPR</item>
+        <item>Allahabad City-ALY</item>
+        <item>Allahabad Junction-ALD</item>
+        <item>Alappuzha-ALLP</item>
+        <item>Almatti-LMT</item>
+        <item>Alnavar Junction-LWR</item>
+        <item>Alniya-ALNI</item>
+        <item>Aluabari Road Junction-AUB</item>
+        <item>Alwar Junction-AWR</item>
+        <item>Aluva-AWY</item>
+        <item>Amalner-AN</item>
+        <item>Amalsad-AML</item>
+        <item>Aman Vadi-AMW</item>
+        <item>Amarpura-APA</item>
+        <item>Amausi-AMS</item>
+        <item>Amb Andaura-AADR</item>
+        <item>Ambagaon-AGB</item>
+        <item>Ambala Cantonment-UMB</item>
+        <item>Ambala City-UBC</item>
+        <item>Ambalappuzha-AMPA</item>
+        <item>Ambale-ABLE</item>
+        <item>Ambari-ABX</item>
+        <item>Ambari Falakata-ABFC</item>
+        <item>Ambarnath-ABH</item>
+        <item>Ambassa-ABSA</item>
+        <item>Ambasamudram-ASD</item>
+        <item>Ambattur-ABU</item>
+        <item>Ambaturai-ABI</item>
+        <item>Ambiapur-AAP</item>
+        <item>Ambika Kalna-ABKA</item>
+        <item>Ambikapur-ABKP</item>
+        <item>Ambikeshwar-ABE</item>
+        <item>Ambivli-ABY</item>
+        <item>Ambli Road-ABD</item>
+        <item>Ambliyasan Junction-UMN</item>
+        <item>Ambodala-AMB</item>
+        <item>Ambur-AB</item>
+        <item>Amethi-AME</item>
+        <item>Amgaon-AGN</item>
+        <item>Amguri-AGI</item>
+        <item>Amla Junction-AMLA</item>
+        <item>Amlai-AAL</item>
+        <item>Amlakhurd-AMX</item>
+        <item>Amli-AMLI</item>
+        <item>Ammasandra-AMSA</item>
+        <item>Amoni-AONI</item>
+        <item>Amravati-AMI</item>
+        <item>Amreli-AE</item>
+        <item>Amritsar Junction-ASR</item>
+        <item>Amritvel-AVL</item>
+        <item>Amroha-AMRO</item>
+        <item>Anakapalle-AKP</item>
+        <item>Anand Junction-ANND</item>
+        <item>Anand Nagar Junction-ANDN</item>
+        <item>Anand Vihar-ANVT</item>
+        <item>Anandpur Sahib-ANSB</item>
+        <item>Anandtandavpur-ANP</item>
+        <item>Anantapur-ATP</item>
+        <item>Anantnag-ANT</item>
+        <item>Anaparti-APT</item>
+        <item>Anara-ANR</item>
+        <item>Anas-ANAS</item>
+        <item>Andal Junction-UDL</item>
+        <item>Andheri-ADH</item>
+        <item>Angadippuram-AAM</item>
+        <item>Angamaly-AFK</item>
+        <item>Angar-AAG</item>
+        <item>Angul-ANGL</item>
+        <item>Anipur-APU</item>
+        <item>Anjangaon-ANJ</item>
+        <item>Anjani-ANO</item>
+        <item>Anjar-AJE</item>
+        <item>Anjhi Shahabad-AJI</item>
+        <item>Ankai Killa-ANK</item>
+        <item>Ankleshwar Junction-AKV</item>
+        <item>Ankleshwar Udyognagar-AKVU</item>
+        <item>Ankola-ANKL</item>
+        <item>Annanur-ANNR</item>
+        <item>Annavaram-ANV</item>
+        <item>Annigeri-NGR</item>
+        <item>Anpara-ANPR</item>
+        <item>Antah-ATH</item>
+        <item>Antu-ANTU</item>
+        <item>Anugraha Narayan Road-AUBR</item>
+        <item>Anupgarh-APH</item>
+        <item>Anuppur Junction-APR</item>
+        <item>Anupshahr-AUS</item>
+        <item>Aonla-AO</item>
+        <item>Ara Junction-ARA</item>
+        <item>Arabagatta H-ABGT</item>
+        <item>Arakkonam Junction-AJJ</item>
+        <item>Araku-ARK</item>
+        <item>Aralvaymozhi-AAY</item>
+        <item>Arariya-ARR</item>
+        <item>Arariya Court-ARQ</item>
+        <item>Arasur-ARS</item>
+        <item>Aravali Road-AVRD</item>
+        <item>Arunachal Junction-ARCL</item>
+        <item>Aravankadu-AVK</item>
+        <item>Ariyalur-ALU</item>
+        <item>Argora-AOR</item>
+        <item>Arjansar-AS</item>
+        <item>Arjuni-AJU</item>
+        <item>Arnetha-ARE</item>
+        <item>Arni Road-ARV</item>
+        <item>Arsikere Junction-ASK</item>
+        <item>Aruppukkottai-APK</item>
+        <item>Arvi-ARVI</item>
+        <item>Aryankavu-AYV</item>
+        <item>Asafpur-AFR</item>
+        <item>Asalpur Jobner-JOB</item>
+        <item>Asangaon-ASO</item>
+        <item>Asansol Junction-ASN</item>
+        <item>Asaoti-AST</item>
+
+        <item>Ashoknagar-ASKN</item>
+        <item>Asthal Bohar Junction-ABO</item>
+        <item>Aslana-ANA</item>
+        <item>Aslaoda-ASL</item>
+        <item>Asnoti-AT</item>
+        <item>Asokhar-AXK</item>
+        <item>Asranada-AAS</item>
+        <item>Attari-ATT</item>
+        <item>Ataria-AA</item>
+        <item>Atarra-ATE</item>
+        <item>Ateli-AEL</item>
+        <item>Atgaon-ATG</item>
+        <item>Athipattu-AIP</item>
+        <item>Athipattu Pudhunagar-AIPP</item>
+        <item>Atrampur-ARP</item>
+        <item>Atrauli Road-AUR</item>
+        <item>Atru-ATRU</item>
+        <item>Attabira-ATS</item>
+        <item>Attar-ATR</item>
+        <item>Attur-ATTR</item>
+        <item>Aujari-AJRE</item>
+        <item>Aulenda-AED</item>
+        <item>Aunrihar Junction-ARJ</item>
+        <item>Aurangabad-AWB</item>
+        <item>Auvaneeswarem-AVS</item>
+        <item>Auwa-AUWA</item>
+        <item>Avadi-AVD</item>
+        <item>Awantipora-ATPA</item>
+        <item>Ayodhya Junction-AY</item>
+        <item>Azamgarh-AMH</item>
+        <item>Azamnagar Road-AZR</item>
+        <item>Azara-AZA</item>
+        <item>Azimganj City-ACLE</item>
+        <item>Azimganj Junction-AZ</item>
+        <item>Babarpur-BBDE</item>
+        <item>Babatpur-BTP</item>
+        <item>Bebejia-BEE</item>
+        <item>Babhnan-BV</item>
+        <item>Babina-BAB</item>
+        <item>Babrala-BBA</item>
+        <item>Babugarh-BBO</item>
+        <item>Babupeth-BUPH</item>
+        <item>Bacheli-BCHL</item>
+        <item>Bachhrawan-BGL</item>
+        <item>Bachwara Junction-BCA</item>
+        <item>Badmal-BUDM</item>
+        <item>Baad-BAD</item>
+        <item>Badami-BDM</item>
+        <item>Badampahar-BMPR</item>
+        <item>Badampudi-BPY</item>
+        <item>Badurpur Ghat-BPG</item>
+        <item>Badarpur Junction-BPB</item>
+        <item>Badausa-BUS</item>
+        <item>Budgam-BDGM</item>
+        <item>Badhada-BDHA</item>
+        <item>Badhal-BDHL</item>
+        <item>Badlapur-BUD</item>
+        <item>Badli-BHD</item>
+        <item>Badnapur-BDU</item>
+        <item>Badnera Junction-BD</item>
+        <item>Badshahnagar-BNZ</item>
+        <item>Badshahpur-BSE</item>
+        <item>Badwasi-BWS</item>
+        <item>Bagaha-BUG</item>
+        <item>Bagalkot-BGK</item>
+        <item>Bagbahra-BGBR</item>
+        <item>Bagetar-BF</item>
+        <item>Bagevadi Rd-BSRX</item>
+        <item>Baghauli-BGH</item>
+        <item>Baghnapara-BGRA</item>
+        <item>Baghora-BJQ</item>
+        <item>Bagra Tawa-BGTA</item>
+        <item>Bagri Nagar-BQN</item>
+        <item>Bagri Sajjanpur-BGX</item>
+        <item>Bagula-BGL</item>
+        <item>Bagwali-BWB</item>
+        <item>Bahadur Singh W-BSS</item>
+        <item>Bahadurgarh-BGZ</item>
+        <item>Bahadurpur-BPD</item>
+        <item>Baheri-BHI</item>
+        <item>Bahilpurwa-BIP</item>
+        <item>Bahirkhand-BHAW</item>
+        <item>Bahjoi-BJ</item>
+        <item>Bahraich-BRK</item>
+        <item>Baidyanathdham-BDME</item>
+        <item>Baihata Chariali-BIZ</item>
+        <item>Baiguda-BGUA</item>
+        <item>Baijnathpur-BYP</item>
+        <item>Baikunthpur Rd-BRH</item>
+        <item>Bainchi / Boinchi-BOI</item>
+        <item>Bairabi (Bhairabi)-BHRB</item>
+        <item>Bairapur-BIP</item>
+        <item>Bairagnia-BGU</item>
+        <item>Baitalpur-BALR</item>
+        <item>Bajalta-BLA</item>
+        <item>Bajva-BJW</item>
+        <item>Bakhtiyarpur Junction-BKP</item>
+        <item>Bakra Road-BK</item>
+        <item>Balaghat-BTC</item>
+        <item>Balamau Junction-BLM</item>
+        <item>Balangir-BLGR</item>
+        <item>Balasore-BLS</item>
+        <item>Balauda Takun-BLDK</item>
+        <item>Balawala-BLWL</item>
+        <item>Balawali-BLW</item>
+        <item>Balharshah-BPQ</item>
+        <item>Baliakheri-BAE</item>
+        <item>Balikotia-BKS</item>
+        <item>Balipara-BVU</item>
+        <item>Ballabhgarh-BVH</item>
+        <item>Balli railway station-BLLI</item>
+        <item>Ballia-BUI</item>
+        <item>Ballupur-BAPR</item>
+        <item>Bally-BLY</item>
+        <item>Ballygunge Junction-BLN</item>
+        <item>Balrampur-BLP</item>
+        <item>Balsamand-BLSD</item>
+        <item>Balugan-BALU</item>
+        <item>Balwa-WAB</item>
+        <item>Balwara-BAWA</item>
+        <item>Bamangachhi-BMG</item>
+        <item>Bamanheri-BMHR</item>
+        <item>Bamhani-BMW</item>
+        <item>Bamla-BMLL</item>
+        <item>Bamnia-BMI</item>
+        <item>Bamsin-BMSN</item>
+        <item>Bamra-BMB</item>
+        <item>Bamsin-BMSN</item>
+        <item>Bamuni Gaon-BGMN</item>
+        <item>Banahi-BYN</item>
+        <item>Banapura-BPF</item>
+        <item>Banar-BNO</item>
+        <item>Banarhat-BNQ</item>
+        <item>Banas-BNS</item>
+        <item>Banaswadi-BAND</item>
+        <item>Banasandra-BSN</item>
+        <item>Banbasa-BNSA</item>
+        <item>Banda Junction-BNDA</item>
+        <item>Bandakpur-BNU</item>
+        <item>Bandanwara-BDW</item>
+        <item>Bandarkhal-BXK</item>
+        <item>Bandel Junction-BDC</item>
+        <item>Bandh Bareta-BR</item>
+        <item>Bandikui Junction-BKI</item>
+        <item>Bandra-BA</item>
+        <item>Bandra Terminus-BDTS</item>
+        <item>Bangalore Cantonment-BNC</item>
+        <item>Bangalore City Junction-SBC</item>
+        <item>Bangalore East-BNCE</item>
+        <item>Bangarapet-BWT</item>
+        <item>Bangarapet-BWY</item>
+        <item>Bangrod-BOD</item>
+        <item>Bani-BANI</item>
+        <item>Banihal-BAHL</item>
+        <item>Baniya Sanda DH-BSDA</item>
+        <item>Bankata-BTK</item>
+        <item>Bankura-BQA</item>
+        <item>Bankura-BQK</item>
+        <item>Banmankhi Junction-BNKI</item>
+        <item>Banmor-BAO</item>
+        <item>Bansdih Road-BCD</item>
+        <item>Banshlai Bridge-BSBR</item>
+        <item>Bansi Paharpur-BIQ</item>
+        <item>Bansipur-BSQP</item>
+        <item>Banasthali Niwai-BNLW</item>
+        <item>Banta Raghunathgarh-BGG</item>
+        <item>Bantawala-BNTL</item>
+        <item>Banthra-BTRA</item>
+        <item>Banwali-BWC</item>
+        <item>Baori Thikria-BOTI</item>
+        <item>Bapatla-BPP</item>
+        <item>Bar-BAR</item>
+        <item>Bara Jamda-BJMD</item>
+        <item>Barabanki Junction-BBK</item>
+        <item>Barabhum-BBM</item>
+        <item>Barbil-BBN</item>
+        <item>Baradwar-BUA</item>
+        <item>Baragaon-BNM</item>
+        <item>Barahu-BRHU</item>
+        <item>Baraigram Junction-BRGM</item>
+        <item>Barakar-BRR</item>
+        <item>Baral-BARL</item>
+        <item>Baramati-BRMT</item>
+        <item>Baramula-BRML</item>
+        <item>Baran-BAZ</item>
+        <item>Baranagar-BARN</item>
+        <item>Barara-RAA</item>
+        <item>Barasat Junction-BT</item>
+        <item>Baraut-BRT</item>
+        <item>Barauni Junction-BJU</item>
+        <item>Barbatpur-BBTR</item>
+        <item>Barchi Road-BCRD</item>
+        <item>Barddhaman Junction-BWN</item>
+        <item>Bardoli-BIY</item>
+        <item>Bareilly-BE</item>
+        <item>Bareilly-BRY</item>
+        <item>Bareilly Cantt-BRYC</item>
+        <item>Barejadi-BJD</item>
+        <item>Bareta-BRZ</item>
+        <item>Bareth-BET</item>
+        <item>Bargarh Road-BRGA</item>
+        <item>Bargawan-BRGW</item>
+        <item>Barh-BARH</item>
+        <item>Barhan Junction-BRN</item>
+        <item>Barharwa Junction-BHW</item>
+        <item>Barhiya-BRYA</item>
+        <item>Barhni-BNY</item>
+        <item>Bari Brahman-BBMN</item>
+        <item>Bariarpur-BUP</item>
+        <item>Barkakana-BRKA</item>
+        <item>Barkur-BKJ</item>
+        <item>Barlai-BLAX</item>
+        <item>Barmer-BME</item>
+        <item>Barnagar-BNG</item>
+        <item>Barnala-BNN</item>
+        <item>Barog-BOF</item>
+        <item>Barpali-BRPL</item>
+        <item>Barpeta Road-BPRD</item>
+        <item>Barrackpore-BP</item>
+        <item>Barsathi-BSY</item>
+        <item>Barsi Takli-BSQ</item>
+        <item>Barsi Town-BTW</item>
+        <item>Barsoi Junction-BOE</item>
+        <item>Barsola-BZO</item>
+        <item>Barsuan-BXF</item>
+        <item>Bartara-BTRA</item>
+        <item>Baruva-BAV</item>
+        <item>Baruipur Junction-BRP</item>
+        <item>Barwa Sagar-BWR</item>
+        <item>Barwadih Junction-BRWD</item>
+        <item>Barwaha-BWW</item>
+        <item>Barya Ram-BYHA</item>
+        <item>Basai-BZY</item>
+        <item>Basantar Block Hut-BHBT</item>
+        <item>Basar-BSX</item>
+        <item>Basbari-BSI</item>
+        <item>Basharatganj-BTG</item>
+        <item>Basi Kiratpur-BSKR</item>
+        <item>Basin Bridge-BBQ</item>
+        <item>Basmat-BMF</item>
+        <item>Basni-BANE</item>
+        <item>Bassi Pathana-BSPN</item>
+        <item>Basta-BTS</item>
+        <item>Basti-BST</item>
+        <item>Basugaon-BSGN</item>
+        <item>Baswa-BU</item>
+        <item>Batadrowa Road-BTDR</item>
+        <item>Batala Junction-BAT</item>
+        <item>Bathinda Cantonment-BTIC</item>
+        <item>Bathinda Junction-BTI</item>
+        <item>Bauria Junction-BVA</item>
+        <item>Bavla-VLA</item>
+        <item>Bawal-BWL</item>
+        <item>Bawani Khera-BWK</item>
+        <item>Bayana Junction-BXN</item>
+        <item>Baytu-BUT</item>
+        <item>Bazida Jatan-BZJT</item>
+        <item>Bazpur-BPZ</item>
+        <item>Bazurghat-BZGT</item>
+        <item>Beas Junction-BEAS</item>
+        <item>Beawar-BER</item>
+        <item>Begunkodor-</item>
+        <item>Bedetti-BVV</item>
+        <item>Begampet-BMT</item>
+        <item>Begu Sarai-BGS</item>
+        <item>Behtagokul-BEG</item>
+        <item>Behula-</item>
+        <item>Bejnal-BJN</item>
+        <item>Bela Tal-BTX</item>
+        <item>Belampalli-BPA</item>
+        <item>Belapur-BAP</item>
+        <item>Belgahna-BIG</item>
+        <item>Belgharia-BEL</item>
+        <item>Belgaum-BGM</item>
+        <item>Belha-BYL</item>
+        <item>Bellary Junction-BAY</item>
+        <item>Bellary Cantonment railway station-BYC</item>
+        <item>Belpahar-BPH</item>
+        <item>Belrayan-BXM</item>
+        <item>Belsiri-BLRE</item>
+        <item>Belthara Road-BLTR</item>
+        <item>Belur-BEQ</item>
+        <item>Belvandi-BWD</item>
+        <item>Beohari-BEHR</item>
+        <item>Berchha-BCH</item>
+        <item>Berhampore Court-BPC</item>
+        <item>Brahmapur-BAM</item>
+        <item>Besroli-BSRL</item>
+        <item>Betavad-BEW</item>
+        <item>Bettiah-BTH</item>
+        <item>Bethamcherla-BMH</item>
+        <item>Betul-BZU</item>
+        <item>Bhabhar-BAH</item>
+        <item>Bhabua Road-BBU</item>
+        <item>Bhachau-BCO</item>
+        <item>Bhachau BG-BCOB</item>
+        <item>Bhadan-BDN</item>
+        <item>Bhadaura-BWH</item>
+        <item>Bhadbhadaghat-BVB</item>
+        <item>Bhadli-BDI</item>
+        <item>Bhadohi-BOY</item>
+        <item>Bhadra-BHD</item>
+        <item>Bhadrachalam Road-BDCR</item>
+        <item>Bhadrak-BHC</item>
+        <item>Bhadran-</item>
+        <item>Bhadravati-BDVT</item>
+        <item>Bhadroli-BBY</item>
+        <item>Bhaga Junction-VAA</item>
+        <item>Bhagalpur-BGP</item>
+        <item>Bhagat Ki Kothi-BGKT</item>
+        <item>Bhagega-BAGA</item>
+        <item>Bhagtanwala-BGTN</item>
+        <item>Bhagwanpur-BNR</item>
+        <item>Bhagwanpura-BGPR</item>
+        <item>Bhaini Khurd-BZK</item>
+        <item>Bhairongarh-BOG</item>
+        <item>Bhakti Nagar-BKNG</item>
+        <item>Bhalki-BHLK</item>
+        <item>Bhalumaska-BLMK</item>
+        <item>Bhanapur-BNP</item>
+        <item>Bhandak-BUX</item>
+        <item>Bhandara Road-BRD</item>
+        <item>Bhandup-BND</item>
+        <item>Bhanga-BXG</item>
+        <item>Bhankoda-BKD</item>
+        <item>Bharat Kup-BTKP</item>
+        <item>Bharatkund-BTKD</item>
+        <item>Bharatpur Junction-BTE</item>
+        <item>Bharatwada-BWRA</item>
+        <item>Bharoli Junction-BHRL</item>
+        <item>Bharthana-BNT</item>
+        <item>Bharuch Junction-BH</item>
+        <item>Bharwa Sumerpur-BSZ</item>
+        <item>Bharwari-BRE</item>
+        <item>Bhatel-BHTL</item>
+        <item>Bhatgaon-BOV</item>
+        <item>Bhatiya-BHV</item>
+        <item>Bhatkal-BTJL</item>
+        <item>Bhatni Junction-BTT</item>
+        <item>Bhaton Ki Gali-BHG</item>
+        <item>Bhatpar Rani-BHTR</item>
+        <item>Bhatpur-BTPR</item>
+        <item>Bhattu-BHT</item>
+        <item>Bhaunra-BNVD</item>
+        <item>Bhavnagar Para railway station-BVP</item>
+        <item>Bhavani Nagar-BVNR</item>
+        <item>Bhavnagar Terminus railway station-BVC</item>
+        <item>Bhawani Mandi-BWM</item>
+        <item>Bhawanipatna-BWIP</item>
+        <item>Bhawanipur Kalan-BWP</item>
+        <item>Bhayandar-BYR</item>
+        <item>Bhayavadar-BHY</item>
+        <item>Bheempura-BIPR</item>
+        <item>Bheerpur-BEP</item>
+        <item>Bhemswadi-BSWD</item>
+
+
+        <item>Bheraghat-BRGT</item>
+        <item>Bhesana-BFY</item>
+        <item>Bhigwan-BGVN</item>
+        <item>Bhilad-BLD</item>
+        <item>Bhilai Power House-BPHB</item>
+        <item>Bhilainagar-BQR</item>
+        <item>Bhilavdi-BVQ</item>
+        <item>Bhildi-BLDI</item>
+        <item>Bhilwara-BHL</item>
+        <item>Bhimal-BIML</item>
+        <item>Bhimana-BMN</item>
+        <item>Bhimarlai-BMQ</item>
+        <item>Bhimasar-BMSR</item>
+        <item>Bhimavaram Junction-BVRM</item>
+        <item>Bhimavaram Town-BVRT</item>
+        <item>Bhimnath-BNH</item>
+        <item>Bhimsen-BZM</item>
+        <item>Bhind-BIX</item>
+        <item>Bhinwaliya-BWA</item>
+        <item>Bhitaura-BTO</item>
+        <item>Bhivpuri Road-</item>
+        <item>Bhiwandi-BIRD</item>
+        <item>Bhiwani-BNW</item>
+        <item>Bhiwani City-BNWC</item>
+        <item>Bhodwal Majri-BDMJ</item>
+        <item>Bhogpur Sirwal-BPRS</item>
+        <item>Bhojipura Junction-BPR</item>
+        <item>Bhojo-BOJ</item>
+        <item>Bhojras-BHAS</item>
+        <item>Bhojudih Junction-BJE</item>
+        <item>Bhoke-BOKE</item>
+        <item>Bhone-BHNE</item>
+        <item>Bhongaon-BGQ</item>
+        <item>Bhongir-BG</item>
+        <item>Bhopal Bairagarh-BIH</item>
+        <item>Bhopal Dewanganj-DWN</item>
+        <item>Bhopal Habibganj-HBJ</item>
+        <item>Bhopal Junction-BPL</item>
+        <item>Bhopal Mandideep-BMND</item>
+        <item>Bhopal Misrod-BMSD</item>
+        <item>Bhopal Nishatpura-BNTP</item>
+        <item>Bhubaneswar-BBS</item>
+        <item>Bhuj-BHUJ</item>
+        <item>Bhupalsagar-BSJ</item>
+        <item>Bhupia Mau-VPO</item>
+        <item>Bhusaval Junction-BSL</item>
+        <item>Bhutakia Bhimsa-BUBR</item>
+        <item>Bhusaval-BSL</item>
+        <item>Bibinagar Junction-BN</item>
+        <item>Bichia-BIC</item>
+        <item>Bichpuri-BCP</item>
+        <item>Bidadi-BID</item>
+        <item>Bidanpur-BDNP</item>
+        <item>Bidar-BIDR</item>
+        <item>Bidhan Nagar Road-BNXR</item>
+        <item>Bidupur-BIU</item>
+        <item>Bidyadabri-BDYR</item>
+        <item>Bighapur-BQP</item>
+        <item>Bihara-BHZ</item>
+        <item>Bihar Sharif-BEHS</item>
+        <item>Bihiya-BEA</item>
+        <item>Bihta-BTA</item>
+        <item>Bijainagar-BJNR</item>
+        <item>Bijapur-BJP</item>
+        <item>Bijauli-BJI</item>
+        <item>Bijaysota-VST</item>
+        <item>Bijbiara-BJBA</item>
+        <item>Bijni-BJF</item>
+        <item>Bijnor-BJO</item>
+        <item>Bijoor-BIJR</item>
+        <item>Bijora-BJK</item>
+        <item>Bijrotha-BJA</item>
+        <item>Bijuri-BJRI</item>
+        <item>Bikaner Junction-BKN</item>
+        <item>Bikrampur-BMR</item>
+        <item>Bilaspur-BSP</item>
+        <item>Bilaspur Road-BLOR</item>
+        <item>Bildi-BILD</item>
+        <item>Bilhar Ghat-BLG</item>
+        <item>Bilhaur-BLU</item>
+        <item>Bilimora Junction-BIM</item>
+        <item>Bilkha-BILK</item>
+        <item>Billi-BXLL</item>
+        <item>Bilpur-BLPU</item>
+        <item>Bilwai-BWI</item>
+        <item>Bina Junction-BINA</item>
+        <item>Binaur-BNAR</item>
+        <item>Bindki Road-BKO</item>
+        <item>Binnaguri-BNV</item>
+        <item>Bir-BIR</item>
+        <item>Biradhwal-BDWL</item>
+        <item>Birambad-BAMA</item>
+        <item>Birang Khera-BMK</item>
+        <item>Birapatti-BRPT</item>
+        <item>Birlanagar-BLNR</item>
+        <item>Birmitrapur-BRMP</item>
+        <item>Birohe-BEO</item>
+        <item>Biroliya-BRLY</item>
+        <item>Birsinghpur-BRS</item>
+        <item>Birur-RRB</item>
+        <item>Bisalwas Kalan-BIWK</item>
+        <item>Bishengarh-BISH</item>
+        <item>Bishnathganj-BTJ</item>
+        <item>Bishnupur-VSU</item>
+        <item>Bishrampur-BSPR</item>
+        <item>Bissam Cuttack-BMCK</item>
+        <item>Bissau-BUB</item>
+        <item>Biswa Bridge-BIS</item>
+        <item>Biswan-BVN</item>
+        <item>Biyavra-BVR</item>
+        <item>Biyavra Rajgarh-BRRG</item>
+        <item>Bobas-BOBS</item>
+        <item>Bobbili Junction-VBL</item>
+        <item>Bodeli-BDE</item>
+        <item>Bodhan-BDHN</item>
+        <item>Bodwad-BDWD</item>
+        <item>Boinda-BONA</item>
+        <item>Boisar-BOR</item>
+        <item>Bokajan-BXJ</item>
+        <item>Bokaro Steel City-BKSC</item>
+        <item>Bokaro Thermal-BKRO</item>
+        <item>Boko-BOKO</item>
+        <item>Bolai-BLX</item>
+        <item>Bolarum-BMO</item>
+        <item>Bolda-BLC</item>
+        <item>Bolpur — Santiniketan-BHP</item>
+        <item>Bommidi-BQI</item>
+        <item>Bongaigaon-BNGN</item>
+        <item>Borawar-BOW</item>
+        <item>Bordhal-BXY</item>
+        <item>Bordi-BIO</item>
+        <item>Bordi Road-BRRD</item>
+        <item>Borgaon-BGN</item>
+        <item>Borivali-BVI</item>
+        <item>Borra Guhalu-BGHU</item>
+        <item>Borvihir-BRVR</item>
+        <item>Botad Junction-BTD</item>
+        <item>Boxirhat-BXHT</item>
+        <item>Brahmavart-BRT</item>
+        <item>Brajarajnagar-BRJN</item>
+        <item>Brayla Chaurasi-BRLA</item>
+        <item>Budalur-BAL</item>
+        <item>Budaun-BEM</item>
+        <item>Budge Budge-BDG</item>
+        <item>Budhi-BDHY</item>
+        <item>Budhlada-BLZ</item>
+        <item>Budni-BNI</item>
+        <item>Bulandshahr-BSC</item>
+        <item>Bundi-BUDI</item>
+        <item>Bundki-BEK</item>
+        <item>Burdwan-</item>
+        <item>Burhanpur-BAU</item>
+        <item>Burhar-BUH</item>
+        <item>Burhwal-BUW</item>
+        <item>Burnpur-BURN</item>
+        <item>Butari-BTR</item>
+        <item>Butewala-BWF</item>
+        <item>Buxar-BXR</item>
+        <item>Byadarahalli-BDRL</item>
+        <item>Byculla-BY</item>
+        <item>Boridand-BRND</item>
+        <item>Barai Jalalpur-</item>
+        <item>Bangaon-BNJ</item>
+        <item>B.B.D Bag-BBDB</item>
+        <item>Budge Budge-BGB</item>
+        <item>Bamangachi-BMG</item>
+        <item>Bira-BIRA</item>
+        <item>Birati-BBT</item>
+        <item>Bibhuti Bhushan Halt-BNAA</item>
+        <item>Belur-BEQ</item>
+        <item>Belur Math-BEQM</item>
+        <item>Bisharpara Kodaliya-BRPK</item>
+        <item>Baghbazar-BBR</item>
+        <item>Burra Bazar-BZR</item>
+        <item>Birnagar-BIJ</item>
+        <item>Chatrapur-CAP</item>
+        <item>C Shahumaharaj T-KOP</item>
+        <item>Kozhikode-CLT</item>
+        <item>Canacona railway station-CNO</item>
+        <item>Cansaulim railway station-CSM</item>
+        <item>Caranzol railway station-CRZ</item>
+        <item>Kannur-CAN</item>
+        <item>Cannanore South-CS</item>
+        <item>Carmelaram (Sarjapur Road, Bangalore)-CRLM</item>
+        <item>Castle Rock-CLR</item>
+        <item>CBD Belapur-BR</item>
+        <item>Chandanathope-</item>
+        <item>Chabua-CHB</item>
+        <item>Chachaura Bngj-CBK</item>
+        <item>Chadotar-CDQ</item>
+        <item>Chaibasa-CBSA</item>
+        <item>Chainwa-CW</item>
+        <item>Chajawa-CJW</item>
+        <item>Chajli-CJL</item>
+        <item>Chak Dayala-CKDL</item>
+        <item>Chak Rakhwal-CRWL</item>
+        <item>Chakdaha-CDH</item>
+        <item>Chakehri(Kanpur)-CHK</item>
+        <item>Chakia-CAA</item>
+        <item>Chakradharpur-CKP</item>
+        <item>Chakraj Mal-CAJ</item>
+        <item>Chaksu-CKS</item>
+        <item>Chakulia-CKU</item>
+        <item>Chalakudy-CKI</item>
+        <item>Chalala-CLC</item>
+        <item>Chalisgaon Junction-CSN</item>
+        <item>Challakere-CLK</item>
+        <item>Chalthan-CHM</item>
+        <item>Chamagram-CMX</item>
+        <item>Chamarajanagar-CMNR</item>
+        <item>Champa-CPH</item>
+        <item>Champaner Rd Junction-CPN</item>
+        <item>Chamraura-CHRU</item>
+        <item>Chand Siau-CPS</item>
+        <item>Chanda Fort-CAF</item>
+        <item>Chandan Nagar-CGR</item>
+        <item>Chandar railway station-CNR</item>
+        <item>Chandari(Kanpur)-CNBI</item>
+        <item>Chandauli Majhwar-CDMR</item>
+        <item>Chandausi Junction-CH</item>
+        <item>Chandawal-CNL</item>
+        <item>Chanderiya-CNA</item>
+        <item>Chandi Mandir-CNDM</item>
+        <item>Chandia Road-CHD</item>
+        <item>Chandigarh-CDG</item>
+        <item>Chandil Junction-CNI</item>
+        <item>Chandiposi-CPE</item>
+        <item>Chandisar-CDS</item>
+        <item>Chandkhira Bagn-CHBN</item>
+        <item>Chandlodiya-CLDY</item>
+        <item>Chandok-CNK</item>
+        <item>Chandranathpur-CNE</item>
+        <item>Chandrapur-CD</item>
+        <item>Chandrapura-CRP</item>
+        <item>Chandresal-CDSL</item>
+        <item>Chandur-CND</item>
+        <item>Chaneti-CHTI</item>
+        <item>Changanacheri-CGY</item>
+        <item>Changsari-CGS</item>
+        <item>Channani-CHNN</item>
+        <item>Channapatna-CPT</item>
+        <item>Chanpatia-CAI</item>
+        <item>Chaparmukh Junction-CPK</item>
+        <item>Chaprakata-CPQ</item>
+        <item>Charaud-CRW</item>
+        <item>Charbagh-LKO</item>
+        <item>Charbatia-CBT</item>
+        <item>Charbhuja Road-CBG</item>
+        <item>Chargola-CGX</item>
+        <item>Charkhari Road-CRC</item>
+        <item>Charkhi Dadri-CKD</item>
+        <item>Charni Road-CYR</item>
+        <item>Charvattur-CHV</item>
+        <item>Chata-CHJ</item>
+        <item>Chau Mahla-CMU</item>
+        <item>Chaube-CBH</item>
+        <item>Chaukhandi-CHH</item>
+        <item>Chaunrah-CNH</item>
+        <item>Chaurakheri-CRKR</item>
+        <item>Chaure Bazar-CHBR</item>
+        <item>Chauri Chaura-CC</item>
+        <item>Chausa-CSA</item>
+        <item>Chautara-CROA</item>
+        <item>Chauth Ka Brwra-CKB</item>
+        <item>Chavalkhede-CHLK</item>
+        <item>Chawapall-CHA</item>
+        <item>Chaygaon-CGON</item>
+        <item>Chemancheri-CMC</item>
+        <item>Chembur-CMBR</item>
+        <item>Chengalpattu-CGL</item>
+        <item>Chengannur-CNGR</item>
+        <item>Chennai Beach-MSB</item>
+        <item>Chennai Central railway station-MAS</item>
+        <item>Chennai Egmore-MS</item>
+        <item>Chennai Fort-MSF</item>
+        <item>Chennai Park-MPK</item>
+        <item>Cheriyanad-CYN</item>
+        <item>Cherthala-SRTL</item>
+        <item>Chetar-CTQ</item>
+        <item>Chettinad-CTND</item>
+        <item>Chhabra Gugor-CAG</item>
+        <item>Chhan Arorian-CHNR</item>
+        <item>Chhandrauli-CDRL</item>
+        <item>Chhansara-CASA</item>
+        <item>Chhapi-CHP</item>
+        <item>Chhapra-CPR</item>
+        <item>Chhapra Kacheri-CI</item>
+        <item>Chharodi-CE</item>
+        <item>Chhatrapati Shivaji Terminus-CSTM</item>
+        <item>Chhatarpur-MCSC</item>
+        <item>Chatrapur-CAP</item>
+        <item>Chhidgaon-CGO</item>
+        <item>Chhina-CHN</item>
+        <item>Chhindwara Junction-CWA</item>
+        <item>Chhipadohar-CPDR</item>
+        <item>Chhitauni-CTE</item>
+        <item>Chhota Gudha-COD</item>
+        <item>Chhota Udaipur-CTD</item>
+        <item>Chhoti Odai-COO</item>
+        <item>Chianki-CNF</item>
+        <item>Chidambaram-CDM</item>
+        <item>Chiheru-CEU</item>
+        <item>Chikballapur-CBP</item>
+        <item>Chikkamagaluru-CMGR</item>
+        <item>Chikalthan-CTH</item>
+        <item>Chikjajur Junction-JRU</item>
+        <item>Chikni Road-CKNI</item>
+        <item>Chikodi Road-CKR</item>
+        <item>Chilbila Junction-CIL</item>
+        <item>Chilka-CLKA</item>
+        <item>Chilo-CLO</item>
+        <item>Chinchli-CNC</item>
+        <item>Chinchpada-CPD</item>
+        <item>Chinchpokli-CHG</item>
+        <item>Chinchwad-CCH</item>
+        <item>Chinna Ganjam-CJM</item>
+        <item>Chinna Salem-CHSM</item>
+        <item>Chintamani-CMY</item>
+        <item>Chiplun-CHI</item>
+        <item>Chipurupalle-CPP</item>
+        <item>Chirai-CHII</item>
+        <item>Chirala-CLX</item>
+        <item>Chirawa-CRWA</item>
+        <item>Chirayinkil-CRY</item>
+        <item>Chirgaon-CGN</item>
+        <item>Chirmiri-CHRM</item>
+        <item>Chit Baragaon-CBN</item>
+        <item>Chitahra-CTHR</item>
+        <item>Chital-CTL</item>
+        <item>Chitali-CIT</item>
+        <item>Chitradurga-CTA</item>
+        <item>Chitrakuta-CKTD</item>
+        <item>Chitrapur-CTTP</item>
+        <item>Chitrasani-CTT</item>
+        <item>Chitrawad-CTRD</item>
+        <item>Chitrod-COE</item>
+        <item>Chitapur-CT</item>
+        <item>Chittaranjan-CRJ</item>
+        <item>Chittaurgarh-COR</item>
+        <item>Chittoor-CTO</item>
+        <item>Chodiala-CDL</item>
+        <item>Choki Sorath-CKE</item>
+        <item>Chola-CHL</item>
+        <item>Cholang-CGH</item>
+        <item>Chomun Samod-COM</item>
+        <item>Chondi-CWI</item>
+        <item>Chopan-CPU</item>
+        <item>Choral-CRL</item>
+        <item>Chorvad Road-CVR</item>
+        <item>Chosla-CSL</item>
+        <item>Choti Khatu-CTKT</item>
+        <item>Chuchura-CNS</item>
+        <item>Chuda-CDA</item>
+        <item>Chunabhatti-CHF</item>
+        <item>Chunar-CAR</item>
+        <item>Churchgate-CCG</item>
+        <item>Churk-CUK</item>
+        <item>Churu-CUR</item>
+        <item>Clutterbuckganj-CBJ</item>
+        <item>Cochin Harbour Terminus-CHTS</item>
+        <item>Coimbatore Junction-CBE</item>
+        <item>Coimbatore North Junction-CBF</item>
+        <item>Colonelganj-CLJ</item>
+        <item>Contai Road-CNT</item>
+        <item>Coonoor-ONR</item>
+        <item>Cotton Green-CTGN</item>
+        <item>Cuddalore Junction-COT</item>
+        <item>Cuddalore Port-CUPJ</item>
+        <item>Cuddapah-HX</item>
+        <item>Cumbum-CBM</item>
+        <item>Cuttack-CTC</item>
+        <item>Currey Road-CRD</item>
+        <item>Dabhaura-DBR</item>
+        <item>Dabhoi Junction-DB</item>
+        <item>Dabilpur-DBV</item>
+        <item>Dabla-DBLA</item>
+        <item>Dabli Rathan-DBI</item>
+        <item>Dabolim railway station-DBM</item>
+        <item>Dabra-DBA</item>
+        <item>Dabtara-DUB</item>
+        <item>Dadar (Western Railway)-DDR</item>
+        <item>Dadar (Central Railway)-DR</item>
+        <item>Dadri-DER</item>
+        <item>Dagaon-DGX</item>
+        <item>Dagmagpur-DAP</item>
+        <item>Dahanu Road-DRD</item>
+        <item>Dahar Ka Balaji-DKBJ</item>
+        <item>Dahina Zainabad-DZB</item>
+        <item>Dahisar-DIC</item>
+        <item>Dahod-DHD</item>
+        <item>Dailwara-DWA</item>
+        <item>Dakaniya Talav-DKNT</item>
+        <item>Dakhineswar-DAKE</item>
+        <item>Dakor-DK</item>
+        <item>Daladi-DL</item>
+        <item>Dalauda-DLD</item>
+        <item>Dalelnagar-DLQ</item>
+        <item>Dalgaon-DLO</item>
+        <item>Daliganj-DAL</item>
+        <item>Dalhousie Road-DALR</item>
+        <item>Dalkhola-DLK</item>
+        <item>Dalli-Rajhara-DRZ</item>
+        <item>Dalmau Junction-DMW</item>
+        <item>Dalmera-DLC</item>
+        <item>Dalpatpur-DLP</item>
+        <item>Dalsingh Sarai-DSS</item>
+        <item>Daltonganj-DTO</item>
+        <item>Damanjodi-DMNJ</item>
+        <item>Damchara-DCA</item>
+        <item>Damnagar-DME</item>
+        <item>Damoh-DMO</item>
+        <item>Danapur-DNR</item>
+        <item>Dandeli-DED</item>
+        <item>Dandupur-DND</item>
+        <item>Dangoaposi-DPS</item>
+        <item>Dangtal-DTX</item>
+        <item>Daniyawan Bzr H-DNWH</item>
+        <item>Dankaur-DKDE</item>
+        <item>Dankuni-DKAE</item>
+        <item>Danwar-DAR</item>
+        <item>Dapodi-DAPD</item>
+        <item>Dappar-DHPR</item>
+        <item>Daotuhaja-DJA</item>
+        <item>Dara-DARA</item>
+        <item>Daraganj-DRGJ</item>
+        <item>Darbhanga-DBG</item>
+        <item>Darjeeling-DJ</item>
+        <item>Darritola-DTL</item>
+        <item>Daryabad-DYD</item>
+        <item>Daryapur-DYP</item>
+        <item>Dasna-DS</item>
+        <item>Dasuya-DZA</item>
+        <item>Datia-DAA</item>
+        <item>Dativali-DTV</item>
+        <item>Daudpur-DDP</item>
+        <item>Daulatabad-DLB</item>
+        <item>Daund Junction-DD</item>
+        <item>Daundaj-DUD</item>
+        <item>Daurai-DOZ</item>
+        <item>Daurala-DRLA</item>
+        <item>Dauram Madhpura-DMH</item>
+        <item>Dausa-DO</item>
+        <item>Dausni-DSNI</item>
+        <item>Davanagere-DVG</item>
+        <item>Dayalpur-DLPR</item>
+        <item>Debari-DRB</item>
+        <item>Debipur-DBP</item>
+        <item>Degana Junction-DNA</item>
+        <item>Dehradun-DDN</item>
+        <item>Dehri On Sone-DOS</item>
+
+
+        <item>Dehu Road-DEHR</item>
+        <item>Dekapam-DKPM</item>
+        <item>Delhi-DLI</item>
+        <item>Delhi MG-DE</item>
+        <item>Delhi Azadpur-DAZ</item>
+        <item>Delhi Cantonment-DEC</item>
+        <item>Delhi Kishanganj-DKZ</item>
+        <item>Sarai Rohilla-DEE</item>
+        <item>Delhi Safdarjung-DSJ</item>
+        <item>Shahdara-DSA</item>
+        <item>Delvada-DVA</item>
+        <item>Demu-DEMU</item>
+        <item>Deoband-DBD</item>
+        <item>Deogan Road-DFR</item>
+        <item>Deoghar Junction-DGHR</item>
+        <item>Deorakot-DELO</item>
+        <item>Deoria Sadar-DEOS</item>
+        <item>Depalsar-DEP</item>
+        <item>Derol-DRL</item>
+        <item>Desari-DES</item>
+        <item>Deshalpar-DSLP</item>
+        <item>Deshnok-DSO</item>
+        <item>Deswal-DSL</item>
+        <item>Detroj-DTJ</item>
+        <item>Devakottai Road-DKO</item>
+        <item>Devbaloda Charoda-DBEC</item>
+        <item>Devgam-DVGM</item>
+        <item>Devgarh Madriya-DOHM</item>
+        <item>Devlali-DVL</item>
+        <item>Devpura-DPZ</item>
+        <item>Dewalgaon-DEW</item>
+        <item>Dewanganj-DWG</item>
+        <item>Dewas-DWX</item>
+        <item>Dhaban-DABN</item>
+        <item>Dhalaibil-DQL</item>
+        <item>Dhalgaon-DLGN</item>
+        <item>Dhalpukhuri-DHRY</item>
+        <item>Dhamangaon-DMN</item>
+        <item>Dhamni-DNE</item>
+        <item>Dhamora-DAM</item>
+        <item>Dhampur-DPR</item>
+        <item>Dhamtari-DTR</item>
+        <item>Dhamua-DMU</item>
+        <item>Dhana Kherli-DXK</item>
+        <item>Dhanakwada-DKW</item>
+        <item>Dhanakya-DNK</item>
+        <item>Dhanari-DN</item>
+        <item>Dhanawala Wada-DHVR</item>
+        <item>Dhanbad Junction-DHN</item>
+        <item>Dhandari Kalan-DDL</item>
+        <item>Dhandhera-DNRA</item>
+        <item>Dhandhuka-DCK</item>
+        <item>Dhanera-DQN</item>
+        <item>Dhaneta-DAN</item>
+        <item>Dhangadra-DNG</item>
+        <item>Dhanmandal-DNM</item>
+        <item>Dharamtul-DML</item>
+        <item>Dharangaon-DXG</item>
+        <item>Dhareshwar-DRS</item>
+        <item>Dhari Junction-DARI</item>
+        <item>Dhariwal-DHW</item>
+        <item>Dharmabad-DAB</item>
+        <item>Dharmanagar-DMR</item>
+        <item>Dharmapuri-DPJ</item>
+        <item>Dharmavaram Junction-DMM</item>
+        <item>Dharmpur Himachal-DMP</item>
+        <item>Dharnaoda-DHR</item>
+        <item>Dharodi-DHY</item>
+        <item>Dharwad-DWR</item>
+        <item>Dhasa Junction-DAS</item>
+        <item>Dholpur-DHO</item>
+        <item>Dhaura-DUA</item>
+        <item>Dheena-DHA</item>
+        <item>Dhekiajili Road-DKJR</item>
+        <item>Dhemaji-DMC</item>
+        <item>Dhenkanal-DNKL</item>
+        <item>Dhilwan-DIW</item>
+        <item>Dhinda-DHND</item>
+        <item>Dhindhora HKMKD-DNHK</item>
+        <item>Dhindsa-DDK</item>
+        <item>Dhing-DIU</item>
+        <item>Dhing Bazar-DBZ</item>
+        <item>Dhinoj-DHJ</item>
+        <item>Dhirera-DHRR</item>
+        <item>Dhirganj-DHRJ</item>
+        <item>Dhirpur-DPP</item>
+        <item>Dhoda Khedi-DHKR</item>
+        <item>Dhodhar-DOD</item>
+        <item>Dhodra Mohar-DOH</item>
+        <item>Dhola Junction-DLJ</item>
+        <item>Dhola Mazra-DHMZ</item>
+        <item>Dholi-DOL</item>
+        <item>Dholka-DOK</item>
+        <item>Dhondi-DNDI</item>
+        <item>Dhoraji-DJI</item>
+        <item>Dhrangadhra Junction-DHG</item>
+        <item>Dhubri-DBB</item>
+        <item>Dhule-DHI</item>
+        <item>Dhulghat-DGT</item>
+        <item>Dhulkot-DKT</item>
+        <item>Dhup Dhara-DPRA</item>
+        <item>Dhupguri-DQG</item>
+        <item>Dhuri Junction-DUI</item>
+        <item>Diamond Harbour-DH</item>
+        <item>Dibai-DIB</item>
+        <item>Dibrugarh-DBRG</item>
+        <item>Dibrugarh Town-DBRT</item>
+        <item>Dichpalli-DHP</item>
+        <item>Didwana-DIA</item>
+        <item>Digaru-DGU</item>
+        <item>Digboi-DBY</item>
+        <item>Dighwara-DGA</item>
+        <item>Digod-DXD</item>
+        <item>Dihakho-DKE</item>
+        <item>Dilawarnagar-DIL</item>
+        <item>Dildarnagar Junction-DLN</item>
+        <item>Dimapur-DMV</item>
+        <item>Dimow-DM</item>
+        <item>Dina Nagar-DNN</item>
+        <item>Dinagaon-DIQ</item>
+        <item>Dindigul Junction-DG</item>
+        <item>Dingwahi-DWI</item>
+        <item>Dipa-DIPA</item>
+        <item>Diphu-DPU</item>
+        <item>Diplana-DPLN</item>
+        <item>Dipori-DIP</item>
+        <item>Deesa-DISA</item>
+        <item>Ditokcherra-DTC</item>
+        <item>Diva Junction-DIV</item>
+        <item>Divine Nagar-DINR</item>
+        <item>Diwana-DWNA</item>
+        <item>Diwankhavati-DWV</item>
+        <item>Diyodar-DEOR</item>
+        <item>Dobh Bahali-DBHL</item>
+        <item>Dockyard Road-DKRD</item>
+        <item>Doddaballapur-DBU</item>
+        <item>Dodbele-DBL</item>
+        <item>Dohrighat-DIT</item>
+        <item>Doiwala-DWO</item>
+        <item>Dolavli-DLV</item>
+        <item>Dombivli-DI</item>
+        <item>Domingarh-DMG</item>
+        <item>Donakonda-DKD</item>
+        <item>Dondaicha-DDE</item>
+        <item>Dongargaon-DGN</item>
+        <item>Dongargarh-DGG</item>
+        <item>Donigal-DOG</item>
+        <item>Doraha-DOA</item>
+        <item>Doravart Chtram-DVR</item>
+        <item>Dornakal Junction-DKJ</item>
+        <item>Dronachalam Junction-DNC</item>
+        <item>Dronagiri-DRG</item>
+        <item>Dubaha-DUBH</item>
+        <item>Dubia-DBW</item>
+        <item>Duddhinagar-DXN</item>
+        <item>Dudhani-DUD</item>
+        <item>Dudhia Khurd-DYK</item>
+        <item>Dudhnoi-DDNI</item>
+        <item>Dudhwakhara-DKX</item>
+        <item>Dudh Sagar railway station-DDS</item>
+        <item>Dudh Sagar Water Falls railway station-DWF</item>
+        <item>Dudia-DUK</item>
+        <item>Dudwindi-DDY</item>
+        <item>Duganpur-DUN</item>
+        <item>Dugdol-DGQ</item>
+        <item>Duggirala-DIG</item>
+        <item>Duhai-DXH</item>
+        <item>Duliajan-DJG</item>
+        <item>Dullabcherra-DLCR</item>
+        <item>Dullahapur-DLR</item>
+        <item>Dulrasar-DUS</item>
+        <item>Dum Dum-DDJ</item>
+        <item>Dum Dum Cantonment-DDC</item>
+        <item>Dumariya-DY</item>
+        <item>Dumraon-DURE</item>
+        <item>Dumka-DMKA</item>
+        <item>Dumuriput-DMRT</item>
+        <item>Dundara-DOR</item>
+        <item>Dundlod MKDGRH-DOB</item>
+        <item>Dungar Junction-DGJ</item>
+        <item>Dungarpur-DNRP</item>
+        <item>Duraundha Junction-DDA</item>
+        <item>Durgauti-DGO</item>
+        <item>Durg-DURG</item>
+        <item>Durgapur-DGR</item>
+        <item>Duttapukur-DTK</item>
+        <item>Durgapura-DPA</item>
+        <item>Duskheda-DSK</item>
+        <item>Duvvada-DVD</item>
+        <item>Dwarka-DWK</item>
+        <item>Dwarkaganj-DWJ</item>
+        <item>Errupalem-YP</item>
+        <item>Ekambara kuppam-EKM</item>
+        <item>Ekangarsarai-EKR</item>
+        <item>Ekchari-EKC</item>
+        <item>Ekma-EM</item>
+        <item>Ekma-EKMA</item>
+        <item>Elamanur-EL</item>
+        <item>Yelamanchili-YLM</item>
+        <item>Ellenabad-ENB</item>
+        <item>Eluru-EE</item>
+        <item>Ennore-ENR</item>
+        <item>Eraligu-ELL</item>
+        <item>Eraniel-ERL</item>
+        <item>Eravipuram-IRP</item>
+        <item>Ernakulam Junction-ERS</item>
+        <item>Ernakulam Town-ERN</item>
+        <item>Ernakulam Terminus-ERG</item>
+        <item>Erode Junction-ED</item>
+        <item>Etah-ETAH</item>
+        <item>Etawah-ETW</item>
+        <item>Ettimadai(Coimbatore)-ETMD</item>
+        <item>Etmadpur-ETUE</item>
+        <item>Etakkot-ETK</item>
+        <item>Faizabad Junction-FD</item>
+        <item>Faizullapur-FYZ</item>
+        <item>Fakhrabad-FKB</item>
+        <item>Fakiragram Junction-FKM</item>
+        <item>Falakata-FLK</item>
+        <item>Falna-FA</item>
+        <item>Farah Town-FHT</item>
+        <item>Farhedi-FRD</item>
+        <item>Faridabad-FDB</item>
+        <item>Faridabad New Town-FDN</item>
+        <item>Faridkot-FDK</item>
+        <item>Farrukhabad-FBD</item>
+        <item>Farrukhabad-FKD</item>
+        <item>Fateh Singhpura-FSP</item>
+        <item>Fatehabad Chandrawati Ganj Junction-FTD</item>
+        <item>Fatehgarh-FGR</item>
+        <item>Fatehgarh Sahib-FGSB</item>
+        <item>Fatehnagar-FAN</item>
+        <item>Fatehpur-FTP</item>
+        <item>Fatehpur Sikri-FTS</item>
+        <item>Fatehpur Shekhawati-FPS</item>
+        <item>Fatuha-FUT</item>
+        <item>Fazalpur-FZL</item>
+        <item>Fazilka-FKA</item>
+        <item>Ferok-FK</item>
+        <item>Firozabad-FZD</item>
+        <item>Firozpur Cant.-FZR</item>
+        <item>Firozpur City-FZP</item>
+        <item>Forbesganj-FBG</item>
+        <item>Furkating Junction-FKG</item>
+        <item>Fursatganj-FTG</item>
+        <item>Faizabad Junction-FD</item>
+        <item>Faizullapur-FYZ</item>
+        <item>Fakhrabad-FKB</item>
+        <item>Fakiragram Junction-FKM</item>
+        <item>Falakata-FLK</item>
+        <item>Falna-FA</item>
+        <item>Farah Town-FHT</item>
+        <item>Farhedi-FRD</item>
+        <item>Faridabad-FDB</item>
+        <item>Faridabad New Town-FDN</item>
+        <item>Faridkot-FDK</item>
+        <item>Farrukhabad-FBD</item>
+        <item>Farrukhabad-FKD</item>
+        <item>Fateh Singhpura-FSP</item>
+        <item>Fatehabad Chandrawati Ganj Junction-FTD</item>
+        <item>Fatehgarh Sahib-FGSB</item>
+        <item>Fatehnagar-FAN</item>
+        <item>Fatehpur-FTP</item>
+        <item>Fatehpur Sikri-FTS</item>
+        <item>Fatehpur Shekhawati-FPS</item>
+        <item>Fatuha-FUT</item>
+        <item>Fazalpur-FZL</item>
+        <item>Fazilka-FKA</item>
+        <item>Ferok-FK</item>
+        <item>Firozabad-FZD</item>
+        <item>Firozpur Cant.-FZR</item>
+        <item>Firozpur City-FZP</item>
+        <item>Forbesganj-FBG</item>
+        <item>Furkating Junction-FKG</item>
+        <item>Fursatganj-FTG</item>
+        <item>Gachhipura-GCH</item>
+        <item>Gardhrubeswar-GRB</item>
+        <item>Gadag Junction-GDG</item>
+        <item>Gadarwara-GAR</item>
+        <item>Gadhakda-GKD</item>
+        <item>Gadra Road-GDD</item>
+        <item>Gadwal-GWD</item>
+        <item>Gahmar-GMR</item>
+        <item>Gainjahwa-GAW</item>
+        <item>Gainsari Junction-GIR</item>
+        <item>Gaipura-GAE</item>
+        <item>Gajraula Junction-GJL</item>
+        <item>Galan-GAA</item>
+        <item>Gambhiri Road-GRF</item>
+        <item>Ganagapur Road-GUR</item>
+        <item>Ganj Dundwara-GWA</item>
+        <item>Gannaur-GNU</item>
+        <item>Gandhi Smarak Road-GUR</item>
+        <item>Gandhidham Junction-GUR</item>
+        <item>Gandhigram-GG</item>
+        <item>Gandhinagar Jaipur-GADJ</item>
+        <item>Gandhinagar Capital-GNC</item>
+        <item>Ganeshganj-GAJ</item>
+        <item>Gangaganj-GANG</item>
+        <item>Gangakher-GNH</item>
+        <item>Gangapur City-GGC</item>
+        <item>Gangarampur-GRMP</item>
+        <item>Gangrar-GGR</item>
+        <item>Gangsar Jaitu-GJUT</item>
+        <item>Ganj Basoda-BAQ</item>
+        <item>Ganjmuradabad-GJMB</item>
+        <item>Gannavaram-GWM</item>
+        <item>Garhi Harsaru Junction-GHH</item>
+        <item>Garhi Manikpur-GRMR</item>
+        <item>Garhmuktesar-GMS</item>
+        <item>Garhmuktesar BR-GGB</item>
+        <item>Garna Sahib-GNS</item>
+        <item>Garhwa-GHQ</item>
+        <item>Garia-GIA</item>
+        <item>Garwa Road Junction-GHD</item>
+        <item>Garot-GOH</item>
+        <item>Gaura-GRX</item>
+        <item>Gauri Bazar-GB</item>
+        <item>Gauri Phanta-GPF</item>
+        <item>Gauribidanur-GBD</item>
+        <item>Gauriganj-GNG</item>
+        <item>Gauripur-GUP</item>
+        <item>Gauriyamau-GMU</item>
+        <item>Gaushala-GWS</item>
+        <item>Gautampura Road-GHD</item>
+        <item>Gaya Junction-GAYA</item>
+        <item>Geratpur-GER</item>
+        <item>Gerita Kolvada-GTKD</item>
+        <item>Gevra Road-GAD</item>
+        <item>Gevrai-GOI</item>
+        <item>Ghaggar-GHG</item>
+        <item>Ghagwal-GHGL</item>
+        <item>Ghanauli-GANL</item>
+        <item>Ghansoli-GNSL</item>
+        <item>Gharaunda-GRA</item>
+        <item>Ghaso-GSO</item>
+        <item>Ghataka Varana-GKB</item>
+        <item>Ghatampur-GTM</item>
+        <item>Ghatkopar railway station-GC</item>
+        <item>Ghatkopar-GC</item>
+        <item>Ghatsila-GTS</item>
+        <item>Ghaziabad Junction-GZB</item>
+        <item>Ghazipur City-GCT</item>
+        <item>Ghograpur-GOE</item>
+        <item>Gholvad-GVD</item>
+        <item>Ghoradongri-GDYA</item>
+        <item>Ghorawadi-GRWD</item>
+        <item>Ghorpuri-GPR</item>
+        <item>Ghorpuri West-GPRW</item>
+        <item>Ghosipura-GOPA</item>
+        <item>Ghosunda-GSD</item>
+        <item>Ghughuli-GH</item>
+        <item>Ghugus-GGS</item>
+        <item>Ghutai-GTI</item>
+        <item>Gidarpindi-GOD</item>
+        <item>Giddalur-GID</item>
+        <item>Giddarbaha-GDB</item>
+        <item>Gidhaur-GHR</item>
+        <item>Gir Gadhara-GEG</item>
+        <item>Gir Hadmatiya-GRHM</item>
+        <item>Giridih-GRD</item>
+        <item>Girwar-GW</item>
+        <item>Goalpara Town-GLPT</item>
+        <item>Godha-GDHA</item>
+        <item>Godhra Junction-GDA</item>
+        <item>Gogameri-GAMI</item>
+        <item>Gogamukh-GOM</item>
+        <item>Gohad Road-GOA</item>
+        <item>Gohana-GHNA</item>
+        <item>Gohpur-GPZ</item>
+        <item>Gokak Road-GKK</item>
+        <item>Gokarna Road-GOK</item>
+        <item>Gola Gokarannath-GK</item>
+        <item>Golakganj Junction-GKJ</item>
+        <item>Golanthra-GTA</item>
+        <item>Gole-GOLE</item>
+        <item>Golsar-GOZ</item>
+        <item>Gomti Nagar-GTNR</item>
+        <item>Gonda Junction-GD</item>
+        <item>Gonda Kachahri-GDK</item>
+        <item>Gonda MG-GNAN</item>
+        <item>Gondal-GDL</item>
+        <item>Gondia Junction-G</item>
+        <item>Gondumri-GMI</item>
+        <item>Goneana-GNA</item>
+        <item>Gooty Junction-GY</item>
+        <item>Gop Jam-GOP</item>
+        <item>Gopalganj-GOPG</item>
+        <item>Gopalpur-GPPR</item>
+        <item>Gora Ghuma-GGM</item>
+        <item>Gorakhpur Cantonment-GKC</item>
+        <item>Gorakhpur Junction-GKP</item>
+        <item>Goram Ghat-GGO</item>
+        <item>Ghorasahan-GRH</item>
+        <item>Goraul-GRL</item>
+        <item>Goraya-GRY</item>
+        <item>Goregaon-GMN</item>
+        <item>Goregaon Road Halt-GNO</item>
+        <item>Goresuar-GVR</item>
+        <item>Goriyan-GIO</item>
+        <item>Goshainganj-GGJ</item>
+        <item>Gossaigaon Hat-GOGH</item>
+        <item>Gotan-GOTN</item>
+
+
+        <item>Gotegaon-GON</item>
+        <item>Gothaj-GTE</item>
+        <item>Govandi-GV</item>
+        <item>Goverdhan-GDO</item>
+        <item>Govindgarh-GVG</item>
+        <item>Govindgarh Malk-GND</item>
+        <item>Govindi Marwar-GVMR</item>
+        <item>Govindnagar-GOVR</item>
+        <item>Govindpuri-GOY</item>
+        <item>Grant Road-GTR</item>
+        <item>Gudha-GA</item>
+        <item>Guindy-</item>
+        <item>Gubbi-GBB</item>
+        <item>Gudivada Junction-GDV</item>
+        <item>Gudiyattam-GYM</item>
+        <item>Gudur Junction-GDR</item>
+        <item>Gujhandi-GJD</item>
+        <item>Gulabhganj-GLG</item>
+        <item>Gulabpura-GBP</item>
+        <item>Gulaothi-GLH</item>
+        <item>Gularbhoj-GUB</item>
+        <item>Gulbarga-GR</item>
+        <item>Guldhar-GUH</item>
+        <item>Guledagudda Road-GED</item>
+        <item>Guler-GULR</item>
+        <item>Gulzarbagh-GZH</item>
+        <item>Guma-GUMA</item>
+        <item>Gumia-GMIA</item>
+        <item>Gumman-GMM</item>
+        <item>Gummidipundi-GPD</item>
+        <item>Gumthal-GTF</item>
+        <item>Guna Junction-GUNA</item>
+        <item>Gundardehi-GDZ</item>
+        <item>Guneru Bamori-GVB</item>
+        <item>Guntakal Junction-GTL</item>
+        <item>Guntur Junction-GNT</item>
+        <item>Guptipara-GPA</item>
+        <item>Guraru-GRRU</item>
+        <item>Gurap-GRAE</item>
+        <item>Gurdaspur-GSP</item>
+        <item>Gurgaon-GGN</item>
+        <item>Gurhi-GUX</item>
+        <item>Guriya-GRI</item>
+        <item>Gurla-GQL</item>
+        <item>Gurmura-GMX</item>
+        <item>Gurpa-GAP</item>
+        <item>Gursahaiganj-GHJ</item>
+        <item>Gursar Shnewala-GSW</item>
+        <item>Gauravpur -GUV</item>
+        <item>Guru Tegh Bahadur Nagar-GTBN</item>
+        <item>Guwahati-GHY</item>
+        <item>Gwalior Junction-GWL</item>
+        <item>Gyanpur Road-GGN</item>
+        <item>Habaipur-HWX</item>
+        <item>Habibganj-HBJ</item>
+        <item>Habibwala-HBW</item>
+        <item>Habra-HB</item>
+        <item>Hadapsar-HDP</item>
+        <item>Hadmadiya-HRM</item>
+        <item>Hadmatiya Junction-HM</item>
+        <item>Hafizpur-HZR</item>
+        <item>Haflong Hill-HFG</item>
+        <item>Haiaghat-HYT</item>
+        <item>Haibargaon-HBN</item>
+        <item>Haidergarh-HGH</item>
+        <item>Hailakandi-HKD</item>
+        <item>Hajipur Junction-HJP</item>
+        <item>Hakimpur-HKP</item>
+        <item>Haldaur-HLDR</item>
+        <item>Haldi Road-HLDD</item>
+        <item>Haldibari-HDB</item>
+        <item>Haldwani-HDW</item>
+        <item>Halisahar-HLR</item>
+        <item>Halvad-HVD</item>
+        <item>Hamira-HMR</item>
+        <item>Hamirgarh-HMG</item>
+        <item>Hamirpur Road-HAR</item>
+        <item>Hamre-HME</item>
+        <item>Hanakere-HNK</item>
+        <item>Handia Khas-HDK</item>
+        <item>Hansi-HNS</item>
+        <item>Hansiawas-HSWS</item>
+        <item>Hanumangarh Junction-HMH</item>
+        <item>Hanumangarh Town-HMO</item>
+        <item>Hanwant-HWT</item>
+        <item>Hapa-HAPA</item>
+        <item>Hapa Road-HPRD</item>
+        <item>Hapur Junction-HPU</item>
+        <item>Harangajao-HJO</item>
+        <item>Harangul-HGL</item>
+        <item>Haranya Kheri-HKH</item>
+        <item>Harauni-HRN</item>
+        <item>Harwada-HAA</item>
+        <item>Harchandpur-HCP</item>
+        <item>Harda-HD</item>
+        <item>Hardoi-HRI</item>
+        <item>Harduaganj-HGJ</item>
+        <item>Haridwar-HW</item>
+        <item>Harihar-HRR</item>
+        <item>Harinagar-HIR</item>
+        <item>Haripad-HAD</item>
+        <item>Haripur-HP</item>
+        <item>Haripur Gram-HPGM</item>
+        <item>Harischandrapur-HCR</item>
+        <item>Harishanker Road-HSK</item>
+        <item>Harisinga-HRSN</item>
+        <item>Harkia Khal-HKL</item>
+        <item>Harmuti-HMY</item>
+        <item>Harnaut-HRT</item>
+        <item>Harpalganj-HRPG</item>
+        <item>Harpalpur-HPP</item>
+        <item>Harrawala-HRW</item>
+        <item>Harsauli-HSI</item>
+        <item>Harsud-HRD</item>
+        <item>Harthala-HRH</item>
+        <item>Harwada-HAA</item>
+        <item>Hasimara-HSA</item>
+        <item>Hassan Junction-HAS</item>
+        <item>Hasanparthi Road-HSP</item>
+        <item>Hathbandh-HN</item>
+        <item>Hathidah Junction-HTZ</item>
+        <item>Hathigadh-HTGR</item>
+        <item>Hathras City-HTC</item>
+        <item>Hathras Junction-HRS</item>
+        <item>Hathras Road-HTJ</item>
+        <item>Hathras Qilla-HRF</item>
+        <item>Hatia-HTE</item>
+        <item>Hatikhali-HTE</item>
+        <item>Hatkanagale-HTK</item>
+        <item>Hatundi-HTD</item>
+        <item>Haveri-HVR</item>
+        <item>Hazaribagh Road-HZD</item>
+        <item>Hazrat Nizamuddin-NZM</item>
+        <item>Hejjala-HZD</item>
+        <item>Helak-HK</item>
+        <item>Helem-HML</item>
+        <item>Hempur-HMP</item>
+        <item>Hendegir-HNDR</item>
+        <item>Hilara-HLX</item>
+        <item>Hiller Shahabad-HRSB</item>
+        <item>Hilsa-HIL</item>
+        <item>Himayatnagar-HEM</item>
+        <item>Himmatnagar Junction-HMT</item>
+        <item>Hindaun City-HAN</item>
+        <item>Hind Motor-HMZ</item>
+        <item>Hindu College-HC</item>
+        <item>Hindumalkote-HMK</item>
+        <item>Hindupur-HUP</item>
+        <item>Hinganghat-HGT</item>
+        <item>Hingoli Deccan-HNL</item>
+        <item>Hira Nagar-HRNR</item>
+        <item>Hirakud-HKG</item>
+        <item>Hirapur-HNL</item>
+        <item>Hirdagarh-HRG</item>
+        <item>Hirnoda-HDA</item>
+        <item>Hisar-HSR</item>
+        <item>Hisvahal-HSL</item>
+        <item>Hodal-HDL</item>
+        <item>Hojai-HJI</item>
+        <item>Hol-HOL</item>
+        <item>Holambi Kalan-HUK</item>
+        <item>Hole Alur-HLAR</item>
+        <item>Honnavar-HNA</item>
+        <item>Hooghly-HGY</item>
+        <item>Hooghly Ghat-HYG</item>
+        <item>Homnabad-HMBD</item>
+        <item>Hosdurga Road-HSD</item>
+        <item>Hoshangabad-HBD</item>
+        <item>Hoshiarpur-HSX</item>
+        <item>Hosapete Junction-HPT</item>
+        <item>Hosur-HSRA</item>
+        <item>Hotgi Junction-HG</item>
+        <item>Howbagh Jabalpur-HBG</item>
+        <item>Howrah Junction-HWH</item>
+        <item>Hubli Junction-UBL</item>
+        <item>Hugrajuli-HJLI</item>
+        <item>Husainpur-HSQ</item>
+        <item>Hyderabad Deccan-HYB</item>
+        <item>Ib-IB</item>
+        <item>Ichhapur-IP</item>
+        <item>Ichapuram-IGP</item>
+        <item>Ichauli-ICL</item>
+        <item>Idar-IDAR</item>
+        <item>Idgah Agra Junction-IDH</item>
+        <item>Igatpuri-IGP</item>
+        <item>Ikkar-IKK</item>
+        <item>Iklehra-IKR</item>
+        <item>Inchhapuri-IHP</item>
+        <item>Indalvai-IDL</item>
+        <item>Indapur-INP</item>
+        <item>Indara Junction-IAA</item>
+        <item>Indargarh-IDG</item>
+        <item>Indi Road-IDR</item>
+        <item>Indore Junction (BG)-INDB</item>
+        <item>Indore Junction (MG)-INDM</item>
+        <item>Innanje-INJ</item>
+        <item>Intikanne-</item>
+        <item>Intiyathok-ITE</item>
+        <item>Itehar-AAH</item>
+        <item>Iqbal Gadh-IQG</item>
+        <item>Iqbalpur-IQB</item>
+        <item>Irinjalakuda-IJK</item>
+        <item>Irugur-IGU</item>
+        <item>Isarda-ISA</item>
+        <item>Islampur-IPR</item>
+        <item>Ismaila Haryana-ISM</item>
+        <item>Itarsi Junction-ET</item>
+        <item>Itola-ITA</item>
+        <item>Itwari-ITR</item>
+        <item>Izzatnagar-IZN</item>
+        <item>Jabalpur-JBP</item>
+        <item>Jabli-JBL</item>
+        <item>Jabri-JBX</item>
+        <item>Jadar-JADR</item>
+        <item>Jadavpur-JDP</item>
+        <item>Jadcherla-JCL</item>
+        <item>Jagadhri-JUD</item>
+        <item>Jagadhri Workshop-JUDW</item>
+        <item>Jagadishpur-JGD</item>
+        <item>Jagaddal-JDL</item>
+        <item>Jessore Road-JSOR</item>
+        <item>Jagatbela-JTB</item>
+        <item>Jagdalpur-JDB</item>
+        <item>Jagdevwala-JDL</item>
+        <item>Jagesharganj-JGJ</item>
+        <item>Jagi road-JID</item>
+        <item>Jagnath Road Halt-JNX</item>
+        <item>Jagraon-JGN</item>
+        <item>Jahanikhera-JKH</item>
+        <item>Jaipur-JP</item>
+        <item>Jais-JAIS</item>
+        <item>Jaisalmer-JSM</item>
+        <item>Jaithari-JTI</item>
+        <item>Jaitipur-JTU</item>
+        <item>Jaitwar-JTW</item>
+        <item>Jajiwal-JWL</item>
+        <item>Jajpur Kheonjhar Road-JJKR</item>
+        <item>Jakhal Junction-JHL</item>
+        <item>Jakhalabandha-JKB</item>
+        <item>Jakhalaun-JLN</item>
+        <item>Jakhania-JKN</item>
+        <item>Jakhaura-JHA</item>
+        <item>Jakhim-JHN</item>
+        <item>Jakhvada-JKA</item>
+        <item>Jaksi-JKS</item>
+        <item>Jalalganj-JLL</item>
+        <item>Jalalpur Dhai-JPD</item>
+        <item>Jalamb Junction-JM</item>
+        <item>Jalandhar Cantonment-JRC</item>
+        <item>Jalandhar City-JUC</item>
+        <item>Jalesar Road-JLS</item>
+        <item>Jaleswar-JER</item>
+        <item>Jalgaon Junction-JL</item>
+        <item>Jalila Road-JIL</item>
+        <item>Jaliya Devani-JALD</item>
+        <item>Jalna-J</item>
+        <item>Jalor-JOR</item>
+        <item>Jalpaiguri-JPG</item>
+        <item>Jalpaiguri Road-JPE</item>
+        <item>Jalsu-JAC</item>
+        <item>Jalsu Nanak-JACN</item>
+        <item>Jam Jodhpur Junction-JDH</item>
+        <item>Jam Wanthali-WTJ</item>
+        <item>Jamalpur Junction-JMP</item>
+        <item>Jambara-JMV</item>
+        <item>Jambur-JBB</item>
+        <item>Jamira-JMRA</item>
+        <item>Jammalamadugu-JMDG</item>
+        <item>Jammikunta-JMKT</item>
+        <item>Jammu Tawi-JAT</item>
+        <item>Jamnagar-JAM</item>
+        <item>Jamsar-JMS</item>
+        <item>Jamtara-JMT</item>
+        <item>Jamui-JMU</item>
+        <item>Jamunamukh-JMK</item>
+        <item>Jamwala-JVL</item>
+        <item>Janakpur Road-JNR</item>
+        <item>Jandiala-JNL</item>
+        <item>Jangaon-ZN</item>
+        <item>Janghai Junction-JNH</item>
+        <item>Jangipur Road-JRLE</item>
+        <item>Janiyana-JNE</item>
+        <item>Jankampet Junction-JKM</item>
+        <item>Jaora-JAO</item>
+        <item>Japla-JPL</item>
+        <item>Jarandeshwar-JSV</item>
+        <item>Jargaon-JRJ</item>
+        <item>Jari-JARI</item>
+        <item>Jaruda Naraa-</item>
+        <item>Jarwal Road-JLD</item>
+        <item>Jasia-JSA</item>
+        <item>Jasali-JSI</item>
+        <item>Jasidih Junction-JSME</item>
+        <item>Jasra-JSR</item>
+        <item>Jaswantgarh-JSH</item>
+        <item>Jaswantnagar railway station-JGR</item>
+        <item>Jataula Samphka-JSKA</item>
+        <item>Jath Road-JTRD</item>
+        <item>Jatinga-JTG</item>
+        <item>Jatusana-JTS</item>
+        <item>Jaulka-JUK</item>
+        <item>Jaunpur City Railway Station-JOP</item>
+        <item>Jaunpur Junction-JNU</item>
+        <item>Javale-JVA</item>
+        <item>Jawad Road-JWO</item>
+        <item>Jawai Bandh-JWB</item>
+        <item>Jawali-JAL</item>
+        <item>Jawalamukhi Road-JMKR</item>
+        <item>Jayasingpur-JSP</item>
+        <item>Jaynagar-JYG</item>
+        <item>Jaynagar Majilpur-JNM</item>
+        <item>Jehanabad-JHD</item>
+        <item>Jejuri-JJR</item>
+        <item>Jenal-JNZ</item>
+        <item>Jeonathpur-JEP</item>
+        <item>Jetalsar Junction-JLR</item>
+        <item>Jetalvad-JTV</item>
+        <item>Jetpur-JTP</item>
+        <item>Jeur-JEUR</item>
+        <item>Jagannath Temple Gate-JGE</item>
+        <item>Jhadupudi-JPI</item>
+        <item>Jhagadiya Junction-JGI</item>
+        <item>Jhajha-JAJ</item>
+        <item>Jhalawar Road-JHW</item>
+        <item>Jhalida-JAA</item>
+        <item>Jhanjharpur-JJP</item>
+        <item>Jhansi Junction-JHS</item>
+        <item>Jhargram-JGM</item>
+        <item>Jharia-JRI</item>
+        <item>Jharokhas-JRQ</item>
+        <item>Jharsuguda Junction-JSG</item>
+        <item>Jharwasaa-JWS</item>
+        <item>Jhingura-JHG</item>
+        <item>Jhinjhak-JJK</item>
+        <item>Jhunjhunu-JJN</item>
+        <item>Jhunpa-JUP</item>
+        <item>Jigna-JIA</item>
+        <item>Jind Junction-JIND</item>
+        <item>Jira Road-JIR</item>
+        <item>Jiradei-ZRD</item>
+        <item>Jiribam-JRBM</item>
+        <item>Jirighat-JIGT</item>
+        <item>Jiron-JRO</item>
+        <item>Jiyapuram-JPM</item>
+        <item>Jodhpur Junction-JU</item>
+        <item>Jogbani-JBN</item>
+        <item>Jogeshwari-JOS</item>
+        <item>Jogi Magra-JOM</item>
+        <item>Jogidih-JGF</item>
+        <item>Jogighopa-JPZ</item>
+        <item>Joginder Nagar railway station-JDNX</item>
+        <item>Jogiwala-JGW</item>
+        <item>Jolarpettai Junction-JTJ</item>
+        <item>Jone Karrang-JYK</item>
+        <item>Joravaragar-JVN</item>
+        <item>Jorhat-JT</item>
+        <item>Jorhat Town-JTTN</item>
+        <item>Jotana-JTN</item>
+        <item>Joychandi Pahar railway station-JOC</item>
+        <item>Juchandra-</item>
+        <item>Jugijan-JGJN</item>
+        <item>Juinagar-</item>
+        <item>Jukehi-JKE</item>
+        <item>Julana-JNA</item>
+        <item>Junagadh C B-JNDC</item>
+        <item>Junagadh Junction-JND</item>
+        <item>Jung Bahadurganj-JBG</item>
+        <item>Junichavand-JCN</item>
+        <item>Junnor Deo-JNO</item>
+        <item>Juriagaon-JRX</item>
+        <item>Jutogh-JTO</item>
+        <item>Jwalapur-JWP</item>
+        <item>Kacheguda-KCG</item>
+        <item>Kachhwa Road-KWH</item>
+        <item>Kondapalli-KI</item>
+        <item>Kadalundi-KN</item>
+        <item>Kadambur-KDU</item>
+        <item>Kadaynallur-KDNL</item>
+        <item>Kadiri-KRY</item>
+        <item>Kadur Junction-DRU</item>
+        <item>Kaithal-KLE</item>
+        <item>Kaithalkuchi-KTCH</item>
+        <item>Kakapor-KAPE</item>
+        <item>Kakinada Port-COA</item>
+        <item>Kakinada Town-CCT</item>
+        <item>Kankinara-KNR</item>
+        <item>Kalachand-KQI</item>
+        <item>Kalamboli-KLMC</item>
+        <item>Kalanaur kalan-KLNK</item>
+        <item>Kalem railway station-KM</item>
+        <item>Kalianpur-KAP</item>
+        <item>Kalka-KLK</item>
+        <item>Kalkalighat-KKGT</item>
+        <item>Kalwa-KLVA</item>
+        <item>Kalwan-KLWN</item>
+        <item>Kalyan-KYN</item>
+        <item>Kondapalli railway station-KI</item>
+        <item>Kanchrapara-KPA</item>
+        <item>Kalyani-KLY</item>
+        <item>Kalyanadurg-KYND</item>
+        <item>Kalinarayanpur Junction-KLNP</item>
+        <item>Kalol Junction-KLL</item>
+        <item>Kamakhya Junction-KYQ</item>
+        <item>Kaman Road-</item>
+        <item>Kamareddi-KMC</item>
+        <item>Kampil Road-KXF</item>
+        <item>Kamshet-KMST</item>
+        <item>Kamakhya Junction-KYQ</item>
+        <item>Kampur-KWM</item>
+        <item>Kamrup Khetri-KKET</item>
+        <item>Kanaibazar-KNBR</item>
+        <item>Kanakpura-KKU</item>
+        <item>Kanchausi-kan</item>
+        <item>Kanchipuram-CJ</item>
+        <item>Kandivali-KILE</item>
+        <item>Kangra-KGRA</item>
+        <item>Kanhangad-KZE</item>
+        <item>Kanina Khas-KNNK</item>
+        <item>Kaniyapuram-KXP</item>
+        <item>Kanjiramittam-KPTM</item>
+        <item>Kanjurmarg-KJMG</item>
+        <item>Kankanadi-KNKD</item>
+        <item>Kannauj-KJN</item>
+        <item>Kanpur Anwarganj-CPA</item>
+        <item>Kanpur Central-CNB</item>
+        <item>Kanpur Rooma-RMX</item>
+        <item>Kanpur SMU CBSA CPSM-CPSM</item>
+        <item>Kanpur Govindpuri Railway Station-GOY</item>
+        <item>Kanpur Panki-PNK</item>
+        <item>Kanpur Bridge Left Bank-CPB</item>
+        <item>Kanyakumari-CAPE</item>
+        <item>Kapurthala-KXH</item>
+        <item>Karad-KRD</item>
+        <item>Karaikal-KIK</item>
+        <item>Karaikkudi Junction-KKDI</item>
+        <item>Karanja-KRJA</item>
+        <item>Karchha-KDHA</item>
+        <item>Karimganj Junction-KXJ</item>
+        <item>Karimnagar-KRMR</item>
+        <item>Karjat-S</item>
+        <item>Karmali-KRMI</item>
+        <item>Karnal-KUN</item>
+        <item>Karur Junction-KRR</item>
+        <item>Karunagappalli-KPY</item>
+        <item>Karwar-KAWR</item>
+        <item>Kasara-N</item>
+        <item>Kasaragod-KGQ</item>
+        <item>Kashi-KEI</item>
+        <item>Kashipur-KPV</item>
+        <item>Katakhal Junction-KTX</item>
+        <item>Kathgodam-KGM</item>
+        <item>Kathivakkam-KAVM</item>
+        <item>Kathua-KTHU</item>
+        <item>Katihar-KIR</item>
+        <item>Katlicherra-KLCR</item>
+        <item>Katni-KTE</item>
+        <item>Katol-KATL</item>
+        <item>Katpadi Junction, Vellore-KPD</item>
+        <item>Katra-KEA</item>
+        <item>Kavali-KVZ</item>
+        <item>Kayamkulam-KYJ</item>
+        <item>Kayasthagram-KTGM</item>
+        <item>Kazhakoottam TechnoPark Trivandrum-KZK</item>
+        <item>Kazipet Junction-KZJ</item>
+        <item>Kelavli-</item>
+        <item>Kelve Road-KLV</item>
+        <item>Kendukana-KDKN</item>
+        <item>Kengeri-KGI</item>
+        <item>Kerakat railway station-KCT</item>
+        <item>Kesinga-KSNG</item>
+        <item>Kesamudram-KDM</item>
+        <item>Kevadia-KDCY</item>
+        <item>Khadavli-KDV</item>
+        <item>Khadki-KK</item>
+        <item>Khairthal-KRH</item>
+        <item>Khajuraho-KURJ</item>
+        <item>Khalilpur-KIP</item>
+        <item>Khambhaliya-KMBL</item>
+        <item>Khamgaon-KMN</item>
+        <item>Khamkhed-KMN</item>
+        <item>Khammam-KMT</item>
+        <item>Khana Junction-KAN</item>
+        <item>Khandala-KAD</item>
+        <item>Khandeshwar-</item>
+        <item>Khandwa-KNW</item>
+        <item>Khanna-KNN</item>
+        <item>Kharagpur Junction-KGP</item>
+        <item>Kharbao-</item>
+        <item>Khardi-KE</item>
+        <item>Kharghar-</item>
+        <item>Khar Road-KHAR</item>
+        <item>Khatauli-KAT</item>
+        <item>Khatu-KHTU</item>
+        <item>Khed-KHED</item>
+        <item>Khera Kalan-KHKN</item>
+        <item>Khopoli-KP</item>
+        <item>Khurai-KYE</item>
+        <item>Kinwat-KNVT</item>
+        <item>Kirakat railway station-KCT</item>
+        <item>Kirloskarvadi-KOV</item>
+        <item>Kirnahar-KNHR</item>
+        <item>Kilikolloor-KLQ</item>
+        <item>Kings Circle-KCE</item>
+        <item>Kishanganj-KNE</item>
+        <item>Kiul Junction-KIUL</item>
+        <item>Kochuveli (Trivandrum /Thiruvananthapuram)-KCVL</item>
+        <item>Kodaikanal road-KQN</item>
+        <item>Koderma-KQR</item>
+        <item>Kodinar-KODR</item>
+        <item>Kodumudi-KMD</item>
+        <item>Koduru-KOU</item>
+        <item>Kokrajhar-KOJ</item>
+        <item>Kolar-KQZ</item>
+        <item>Kollidam-CLN</item>
+        <item>Kolhapur-KOP</item>
+        <item>Kolad-KOL</item>
+        <item>Kolkata Railway Station-KOAA</item>
+        <item>Kollam Junction-QLN</item>
+        <item>Konnagar-KOG</item>
+        <item>Kopar-</item>
+        <item>Kopargaon-KPG</item>
+        <item>Kopar Khairane-</item>
+        <item>Koraput Junction-KRPU</item>
+        <item>Koratla railway station-KRLA</item>
+        <item>Korattiangadi-</item>
+        <item>Korattur-KOTR</item>
+        <item>Korba-KRBA</item>
+        <item>Koregaon-KRG</item>
+        <item>Korukkupet-KOK</item>
+        <item>Kosamba-KSB</item>
+        <item>Kosi Kalan-KSV</item>
+        <item>Kosli-KSI</item>
+        <item>Kotdwar-KTW</item>
+        <item>Kot Kapura-KKP</item>
+        <item>Kota Junction-KOTA</item>
+        <item>Kotli Kalan-KTKL</item>
+        <item>Kotma-KTMA</item>
+        <item>Kotshila Junction-KSX</item>
+        <item>Kottapalli-KYOP</item>
+        <item>Kottavalasa-KTV</item>
+        <item>Kottayam-KTYM</item>
+        <item>Kottarakkara-KTR</item>
+        <item>Kotikulam-KQK</item>
+        <item>Kotturu-KTY</item>
+        <item>Kovilpatti-CVP</item>
+        <item>Koyilandy-QLD</item>
+        <item>Kozhikode-CLT</item>
+        <item>Krishna-</item>
+        <item>Krishna Canal-KCC</item>
+        <item>Krishnai-KRNI</item>
+        <item>Krishnarajapuram-KJM</item>
+        <item>Kuchaman City-KMNC</item>
+        <item>Kudal-KUDL</item>
+        <item>Kudchade railway station-SVM</item>
+        <item>Kulem railway station-QLM</item>
+        <item>Kulitalai-KLT</item>
+        <item>Kulpahar-KLAR</item>
+        <item>Kulti-ULT</item>
+        <item>Kulukkallur-</item>
+        <item>Kumgaon Burti-KJL</item>
+        <item>Kumbakonam-KMU</item>
+        <item>Kumta-KT</item>
+        <item>Kundapura-KUDA</item>
+        <item>Kuppam-KPN</item>
+        <item>Kuram-KUM</item>
+        <item>Kuri-KFI</item>
+        <item>Kurichedu-KCD</item>
+        <item>Kurduvadi-KWV</item>
+        <item>Kurla-CLA</item>
+        <item>Kurnool Town-KRNT</item>
+        <item>Kurukshetra Junction-KKDE</item>
+        <item>Kuttippuram-KTU</item>
+        <item>Khurda Road-KUR</item>
+        <item>kursela-KUE</item>
+        <item>Laban-LBN</item>
+        <item>Labha-LAV</item>
+        <item>Labhpur-LAB</item>
+        <item>Lachhipura-LAC</item>
+        <item>Lachhmangarh SK-LNH</item>
+        <item>Lachhmanpur-LMN</item>
+        <item>Lachyan-LHN</item>
+        <item>Ladhowal-LDW</item>
+        <item>Ladnun-LAU</item>
+        <item>Laheria Sarai-LSI</item>
+        <item>Lahli-LHLL</item>
+        <item>Laimekuri-LMY</item>
+        <item>Lakadiya-LKZ</item>
+        <item>Lakheri-LKE</item>
+        <item>Lakhimpur-LMP</item>
+        <item>Lakhminia-LKN</item>
+        <item>Lakhnauria-LNQ</item>
+        <item>Lakhtar-LTR</item>
+        <item>Lakkidi-LDY</item>
+        <item>Laksar Junction-LRJ</item>
+        <item>Lakshmibai Nagar-LMNR</item>
+        <item>Lal Kuan-LKU</item>
+        <item>Lalabazar-LLBR</item>
+        <item>Lalapet-LP</item>
+        <item>Lalganj-LLJ</item>
+        <item>Lalgarh Junction-LGH</item>
+        <item>Lalgopalganj-LGO</item>
+        <item>Lalgudi-LLI</item>
+        <item>Lalitpur-LAR</item>
+        <item>Lalkuan Junction-LKU</item>
+        <item>Lalpur-LLR</item>
+        <item>Lalpur Chandra-LCN</item>
+        <item>Lalpur Jam-LPJ</item>
+        <item>Lalpur Umri-LRU</item>
+        <item>Lalru-LLU</item>
+        <item>Lamana-LNA</item>
+        <item>Lambhua-LBA</item>
+        <item>Lambiya-LMA</item>
+        <item>Lamsakhang-LKG</item>
+        <item>Landaura-LDR</item>
+        <item>Langting-LGT</item>
+        <item>Lanka-LKA</item>
+        <item>Laopani-LPN</item>
+        <item>Lar Road-LRD</item>
+        <item>Lasalgaon-LS</item>
+        <item>Lasur-LSR</item>
+        <item>Latehar-LTHR</item>
+        <item>Lathi-LAT</item>
+        <item>Latur-LUR</item>
+        <item>Latur Road Junction-LTRR</item>
+        <item>Laukaha Bazar-LKQ</item>
+        <item>Laul-LAUL</item>
+        <item>Lawa Sardargarh-LSG</item>
+        <item>Ledarmer-LDM</item>
+        <item>Lehra Gaga-LHA</item>
+        <item>Lidhora Khurd-LDA</item>
+        <item>Liliya Mota-LMO</item>
+        <item>Limbdi-LM</item>
+        <item>Limkheda-LMK</item>
+        <item>Linch-LCH</item>
+        <item>Lingampalli-LPI</item>
+        <item>Liluah-LLH</item>
+        <item>Lodipur Bishnpr-LDP</item>
+        <item>Loha-LOHA</item>
+        <item>Loharu-LHU</item>
+        <item>Loharwara-LHW</item>
+        <item>Lohian Khas Junction-LNK</item>
+        <item>Lohna Road-LNO</item>
+        <item>Lohogad-LHD</item>
+        <item>Loisingha-LSX</item>
+        <item>Lokmanya Tilak Terminus-LTT</item>
+        <item>Loliem railway station-LOL</item>
+        <item>Lonand-LNN</item>
+        <item>Lonavala-LNL</item>
+        <item>Londa Junction-LD</item>
+        <item>Loni-LONI</item>
+        <item>Lorwada-LW</item>
+        <item>Lower Haflong-LFG</item>
+        <item>Lower Parel-PL</item>
+        <item>Lowjee-LWJ</item>
+        <item>Luckeesarai Junction-LKR</item>
+        <item>Lucknow Junction-LJN</item>
+        <item>Lucknow-LKO</item>
+        <item>Lucknow City-LC</item>
+        <item>Ludhiana Junction-LDH</item>
+        <item>Lumding Junction-LMG</item>
+        <item>Lunavada-LNV</item>
+
+
+        <item>Luni Junction-LUNI</item>
+        <item>Luni Richha-LNR</item>
+        <item>Lunidhar-LDU</item>
+        <item>Lunkaransar-LKS</item>
+        <item>Lusa-LUSA</item>
+        <item>Lusadiya-LSD</item>
+        <item>Lushala-LAL</item>
+        <item>Lalgola-LGL</item>
+        <item>Macharya-MCV</item>
+        <item>Machavaram-AMIN</item>
+        <item>Machavaram-MCVM</item>
+        <item>Machelipatnam-MTM</item>
+        <item>Macherla-MCLA</item>
+        <item>Madan Mahal-MML</item>
+        <item>Madanapalle Rd-MPL</item>
+        <item>Madanpur-MDR</item>
+        <item>Maddur-MAD</item>
+        <item>Madhavnagar-MDVR</item>
+        <item>Madukarai(Coimbatore)-MDKI</item>
+        <item>Madurai Junction Railway Station-MDU</item>
+        <item>Madgaon Junction railway station-MAO</item>
+        <item>Majorda Junction railway station-MJO</item>
+        <item>Marmagao railway station-MRH</item>
+        <item>Mithlanchal Deep-Madhubani</item>
+        <item>Madha-MA</item>
+        <item>Madhabpur-MDBP</item>
+        <item>Madhapar-MDHP</item>
+        <item>Madhapur Road-MADP</item>
+        <item>Madhi-MID</item>
+        <item>Madhira-MDR</item>
+        <item>Madhopur Punjab-MDPB</item>
+        <item>Madhorajpur-MQH</item>
+        <item>Madhosingh-MBS</item>
+        <item>Madhubani-MBI</item>
+        <item>Madhupur Junction-MDP</item>
+        <item>Madurai Junction-MDU</item>
+        <item>Madurantakam-MMK</item>
+        <item>Madure-MADR</item>
+        <item>Maghar-MHH</item>
+        <item>Mahadanapuram-MMH</item>
+        <item>Mahadevpara-MHDP</item>
+        <item>Mahajan-MHJ</item>
+        <item>Mahalam-MFM</item>
+        <item>Mahalaxmi-MX</item>
+        <item>Mahamandir-MMC</item>
+        <item>Mahansar-MWR</item>
+        <item>Mahasamund-MSMD</item>
+        <item>Mahbubabad-MABD</item>
+        <item>Mahbubnagar-MBNR</item>
+        <item>Mahe-MAHE</item>
+        <item>Maheji-MYJ</item>
+        <item>Mahendragarh-MHRG</item>
+        <item>Mahes Khunt-MSK</item>
+        <item>Mahesana Junction-MSH</item>
+        <item>Maheshmunda-MMD</item>
+        <item>Mahidpur Road-MEP</item>
+        <item>Mahim-MM</item>
+        <item>Mahisgaon-MGO</item>
+        <item>Mahmudabad Avdh-MMB</item>
+        <item>Mahmudpur SRYN-MZN</item>
+        <item>Mahoba-MBA</item>
+        <item>Maholi-MAHO</item>
+        <item>Mahpur-MHO</item>
+        <item>Mahuamilan-MMLN</item>
+        <item>Mahuariya-MXY</item>
+        <item>Mahuda Junction-MHQ</item>
+        <item>Mahugarha-MUGA</item>
+        <item>Mahur-MXR</item>
+        <item>Mahuva Junction-MHV</item>
+        <item>Maibang-MBG</item>
+        <item>Maihar-MYR</item>
+        <item>Maikalganj-MINJ</item>
+        <item>Mailani Junction-MLN</item>
+        <item>Mailongdisa-MGX</item>
+        <item>Mainpuri-MNQ</item>
+        <item>Mairabari-MBO</item>
+        <item>Mairwa-MW</item>
+        <item>Majbat-MJBT</item>
+        <item>Majgaon-MZQ</item>
+        <item>Majhagawan-MJG</item>
+        <item>Majhola Pakarya-MJZ</item>
+        <item>Makhu-MXH</item>
+        <item>Makrana Junction-MKN</item>
+        <item>Makrera-MKRA</item>
+        <item>Makronia-MKRN</item>
+        <item>Maksi-MKC</item>
+        <item>Malad-MDD</item>
+        <item>Malarna-MLZ</item>
+        <item>Malavli-MVL</item>
+        <item>Malda Town-MLDT</item>
+        <item>Malerkotla-MET</item>
+        <item>Malethu Kanak-MEQ</item>
+        <item>Malhargarh-MLG</item>
+        <item>Malhour-ML</item>
+        <item>Malihabad-MLD</item>
+        <item>Malipur-MLPR</item>
+        <item>Maliya Hatina-MLHA</item>
+        <item>Maliya Miyana-MALB</item>
+        <item>Malkapur-MKU</item>
+        <item>Malkhaid Road-MQR</item>
+        <item>Malkisar-MLC</item>
+        <item>Mallanwala Khas-MWX</item>
+        <item>Malleswaram-MWM</item>
+        <item>Malliyam-MY</item>
+        <item>Malout-MOT</item>
+        <item>Malpura-MLA</item>
+        <item>Malsailu-MLSU</item>
+        <item>Malsian Shahkht-MQS</item>
+        <item>Malugur-MLU</item>
+        <item>Malur-MLO</item>
+        <item>Malwan-MWH</item>
+        <item>Malwara-MBW</item>
+        <item>Maman-MOM</item>
+        <item>Manaksar-MNSR</item>
+        <item>Manamadurai Junction-MNM</item>
+        <item>Mananpur-MNP</item>
+        <item>Manaparai-MPA</item>
+        <item>Manauri railway station-MRE</item>
+        <item>Manavadar-MVR</item>
+        <item>Mancherial-MCI</item>
+        <item>Mancheswar-MCS</item>
+        <item>Manda Road-MNF</item>
+        <item>Mandagere-MGF</item>
+        <item>Mandal-MDL</item>
+        <item>Mandalgarh-MLGH</item>
+        <item>Mandapam-MMM</item>
+        <item>Mandapam Camp-MC</item>
+        <item>Mandar Hill-MDLE</item>
+        <item>Mandasa Road-MMS</item>
+        <item>Mandasor-MDS</item>
+        <item>Manderdisa-MYD</item>
+        <item>Mandhana Junction, Kanpur-MDA</item>
+        <item>Mandi Adampur-ADR</item>
+        <item>Mandi Bamora-MABA</item>
+        <item>Mandi Dabwali-MBY</item>
+        <item>Mandi Dhanaura-MNDR</item>
+        <item>Mandi Dip-MDDP</item>
+        <item>Mandla Fort-MFR</item>
+        <item>Mandor-MDB</item>
+        <item>Mandrak-MXK</item>
+        <item>Manduadih-MUV</item>
+        <item>Mandya-MYA</item>
+        <item>Manendragarh-MDGR</item>
+        <item>Mangalagiri-MAG</item>
+        <item>Mangaliyawas-MLI</item>
+        <item>Mangaluru Central-MAQ</item>
+        <item>Mangaluru Junction-MAJN</item>
+        <item>Mangaon-MNI</item>
+        <item>Mangliya Gaon-MGG</item>
+        <item>Mangolpuri-MGLP</item>
+        <item>Mangra-MAZ</item>
+        <item>Manheru-MHU</item>
+        <item>Manigachi-MGI</item>
+        <item>Manikpur Junction-MKP</item>
+        <item>Maninagar-MAN</item>
+        <item>Manipur Bagan-MOAR</item>
+        <item>Vanchi Maniyachchi Junction-MEJ</item>
+        <item>Manjeshwar-MJS</item>
+        <item>Mankapur Junction-MUR</item>
+        <item>Mankar-MNAE</item>
+        <item>Mankarai-MNY</item>
+        <item>Mankatha-MKB</item>
+        <item>Mankhurd-MNKD</item>
+        <item>Manki-MANK</item>
+        <item>Manmad Junction-MMR</item>
+        <item>Mannanur-MNUR</item>
+        <item>Manoharganj-MNJ</item>
+        <item>Manoharpur-MOU</item>
+        <item>Mansa-MSZ</item>
+        <item>Mansarovar-MANR</item>
+        <item>Mansi Junction-MNE</item>
+        <item>Mansurpur-MSP</item>
+        <item>Manthralayam Road-MALM</item>
+        <item>Manuguru-MUGR</item>
+        <item>Manwal-MNVL</item>
+        <item>Manwath Road-MVO</item>
+        <item>Manzurgarhi-MZGI</item>
+        <item>Marahra-MHA</item>
+        <item>Maramjhiri-MJY</item>
+        <item>Marauda-MXA</item>
+        <item>Mariahu-MAY</item>
+        <item>Mariani Junction-MXN</item>
+        <item>Marikuppam-MKM</item>
+        <item>Marine Lines-MEL</item>
+        <item>Maripat-MIU</item>
+        <item>Markapur Road-MRK</item>
+        <item>Markundi-MKD</item>
+        <item>Maroli-MRL</item>
+        <item>Marsul-MRV</item>
+        <item>Marthipalayam-MPLM</item>
+        <item>Marwar Bagra-MBGA</item>
+        <item>Marwar Balia-MBSK</item>
+        <item>Marwar Bhinmal-MBNL</item>
+        <item>Marwar Birthi-MBT</item>
+        <item>Marwar Chapri-MCPE</item>
+        <item>Marwar Junction-MJ</item>
+        <item>Marwar Kori-KOF</item>
+        <item>Marwar Lohwat-MWT</item>
+        <item>Marwar Mathanya-MMY</item>
+        <item>Marwar Ratanpur-MSQ</item>
+        <item>Masit-MST</item>
+        <item>Masjid Bunder-MSD</item>
+        <item>Maskanwa-MSW</item>
+        <item>Masodha-MSOD</item>
+        <item>Masrakh-MHC</item>
+        <item>Masur-MSR</item>
+        <item>Matana Buzurg-MABG</item>
+        <item>Mataundh-MTH</item>
+        <item>Mathura Cantonment-MRT</item>
+        <item>Mathura Junction-MTJ</item>
+        <item>Matlabpur-MTB</item>
+        <item>Matmari-MTU</item>
+        <item>Mattancheri Halt-MTNC</item>
+        <item>Matunga-MTN</item>
+        <item>Matunga Road-MRU</item>
+        <item>Mau Aimma-MEM</item>
+        <item>Mau Junction-MAU</item>
+        <item>Mau Ranipur-MRPR</item>
+        <item>Maur-MAUR</item>
+        <item>Maval-MAA</item>
+        <item>Mavelikara-MVLK</item>
+        <item>Mavli Junction-MVJ</item>
+        <item>Mayanoor-MYU</item>
+        <item>Mayiladuturai Junction-MV</item>
+        <item>Mayyanad-MYY</item>
+        <item>Mazhama Rajwansher-RWSR</item>
+        <item>Mazhom-MZMA</item>
+        <item>McCluskieganj-MGME</item>
+        <item>Mecheda-MCA</item>
+        <item>Medchal-MED</item>
+        <item>Meerut Cantonment-MUT</item>
+        <item>Meerut City-MTC</item>
+        <item>Meghnagar-MGN</item>
+        <item>Mehnar Road-MNO</item>
+        <item>Mehsi-MAI</item>
+        <item>Meja Road-MJA</item>
+        <item>Melmaruvattur-MLMR</item>
+        <item>Melusar-MELH</item>
+        <item>Mendipathar-MNDP</item>
+        <item>Memari-MYM</item>
+        <item>Meralgram-MQX</item>
+        <item>Merta City-MEC</item>
+        <item>Merta Road Junction-MTD</item>
+        <item>Mettur-MTE</item>
+        <item>Metupalaiyam-MTP</item>
+        <item>Mettur Dam-MTDM</item>
+        <item>Mhasavad-MWD</item>
+        <item>Mahemdavad Kheda Road-MHD</item>
+        <item>Mhow-MHOW</item>
+        <item>Midnapore-MDN</item>
+        <item>Migrendisa-MGE</item>
+        <item>Mihinpurwa-MIN</item>
+        <item>Mihrawan-MIH</item>
+        <item>Milak-MIL</item>
+        <item>Minjur-MJR</item>
+        <item>Miraj Junction-MRJ</item>
+        <item>Miranpur Katra-MK</item>
+        <item>Mira Road-MIRA</item>
+        <item>Mirchadhori-MCQ</item>
+        <item>Mirhakur-MIQ</item>
+        <item>Mirthal-MRTL</item>
+        <item>Mirza-MRZA</item>
+        <item>Mirzapali-MZL</item>
+        <item>Miryalaguda-MRGA</item>
+        <item>Mirzapur-MZP</item>
+        <item>Misamari-MSMI</item>
+        <item>Misrauli-MFL</item>
+        <item>Mitha-MITA</item>
+        <item>Mithapur-MTHP</item>
+        <item>Miyagam Karjan-MYG</item>
+        <item>Miyana-MYN</item>
+        <item>Miyona ka Bara-MNKB</item>
+        <item>Modelgram-MG</item>
+        <item>Modinagar-MDNR</item>
+        <item>Modnimb-MLB</item>
+        <item>Modpur-MDPR</item>
+        <item>Modran-MON</item>
+        <item>Moga-MOGA</item>
+        <item>Mohammadkhera-MQE</item>
+        <item>Mohanlalganj-MLJ</item>
+        <item>Mohiuddinnagar-MOG</item>
+        <item>Mohiuddinpur-MUZ</item>
+        <item>Mohol-MO</item>
+        <item>Mohri-MOY</item>
+        <item>Mokalsar-MKSR</item>
+        <item>Mokama Junction-MKA</item>
+        <item>Mokholi-MXL</item>
+        <item>Monabari-MFC</item>
+        <item>Monacherra-MNCR</item>
+        <item>Mondh-MOF</item>
+        <item>Munger-MGR</item>
+        <item>Monglajhora-MONJ</item>
+        <item>Moore Market Complex (Chennai Central Suburban)-MMC</item>
+        <item>Moradabad-MB</item>
+        <item>Morak-MKX</item>
+        <item>Morappur-MAP</item>
+        <item>Morbi-MVI</item>
+        <item>Mordar-MRDD</item>
+        <item>Morena-MRA</item>
+        <item>Mori Bera-MOI</item>
+        <item>Morinda-MRND</item>
+        <item>Morthala-MXO</item>
+        <item>Mota Jadra-MQZ</item>
+        <item>Moterjhar-MTJR</item>
+        <item>Moth-MOTH</item>
+        <item>Mothala-MTIA</item>
+        <item>Mothala Halt-MTHH</item>
+        <item>Motichur-MOTC</item>
+        <item>Bapudham Motihari-BMKI</item>
+        <item>Motipur-MTR</item>
+        <item>Motipura Chauki-MTPC</item>
+        <item>Moula-Ali-MOU</item>
+        <item>Muddanuru-MOO</item>
+        <item>Mudkhed Junction-MUE</item>
+        <item>Muftiganj-MFJ</item>
+        <item>Mughal Sarai Junction-MGS</item>
+        <item>Muhammadabad-MMA</item>
+        <item>Muirpur Road-MPF</item>
+        <item>Mukerian-MEX</item>
+        <item>Mukhtiar Balwar-MKT</item>
+        <item>Muktsar-MKS</item>
+        <item>Mukundarayapuram-MCN</item>
+        <item>Muli Road-MOL</item>
+        <item>Mulki-MULK</item>
+        <item>Mullanpur-MLX</item>
+        <item>Mulanur-</item>
+        <item>Multai-MTY</item>
+        <item>Mulund-MLND</item>
+        <item>Mumbai Central-BCT</item>
+        <item>Mumbra-</item>
+        <item>Munabao-MBF</item>
+        <item>Mundalaram-MDLM</item>
+        <item>Mundha Pande-MPH</item>
+        <item>Mundhewadi-MVE</item>
+        <item>Mungaoli-MNV</item>
+        <item>Muniguda-MNGD</item>
+        <item>Munirabad-MRB</item>
+        <item>Munroturuttu-MQO</item>
+        <item>Mupa-MUPA</item>
+        <item>Muradnagar-MUD</item>
+        <item>Murdeshwar-MDRW</item>
+        <item>Murdeshwar-MRDW</item>
+        <item>Muri-MURI</item>
+        <item>Murkeongselek-MZS</item>
+        <item>Murliganj-MRIJ</item>
+        <item>Murshadpur-MSDR</item>
+        <item>Murshidabad-MBB</item>
+        <item>Murtizapur Junction-MZR</item>
+        <item>Musafir Khana-MFKA</item>
+        <item>Mustafabad-MFB</item>
+        <item>Muttarasanallur-MTNL</item>
+        <item>Mutupet-MTT</item>
+        <item>Muzaffarnagar-MOZ</item>
+        <item>Muzaffarpur Junction-MFP</item>
+        <item>Muzzampur Narayan-MZM</item>
+        <item>Mysuru Junction-MYS</item>
+        <item>Naya Ghaziabad-GZN</item>
+        <item>N J Ramanal-NJM</item>
+        <item>Nabadwip Dham-NDAE</item>
+        <item>Nabha-NBA</item>
+        <item>Nadauj-NDU</item>
+        <item>Nadiad Junction-ND</item>
+        <item>Nandikoor-NAND</item>
+        <item>Nadikudi-NDKD</item>
+        <item>Nagal-NGL</item>
+        <item>Naganahalli-NHY</item>
+        <item>Nagaon-NGAN</item>
+        <item>Nagappattinam junction-NGT</item>
+        <item>Nagar-NGE</item>
+        <item>Nagar Untari-NUQ</item>
+        <item>Nagercoil Junction-NCJ</item>
+        <item>Nagardevla-NGD</item>
+        <item>Nagargali-NAG</item>
+        <item>Nagari-NGI</item>
+        <item>Nagaria Sadat-NRS</item>
+        <item>Nagarur-NRR</item>
+        <item>Nagaur-NGO</item>
+        <item>Nagbhir Junction-NAB</item>
+        <item>Nagda Junction-NAD</item>
+        <item>Nagercoil Town-NGK</item>
+        <item>Nagina-NGG</item>
+        <item>Naglatula-NGLT</item>
+        <item>Nagore-NCR</item>
+        <item>Nagpur-NGP</item>
+        <item>Nagrota-NGRT</item>
+        <item>Naharkatiya-NHK</item>
+        <item>Naharlagun-NHLN</item>
+        <item>Nahur-NHU</item>
+        <item>Naigaon-NIG</item>
+        <item>Naihati Junction-NH</item>
+        <item>Naikheri-NKI</item>
+        <item>Naila-NIA</item>
+        <item>Naini-NYN</item>
+        <item>Nainpur Junction-NIR</item>
+        <item>Najibabad Junction-NBD</item>
+        <item>Nakodar Junction-NRO</item>
+        <item>Nalanda-NLD</item>
+        <item>Nala Sopara-NSP</item>
+        <item>Nalbari-NLV</item>
+        <item>Nalgonda-NLDA</item>
+        <item>Nalhati-NHT</item>
+        <item>Naliya-NLY</item>
+        <item>Naliya Cantonment-NLC</item>
+        <item>Nalwar-NW</item>
+        <item>Namakkal-NMKL</item>
+        <item>Namburu-NBR</item>
+        <item>Namkom-NKM</item>
+        <item>Namli-NLI</item>
+        <item>Namrup-NAM</item>
+        <item>Nana-NANA</item>
+        <item>Nana Bhamodra-NBHM</item>
+        <item>Nanaksar-NNKR</item>
+        <item>Nandalur-NRE</item>
+        <item>Nandapur-NDPR</item>
+        <item>Hazur Sahib Nanded-NED</item>
+        <item>Nandesari-NDR</item>
+        <item>Nandganj-NDJ</item>
+        <item>Nandgaon-NGN</item>
+        <item>Nandgaon Road-NAN</item>
+        <item>Nandiambakkam-NPKM</item>
+        <item>Nandol Dehegam-NHM</item>
+        <item>Nandura-NN</item>
+        <item>Nandurbar-NDB</item>
+        <item>Nandyal Junction-NDL</item>
+        <item>Nangal Dam-NLDM</item>
+        <item>Nangloi-NNO</item>
+        <item>Nanguneri-NNN</item>
+        <item>Nanjangud Town-NTW</item>
+        <item>Nanpara Junction-NNP</item>
+        <item>Naojan-NJN</item>
+        <item>Napasar-NPS</item>
+        <item>Nar Town-NTN</item>
+        <item>Naraikkinar-NRK</item>
+        <item>Naraina-NRI</item>
+        <item>Narangi-NNGE</item>
+        <item>Naranjipur-NRGR</item>
+        <item>Narasapur-NS</item>
+        <item>Narasaraopet-NRT</item>
+        <item>Narayanpet Road-NRPD</item>
+        <item>Narayanpur-NNR</item>
+        <item>Narayanpur Anant-NRPA</item>
+        <item>Nardana-NDN</item>
+        <item>Narela-NUR</item>
+        <item>Nari Road-NROD</item>
+        <item>Nariaoli-NOI</item>
+        <item>Narkatiaganj Junction-NKE</item>
+        <item>Narkher-NRKR</item>
+        <item>Narnaul-NNL</item>
+        <item>Naroda-NRD</item>
+        <item>Narsinghpur-NU</item>
+        <item>Narwana Junction-NRW</item>
+        <item>Narwasi-NRWI</item>
+        <item>Nasik Road-NK</item>
+        <item>Nasirabad-NSD</item>
+        <item>Nathdwara-NDT</item>
+        <item>Nathwana-NTZ</item>
+        <item>Naugachia-NNA</item>
+        <item>Nauganwan-NGW</item>
+        <item>Naugarh-NUH</item>
+        <item>Naupada Junction-NWP</item>
+        <item>Nautanwa-NTV</item>
+        <item>Navade Road-</item>
+        <item>Navagadh-NUD</item>
+        <item>Navalur-NVU</item>
+        <item>Navapur-NWU</item>
+        <item>Navlakhi-NLK</item>
+        <item>Navsari-NVS</item>
+        <item>Nawa City-NAC</item>
+        <item>Nawadah-NWD</item>
+        <item>Nawagaon-NVG</item>
+        <item>Nawalgarh-NWH</item>
+        <item>Nawalgohan-NVLN</item>
+        <item>Naya Azadpur-NDAZ</item>
+        <item>Naya Kharadia-NYK</item>
+        <item>Naya Nangal-NNGL</item>
+        <item>Nayadupeta-NYP</item>
+        <item>Nayagaon-NYO</item>
+        <item>Naydongri-NI</item>
+        <item>Nazareth-NZT</item>
+        <item>Nazirganj-NAZJ</item>
+        <item>Nekonda-NKD</item>
+        <item>Nellimaria-NML</item>
+        <item>Nellore-NLR</item>
+        <item>Nemilichery-NEC</item>
+        <item>Nemom-NEM</item>
+        <item>Nenpur-NEP</item>
+        <item>Nepalganj Road-NPR</item>
+
+
+        <item>Nepanagar-NPNR</item>
+        <item>Neral-NRL</item>
+        <item>Nergundi-NRG</item>
+        <item>Neri-NERI</item>
+        <item>Nerul-NU</item>
+        <item>Netawal-NTWL</item>
+        <item>New Alipurduar-NOQ</item>
+        <item>New Bhuj-NBUJ</item>
+        <item>New Bhuj-NBVJ</item>
+        <item>New Bongaigaon Junction-NBQ</item>
+        <item>New Cooch Behar-NCB</item>
+        <item>New Delhi-NDLS</item>
+        <item>New Farakka Junction-NFK</item>
+        <item>New Garia-NGRI</item>
+        <item>New Giridih-NGRH</item>
+        <item>New Gitldada Junction-NGTG</item>
+        <item>New Guntur-NGNT</item>
+        <item>New Jalpaiguri-NJP</item>
+        <item>New Mal Junction-NMZ</item>
+        <item>New Maynaguri-NMX</item>
+        <item>New Misamari-NMM</item>
+        <item>Neyveli-NVL</item>
+        <item>Neyyattinkara-NYY</item>
+        <item>Ngrjunanagaramu-NGJN</item>
+        <item>Nibhapur-NBP</item>
+        <item>Nidadavolu Junction-NDD</item>
+        <item>Nidamangalam Junction-NMJ</item>
+        <item>Nidubrolu-NDO</item>
+        <item>Nigohan-NHN</item>
+        <item>Nihalgarh-NHH</item>
+        <item>Nilaje-</item>
+        <item>Nilambazar-NLBR</item>
+        <item>Nilambur Road-NIL</item>
+        <item>Nileshwar-NLE</item>
+        <item>Nilokheri-NLKR</item>
+        <item>Nim Ka Thana-NMK</item>
+        <item>Nimach-NMH</item>
+        <item>Nimar Kheri-NKR</item>
+        <item>Nimbahera-NBH</item>
+        <item>Nimbhora-NB</item>
+        <item>Nimtita-NILE</item>
+        <item>Nindhar Benar-NDH</item>
+        <item>Ningala Junction-NGA</item>
+        <item>Nipani Vadgaon-NPW</item>
+        <item>Niphad-NR</item>
+        <item>Nira-NIRA</item>
+        <item>Nirakarpur-NKP</item>
+        <item>Nirmali-NMA</item>
+        <item>Nisui-NSU</item>
+        <item>Nivari-NEW</item>
+        <item>Nivasar-NIV</item>
+        <item>Nizamabad-NZB</item>
+        <item>Nizampur-NIP</item>
+        <item>Nizbarganj-NBX</item>
+        <item>Nizchatia-NCA</item>
+        <item>Noamundi-NOMD</item>
+        <item>Nohar-NHR</item>
+        <item>Nokha-NOK</item>
+        <item>Nomoda-NMD</item>
+        <item>Nonera-NNE</item>
+        <item>Norla Road-NRLR</item>
+        <item>North Lakhimpur-NLP</item>
+        <item>Nosaria-NOA</item>
+        <item>Nowrozabad-NRZB</item>
+        <item>Noyal-NOY</item>
+        <item>Narayanpur Tatwar-NNW</item>
+        <item>Nua-NUA</item>
+        <item>Nunkhar-NRA</item>
+        <item>Nurmahal-NRM</item>
+        <item>Okha-OKHA</item>
+        <item>Old Delhi Junction-DLI</item>
+        <item>Old Malda Junction-OMFL</item>
+        <item>Omkareshwar Road-OMR</item>
+        <item>Ondagram-ODM</item>
+        <item>Ongole-OGL</item>
+        <item>Ontimitta-OMT</item>
+        <item>Orai-ORAI</item>
+        <item>Ottapalam-OTP</item>
+        <item>Oorgaum-OGM</item>
+        <item>Pabai-PAI</item>
+        <item>Pabli Khas-PQY</item>
+        <item>Pachrukhi-PCK</item>
+        <item>Pachhapur-PCH</item>
+        <item>Pachor Road-PFR</item>
+        <item>Pachora Junction-PC</item>
+        <item>Pachperwa-PPW</item>
+        <item>Paddhari-PDH</item>
+        <item>Padhegaon-PDGN</item>
+        <item>Padrauna-POU</item>
+        <item>Padse-PDP</item>
+        <item>Padubidri-PDD</item>
+        <item>Pagara-PGA</item>
+        <item>Pahara-PRE</item>
+        <item>Paharpur-PRP</item>
+        <item>Pajian-PJA</item>
+        <item>Pakala Junction-PAK</item>
+        <item>Pakki-PKK</item>
+        <item>Pakur-PKR</item>
+        <item>Palachauri-PCLI</item>
+        <item>Palam-PM</item>
+        <item>Palampur Himachal railway station-PLMX</item>
+        <item>Palampur HP OA-PLMA</item>
+        <item>Palana-PAE</item>
+        <item>Palani-PLNI</item>
+        <item>Palanpur Junction-PNU</item>
+        <item>Palappuram-PLPM</item>
+        <item>Palasa-PSA</item>
+        <item>Palasdari-</item>
+        <item>Paldhi-PLD</item>
+        <item>Pahlejaghat Junction-PHLJ</item>
+        <item>Palej-PLJ</item>
+        <item>Palghar-PLG</item>
+        <item>Palakkad Junction-PGT</item>
+        <item>Palakkad Town-PGTN</item>
+        <item>Palakollu-PKO</item>
+        <item>Pali Marwar-PMY</item>
+        <item>Palia-PLA</item>
+        <item>Palia Kalan-PLK</item>
+        <item>Palitana-PIT</item>
+        <item>Palpara-PXR</item>
+        <item>Palsana-PLSN</item>
+        <item>Palsora Makrawa-PSO</item>
+        <item>Palwal-PWL</item>
+        <item>Pamban Junction-PBM</item>
+        <item>Pampur-PMPE</item>
+        <item>Panagarh-PAN</item>
+        <item>Panbari-PNB</item>
+        <item>Panch Pipila-PCN</item>
+        <item>Panch Rukhi-PHRH</item>
+        <item>Pancharatna-PNVT</item>
+        <item>Panchgram-PNGM</item>
+        <item>Panchtalavda Rd-PCT</item>
+        <item>Pandavapura-PANP</item>
+        <item>Pandaravadai-PDV</item>
+        <item>Pandharpur-PVR</item>
+        <item>Pandhurna-PAR</item>
+        <item>Pandoli-PMO</item>
+        <item>Paneli Moti-PLM</item>
+        <item>Paniahwa-PNYA</item>
+        <item>Panikhaiti-PHI</item>
+        <item>Panipat Junction-PNP</item>
+        <item>Panitola-PNT</item>
+        <item>Panjhan-PJN</item>
+        <item>Panki, Kanpur-PNK</item>
+        <item>Panruti-PRT</item>
+        <item>Panskura Junction-PKU</item>
+        <item>Pantnagar-PBW</item>
+        <item>Panvel-PNVL</item>
+        <item>Panzgom-PJGM</item>
+        <item>Papanasam-PML</item>
+        <item>Paradgaon-PDG</item>
+        <item>Paralakhemundi-PLH</item>
+        <item>Paramakkudi-PMK</item>
+        <item>Paras-PS</item>
+        <item>Parasia-PUX</item>
+        <item>Parasnath Station-PNME</item>
+        <item>Paravur-PVU</item>
+        <item>Parbati-PRB</item>
+        <item>Parbhani Junction-PBN</item>
+        <item>Pardhande-PHQ</item>
+        <item>Pardi-PAD</item>
+        <item>Parel-PR</item>
+        <item>Parhihara-PIH</item>
+        <item>Parkham-PRK</item>
+        <item>Parli-PLL</item>
+        <item>Parli Vaijnath-PRLI</item>
+        <item>Parlu-PRU</item>
+        <item>Parappanangadi-PGI</item>
+        <item>Parsa Bazar-PRBZ</item>
+        <item>Parsa Khera-PKRA</item>
+        <item>Parsabad-PSB</item>
+        <item>Parsipur-PRF</item>
+        <item>Parsoda-PSD</item>
+        <item>Partapgarh Junction-PBH</item>
+        <item>Partapur, Uttar Pradesh-PRTP</item>
+        <item>Partur-PTU</item>
+        <item>Parvatipuram-PVP</item>
+        <item>Parvatipuram Town-PVPT</item>
+        <item>Pasur-PAS</item>
+        <item>Patal Pani-PTP</item>
+        <item>Patan-PTN</item>
+        <item>Patara-PTRE</item>
+        <item>Patas-PAA</item>
+        <item>Pataudi Road-PTRD</item>
+        <item>Pathankot Junction-PTK</item>
+        <item>Pathankot Cantt-PTKC</item>
+        <item>Pathardih Junction-PEH</item>
+        <item>Patharkandi-PTKD</item>
+        <item>Patharkhola S-PKB</item>
+        <item>Patharia-PHA</item>
+        <item>Pathauli-PTLI</item>
+        <item>Pathri-PRI</item>
+        <item>Pathsala-PBL</item>
+        <item>Patiala-PTA</item>
+        <item>Patiladaha-PTLD</item>
+        <item>Patli-PT</item>
+        <item>Patna Junction-PNBE</item>
+        <item>Patna Saheb-PNC</item>
+        <item>Patranga-PTH</item>
+        <item>Patratu-PTRU</item>
+        <item>Patsul-PTZ</item>
+        <item>Pattabiram-PAB</item>
+        <item>Pattabiram West-PRWS</item>
+        <item>Pattabiram East Depot-PRES</item>
+        <item>Pattambi-PTB</item>
+        <item>Pattan-PTTN</item>
+        <item>Pattaravakkam-PVM</item>
+        <item>Pattukkottai-PKT</item>
+        <item>Patti-PAX</item>
+        <item>Pavur Chatram-PCM</item>
+        <item>Pawapuri Road-PQE</item>
+        <item>Payagpur-PDR</item>
+        <item>Payangadi-PAZ</item>
+        <item>Payyanur-PAY</item>
+        <item>Payyoli-PYOL</item>
+        <item>Peddapalli-PDPL</item>
+        <item>Pendra Road-PND</item>
+        <item>Penganga-PGG</item>
+        <item>Penukonda-PKD</item>
+        <item>Perambur-PER</item>
+        <item>Perambur Carriage Works-PCW</item>
+        <item>Perambur Loco Works-PEW</item>
+        <item>Pernem railway station-PERN</item>
+        <item>Perugamani-PGN</item>
+        <item>Petlad Junction-PTD</item>
+        <item>Pethanaickenpalayam-PDKM</item>
+        <item>Pettaivayatalai-PLI</item>
+        <item>Phagwara Junction-PGW</item>
+        <item>Phakhoagram-PKGM</item>
+        <item>Phalodi-PLC</item>
+        <item>Phanda-PUD</item>
+        <item>Phaphamau Junction-PFM</item>
+        <item>Phaphund-PHD</item>
+        <item>Phephna Junction-PEP</item>
+        <item>Phesar-PES</item>
+        <item>Phillaur Junction-PHR</item>
+        <item>Phulad-FLD</item>
+        <item>Phulaguri-PUY</item>
+        <item>Phulera Junction-FL</item>
+        <item>Phulia-FLU</item>
+        <item>Phulpur-PLP</item>
+        <item>Pij-PIJ</item>
+        <item>Pilamedu(Coimbatore)-PLMD</item>
+        <item>Pili Bangan-PGK</item>
+        <item>Pilibhit Junction railway station-PBE</item>
+        <item>Pilioda-PDZ</item>
+        <item>Pilkhua-PKW</item>
+        <item>Pimpar Khed-PKE</item>
+        <item>Pimpri-PMP</item>
+        <item>Pindra Road-PDRD</item>
+        <item>Pingleshwar-PLW</item>
+        <item>Pipalda Road-POR</item>
+        <item>Pipalsana-PLS</item>
+        <item>Pipar Road Junction-PPR</item>
+        <item>Pipariya-PPI</item>
+        <item>Piparpur-PPU</item>
+        <item>Piparsand-POF</item>
+        <item>Piplaj-PPF</item>
+        <item>Piplee-PLE</item>
+        <item>Piplia-PIP</item>
+        <item>Piplod Junction-PPD</item>
+        <item>Piploda Bagla-PPG</item>
+        <item>Pipraich-PPC</item>
+        <item>Pipraigaon-PIA</item>
+        <item>Piprala-PFL</item>
+        <item>Pipri Dih-PPH</item>
+        <item>Pirjhalar-PJH</item>
+        <item>Pirpainti-PPT</item>
+        <item>Pirthiganj-PHV</item>
+        <item>Pirumadara-PRM</item>
+        <item>Pirwa-PW</item>
+        <item>Pitambarpur-PMR</item>
+        <item>Pithapuram-PAP</item>
+        <item>Plassey-PLY</item>
+        <item>PMBAKVL_SHANDY-PBKS</item>
+        <item>Podanur Junction-PTJ</item>
+        <item>Pokhrayan-PHN</item>
+        <item>Pokran-POK</item>
+        <item>Pollachi Junction-POY</item>
+        <item>Polur-PRL</item>
+        <item>Ponmalai Golden Rock-GOC</item>
+        <item>Ponneri-PON</item>
+        <item>Porbandar-PBR</item>
+        <item>Potul-POZ</item>
+        <item>Prabhadevi-EPR</item>
+        <item>Prachi Road Junction-PCC</item>
+        <item>Pranpur Road-PQD</item>
+        <item>Prantij-PRJ</item>
+        <item>Prantik-PNE</item>
+        <item>Pratapnagar-PRTN</item>
+        <item>Prayag Junction-PRG</item>
+        <item>Prayag Ghat-PYG</item>
+        <item>Pritam Nagar-PRNG</item>
+        <item>Proddatur-PRDT</item>
+        <item>Puducherry-PDY</item>
+        <item>Pudukad-PUK</item>
+        <item>Pudukkottai-PDKT</item>
+        <item>Pugalur-PGR</item>
+        <item>Pulgaon Junction-PLO</item>
+        <item>Punalur-PUU</item>
+        <item>Punarakh-PHK</item>
+        <item>Pundhag-PNW</item>
+        <item>Pune Junction-PUNE</item>
+        <item>Punkunnam-PNQ</item>
+        <item>Punpun-PPN</item>
+        <item>Puntamba-PB</item>
+        <item>Purab Sarai-PBS</item>
+        <item>Puraini-PNI</item>
+        <item>Puranigudam-PUQ</item>
+        <item>Puranpur-PP</item>
+        <item>Puri-PURI</item>
+        <item>Purna Junction-PAU</item>
+        <item>Purnia Junction-PRNA</item>
+        <item>Purnia Court-PRNC</item>
+        <item>Purua Khera-PRKE</item>
+        <item>Pusad-PUB</item>
+        <item>Purulia Junction-PRR</item>
+        <item>Puttur-PUT</item>
+        <item>Rabale-</item>
+        <item>Radhanpur-RDHP</item>
+        <item>Radhikapur-RDP</item>
+        <item>Rae Bareli Junction-RBL</item>
+        <item>Rafiganj-RFJ</item>
+        <item>Ragaul-RGU</item>
+        <item>Raghunathpur-RPR</item>
+        <item>Raha-RAHA</item>
+        <item>Rahimabad, India-RBD</item>
+        <item>Rahimatpur-RMP</item>
+        <item>Rahul Road-RRE</item>
+        <item>Rahuri-RRI</item>
+        <item>Rai Singh Nagar-RSNR</item>
+        <item>Raibha railway station-RAI</item>
+        <item>Raichur-RC</item>
+        <item>Raiganj-RGJ</item>
+        <item>Raigarh-RIG</item>
+        <item>Raika Bagh-RKB</item>
+        <item>Raila Road-RLR</item>
+        <item>Raimehatpur-MTPR</item>
+        <item>Raipur Junction-R</item>
+        <item>Rairakhol-RAIR</item>
+        <item>Raisi-RSI</item>
+        <item>Raiwala-RWL</item>
+        <item>Raj Gangpur-GP</item>
+        <item>Raj Nandgaon-RJN</item>
+        <item>Raja Bhat Khawa-RVK</item>
+        <item>Raja Ka Sahaspur-RJK</item>
+        <item>Raja Ki Mandi-RKM</item>
+        <item>Rajaldesar-RJR</item>
+        <item>Rajamundry-RJY</item>
+        <item>Rajapalayam-RJPM</item>
+        <item>Rajapur Road-RAJP</item>
+        <item>Rajawari-RJI</item>
+        <item>Rajendranagar Terminal-RJQ</item>
+        <item>Rajgarh-RHG</item>
+        <item>Rajghat Narora-RG</item>
+        <item>Rajgir-RGD</item>
+        <item>Rajhura-RHR</item>
+        <item>Rajiyasar-RJS</item>
+        <item>Rajkharsawan Junction-RKSN</item>
+        <item>Rajkot Junction-RJT</item>
+        <item>Rajlu Garhi-RUG</item>
+        <item>Rajmahal-RJL</item>
+        <item>Rajmane-RM</item>
+        <item>Rajosi-ROS</item>
+        <item>Rajpipla-RAJ</item>
+        <item>Rajpura Junction-RPJ</item>
+        <item>Rajula City-RJU</item>
+        <item>Rajula Junction-RLA</item>
+        <item>Rajur-RAJR</item>
+        <item>Rakha Mines-RHE</item>
+        <item>Rakhi-RHI</item>
+        <item>Ram Chaura Road-RMC</item>
+        <item>Raman-RMN</item>
+        <item>Ram Dayalu Nagar-RD</item>
+        <item>Ramanagaram-RMGM</item>
+        <item>Ramanathapuram-RMD</item>
+        <item>Ramdevra-RDRA</item>
+        <item>Rameswaram-RMM</item>
+        <item>Ramganga-RGB</item>
+        <item>Ramganj-RMGJ</item>
+        <item>Ramganj Mandi-RMA</item>
+        <item>Ramgarh Cantonment-RMT</item>
+        <item>Ramgarhwa-RGH</item>
+        <item>Ramagundam-RDM</item>
+        <item>Ramkola-RKL</item>
+        <item>Ram Mandir-RMAR</item>
+        <item>Ramna-RMF</item>
+        <item>Ramnagar (J&amp;K)-RMJK</item>
+        <item>Ramnagar-RMR</item>
+        <item>Rampur-RMU</item>
+        <item>Rampur Dumra-RDUM</item>
+        <item>Rampur Hat-RPH</item>
+        <item>Rampura Phul-PUL</item>
+        <item>Ramsan-RXN</item>
+        <item>Ramsar-RMX</item>
+        <item>Ramtek-RTK</item>
+        <item>Rana Bordi-RNBD</item>
+        <item>Ranaghat Junction-RHA</item>
+        <item>Ranala-RNL</item>
+        <item>Ranapratapnagar-RPZ</item>
+        <item>Ranavav-RWO</item>
+        <item>Marwar Ranawas-MRWS</item>
+        <item>Ranchi-RNC</item>
+        <item>Ranchi Road-RRME</item>
+        <item>Rangapara North-RPAN</item>
+        <item>Rangiya Junction-RNY</item>
+        <item>Rangjuli-RGJI</item>
+        <item>Rangmahal-RMH</item>
+        <item>Rani-RANI</item>
+        <item>Ranibennur-RNR</item>
+        <item>Raniganj-RNG</item>
+        <item>Ranipur Road-RNRD</item>
+        <item>Raniwara-RNV</item>
+        <item>Ranjangaon Rd-RNJD</item>
+        <item>Ranjani-RNE</item>
+        <item>Ranoli-RNO</item>
+        <item>Ranolishishu-RNIS</item>
+        <item>Ranpur-RUR</item>
+        <item>Ranthambhore-RNT</item>
+        <item>Ranuj-RUJ</item>
+        <item>Rasra-RSR</item>
+        <item>Rasulabad-RUB</item>
+        <item>Rasull-RES</item>
+        <item>Rasuriya-RYS</item>
+        <item>Rasipuram-RASP</item>
+        <item>Ratabari-RTBR</item>
+        <item>Ratan Shahr-RSH</item>
+        <item>Ratangaon-RTGN</item>
+        <item>Ratangarh Junction-RTGH</item>
+        <item>Ratangarh West-RXW</item>
+        <item>Ratanpura-RTP</item>
+        <item>Rathdhana-RDDE</item>
+        <item>Ratlam Junction-RTM</item>
+        <item>Ratnagiri-RN</item>
+        <item>Ratnal-RUT</item>
+        <item>Rau-RAU</item>
+        <item>Rauzagaon-RZN</item>
+        <item>Raver-RV</item>
+        <item>Rawania Dungar-RWJ</item>
+        <item>Rawatpur(Kanpur)-RPO</item>
+        <item>Raxaul Junction-RXL</item>
+        <item>Rayagada-RGDA</item>
+        <item>Rayalcheruvu-RLO</item>
+        <item>Raybag-RBG</item>
+        <item>Rayadurg-RDG</item>
+        <item>Razampeta-RJP</item>
+        <item>Reay Road-RRD</item>
+        <item>Rechni Road-RECH</item>
+        <item>Ren-REN</item>
+        <item>Renigunta Junction-RU</item>
+        <item>Renukut-RNQ</item>
+        <item>Renwal-RNW</item>
+        <item>Reoti B Khera-RBK</item>
+        <item>Repalle-RAL</item>
+        <item>Rethorakalan-RAKL</item>
+        <item>Rewa Terminal-REWA</item>
+        <item>Rewari Junction-RE</item>
+        <item>Richha Road-RR</item>
+        <item>Richughutu-RCGT</item>
+        <item>Ridhore-RID</item>
+        <item>Ringas Junction-RGS</item>
+        <item>Risama-RSA</item>
+        <item>Rishikesh-RKSH</item>
+        <item>Rishra-RIS</item>
+        <item>Risia-RS</item>
+        <item>Rithi-REI</item>
+        <item>Rajendar Nagar Bihar-RJPB</item>
+        <item>Ramgarh Shekhwati-RSWT</item>
+        <item>Raninagar Jalpaiguri-RQJ</item>
+        <item>Robertsganj-RBGJ</item>
+        <item>Roha-ROHA</item>
+        <item>Rohana Kalan-RNA</item>
+        <item>Rohini-RHNE</item>
+        <item>Rohtak Junction-ROK</item>
+        <item>Roorkee-RK</item>
+        <item>Rora-RORA</item>
+        <item>Roshanpur-RHN</item>
+        <item>Rotegaon-RGO</item>
+        <item>Rourkela-ROU</item>
+        <item>Rowta Bagan-RWTB</item>
+        <item>Roza Junction-RAC</item>
+        <item>Rudauli-RDL</item>
+        <item>Rudrapur City-RUPC</item>
+        <item>Rudrapur Road-RUPR</item>
+        <item>Rukadi-RKD</item>
+        <item>Runija-RNJ</item>
+        <item>Runkhera-RNH</item>
+        <item>Rupaheli-RPI</item>
+        <item>Rupahigaon-RUP</item>
+        <item>Rupamau-RUM</item>
+        <item>Rupaund-RPD</item>
+        <item>Rupasibari-RPB</item>
+        <item>Rupbas-RBS</item>
+        <item>Rupnagar-RPAR</item>
+        <item>Rupnarayanpur-RNPR</item>
+        <item>Rupra Road-RPRD</item>
+        <item>Rupsa Junction-ROP</item>
+        <item>Rura-RRH</item>
+        <item>Rusera Ghat-ROA</item>
+        <item>Ruthiyai Junction-RTA</item>
+        <item>Swami Narayan Chhapia-SNC</item>
+        <item>Sabalgarh-SBL</item>
+        <item>Sabarmati Bridge-SBIC</item>
+        <item>Sabarmati Junction (Metre Gauge)-SBI</item>
+        <item>Sabarmati Junction-SBT</item>
+        <item>Sabarmati South-SBIS</item>
+        <item>Sabaur-SBO</item>
+        <item>Sabroom-SABRM</item>
+        <item>Sachin-SCH</item>
+        <item>Sadar Bazar-DSB</item>
+        <item>Sadat-SDT</item>
+        <item>Sadhoogarh-Punjab</item>
+        <item>Sadisopur-SDE</item>
+        <item>Sadulpur Junction-SDLP</item>
+        <item>Sadulshahr-SDS</item>
+        <item>Sadura-SDUA</item>
+        <item>Safdarjung-DSJ</item>
+        <item>Safedabad-SFH</item>
+        <item>Safilguda-SFX</item>
+        <item>Sagardighi-SDI</item>
+        <item>Sagar Jambagaru-SRF</item>
+        <item>Sagarpali-SVI</item>
+        <item>Sagauli Junction-SGL</item>
+        <item>Sagoni-SAO</item>
+        <item>Saharanpur Junction-SRE</item>
+        <item>Saharsa Junction-SHC</item>
+        <item>Sahatwar-STW</item>
+        <item>Sahawar Town-SWRT</item>
+        <item>Sahibabad Junction-SBB</item>
+        <item>Sahibganj Junction-SBG</item>
+        <item>Sahibpur KML Junction-SKJ</item>
+        <item>Sahjanwa-SWA</item>
+        <item>Sri Sathya Sai Prasanthi Nilayam-SSPN</item>
+        <item>Saidkhanpur-SYK</item>
+        <item>Saidraja-SYJ</item>
+        <item>Sainthia railway station-SNT</item>
+        <item>Saiyid Sarawan-SYWN</item>
+        <item>Sajanvar Road-SJF</item>
+        <item>Sajiyavadar-SVJ</item>
+        <item>Sakaldiha-SLD</item>
+        <item>Sakharayapatna (Sakrepatna)-SKPN</item>
+        <item>Sakhi Gopal-SIL</item>
+        <item>Sakhoti Tanda-SKF</item>
+        <item>Sakhpur-SKR</item>
+        <item>Sakleshpur-SKLR</item>
+        <item>Sakri Junction-SKI</item>
+
+
+        <item>Saktesgarh-SKGH</item>
+        <item>Sakti-SKT</item>
+        <item>Salakati-SLKX</item>
+        <item>Salamatpur-SMT</item>
+        <item>Salar-SALE</item>
+        <item>Salarpur-SLRP</item>
+        <item>Salawas-SZ</item>
+        <item>Salchapra-SCA</item>
+        <item>Salekasa-SKS</item>
+        <item>Salem Junction-SA</item>
+        <item>Salem Market-SAMT</item>
+        <item>Salem Town-SXT</item>
+        <item>Salemgarhmasani-SJSM</item>
+        <item>Salempur Junction-SRU</item>
+        <item>Salogra-SLR</item>
+        <item>Salona-SLON</item>
+        <item>Salpura-SYL</item>
+        <item>Salur-SALR</item>
+        <item>Salwa-SAL</item>
+        <item>Samaguri-SMGR</item>
+        <item>Samakhiali-SIO</item>
+        <item>Samakhiali B G-SIOB</item>
+        <item>Samalkha-SMK</item>
+        <item>Samalpatti-SLY</item>
+        <item>Samalkot Junction-SLO</item>
+        <item>Samastipur Junction-SPJ</item>
+        <item>Samba-SMBX</item>
+        <item>Sambalpur-SBP</item>
+        <item>Sambalpur Road-SBPD</item>
+        <item>Sambhar Salt Lake-SBR</item>
+        <item>Samdhari Junction-SMR</item>
+        <item>Samlaya Junction-SMLA</item>
+        <item>Sampla-SPZ</item>
+        <item>Samrau-SRK</item>
+        <item>Samsi-SM</item>
+        <item>Sanehwal-SNL</item>
+        <item>Sanand-SAU</item>
+        <item>Sanaura-SWU</item>
+        <item>Sanawad-SWD</item>
+        <item>Sanchi-SCI</item>
+        <item>Sandal Kalan-SLKN</item>
+        <item>Sandila-SAN</item>
+        <item>Sanathnagar-SNF</item>
+        <item>Sandhurst Road-SNRD</item>
+        <item>Saneh Road-SNX</item>
+        <item>Sangar-SGRR</item>
+        <item>Sanganapur-SNGR</item>
+        <item>Sanganer-SNGN</item>
+        <item>Sangaria-SGRA</item>
+        <item>Sangat-SGF</item>
+        <item>Sangli-SLI</item>
+        <item>Sangameshwar Road-SGR</item>
+        <item>Sangola-SGLA</item>
+        <item>Sangrampur-SNU</item>
+        <item>Sangrana Sahib-SBS</item>
+        <item>Sangrur-SAG</item>
+        <item>Sanichara-SAC</item>
+        <item>Sanjan-SJN</item>
+        <item>Sankarankovil-SNKL</item>
+        <item>SankariDurg-SGE</item>
+        <item>Sankval-SKVL</item>
+        <item>Sanosara Nandra-SNSR</item>
+        <item>Sanosra-SOA</item>
+        <item>Sanpada-</item>
+        <item>Sant Road-SAT</item>
+        <item>Santacruz-STC</item>
+        <item>Santaldih-SNTD</item>
+        <item>Santalpur-SNLR</item>
+        <item>Santragachi Junction-SRC</item>
+        <item>Santir Bazar-SNTBR</item>
+        <item>Sanvordam Curchorem-DCR</item>
+        <item>Sanvatsar-SNVR</item>
+        <item>Sanvrad-SVO</item>
+        <item>Sapatgram-SPX</item>
+        <item>Saphale-SAH</item>
+        <item>Saradhna-SDH</item>
+        <item>Sarai Chandi-SYC</item>
+        <item>Sarai Harkhu-SVZ</item>
+        <item>Sarai Kansrai-SQN</item>
+        <item>Sarai Mir-SMZ</item>
+        <item>Sarai Rani-RKS</item>
+        <item>Sarangpur-SFW</item>
+        <item>Sardarnagar-SANR</item>
+        <item>Sardarshahr-SRDR</item>
+        <item>Sardiha-SUA</item>
+        <item>Sareigram-SGAM</item>
+        <item>Sareri-SSR</item>
+        <item>Sarkoni-SIQ</item>
+        <item>Sarnath-SRNT</item>
+        <item>Sarojini Nagar-SOJ</item>
+        <item>Sarola-SRL</item>
+        <item>Sarotra Road-SZA</item>
+        <item>Sarsawa-SSW</item>
+        <item>Sarupathar-SZR</item>
+        <item>Sarwari-SVD</item>
+        <item>Sasan Gir-SASG</item>
+        <item>Sasaram Junction-SSM</item>
+        <item>Sasni-SNS</item>
+        <item>Satadhar-STDR</item>
+        <item>Satara-STR</item>
+        <item>Sathajagat-STJT</item>
+        <item>Sathiaon-SAA</item>
+        <item>Sathin Road-SWF</item>
+        <item>Satna-STA</item>
+        <item>Satnali-STNL</item>
+        <item>Satuna-SCO</item>
+        <item>Satur-SRT</item>
+        <item>Saugor (Sagar)-SGO</item>
+        <item>Savarda-SVX</item>
+        <item>Savarkundla-SVKD</item>
+        <item>Savda-SAV</item>
+        <item>Sawai Madhopur-SWM</item>
+        <item>Sawai Madhopur Junction-SWMM</item>
+        <item>Sawantwadi Road-SWV</item>
+        <item>Sealdah-SDAH</item>
+        <item>Seawoods–Darave-</item>
+        <item>Secunderabad Junction-SC</item>
+        <item>Sehore-SEH</item>
+        <item>Sehramau-SW</item>
+        <item>Selu-SELU</item>
+        <item>Semarkheri-SRKI</item>
+        <item>Senapura-SEN</item>
+        <item>Senchoa Junction-SCE</item>
+        <item>Sendra-SEU</item>
+        <item>Sengottai-SCT</item>
+        <item>Seohara-SEO</item>
+        <item>Seoraphuli-SHE</item>
+        <item>Seram-SEM</item>
+        <item>Serampore-SRP</item>
+        <item>Settihally-SET</item>
+        <item>Sevagram-SEGM</item>
+        <item>Sevaliya-SVL</item>
+        <item>Sewapuri-SWPR</item>
+        <item>Sewri-SVE</item>
+        <item>Shadhoragaon-SHDR</item>
+        <item>Shahabad-SDB</item>
+        <item>Shahad-SHAD</item>
+        <item>Saharsa Junction-SHS</item>
+        <item>Shahbad Markanda-SHDM</item>
+        <item>Shahbad Mohammadpur-</item>
+        <item>Shahdol-SDL</item>
+        <item>Shahganj Junction-SHG</item>
+        <item>Shahjehanpur-SPN</item>
+        <item>Shahpur Patoree-SPP</item>
+        <item>Shahzad Nagar-SAR</item>
+        <item>Shajahanpur court-SXK</item>
+        <item>Shajapur-SFY</item>
+        <item>Shakti Nagar-SKTN</item>
+        <item>Shakurbasti-SSB</item>
+        <item>Shambhupura-SMP</item>
+        <item>Shamgarh-SGZ</item>
+        <item>Shamlaji Road-SJS</item>
+        <item>Shankargarh-SRJ</item>
+        <item>Shankarpalli-SKP</item>
+        <item>Shantipur-STB</item>
+        <item>Shapur Sorath Junction-SHH</item>
+        <item>Sharma-SHRM</item>
+        <item>SHDSPRA_PADMPRA-SAS</item>
+        <item>Shedbal-SED</item>
+        <item>Shegaon-SEG</item>
+        <item>Sheikpura-SHK</item>
+        <item>Shelu-</item>
+        <item>Shendri-SEI</item>
+        <item>Shenoli-SNE</item>
+        <item>Sheo Singh Pura-SHNX</item>
+        <item>Sheopur Kalan-SOE</item>
+        <item>Sherekan-SRKN</item>
+        <item>Shertalai-SRTL</item>
+        <item>Shikohabad Junction-SKB</item>
+        <item>Shimla-SML</item>
+        <item>Shimoga-SME</item>
+        <item>Shimoga Town-SMET</item>
+        <item>Shirdi (Sainagar Shirdi)-SNSI</item>
+        <item>Shiribagilu-</item>
+        <item>Shiroor-SHMI</item>
+        <item>Shirravde-SIW</item>
+        <item>Shirsoli-SS</item>
+        <item>Shisho-SHEO</item>
+        <item>Shiupur-SOP</item>
+        <item>Shivamogga-</item>
+        <item>Shivarampur-WSC</item>
+        <item>Shivnagar-SHNG</item>
+        <item>Shivni Shivapur-SVW</item>
+        <item>Shivpuri-SVPI</item>
+        <item>Shivrampur-SWC</item>
+        <item>Shivaji Bridge-CSB</item>
+        <item>Shoghi-SGS</item>
+        <item>Shohratgarh-SOT</item>
+        <item>Sholapur CB-SURC</item>
+        <item>Sholavandan-SDN</item>
+        <item>Shoranur Junction-SRR</item>
+        <item>Shri Amirgadh-SIM</item>
+        <item>Shri Ganganagar-SGNR</item>
+        <item>Shri Karanpur-SRW</item>
+        <item>Shri Madhopur-SMPR</item>
+        <item>Shri Mahabirji-SMBJ</item>
+        <item>Shri Mata Vaishno Devi Katra-SVDK</item>
+        <item>Shridham-SRID</item>
+        <item>Shrigonda Road-SGND</item>
+        <item>Shrikalyanpura-SKPA</item>
+        <item>ShriKshetra Nagzari-NGZ</item>
+        <item>Shrirajnagar-SAGR</item>
+        <item>Shrirangapatna-S</item>
+        <item>Shrivagilu-SVGL</item>
+        <item>Shujaatpur-SJT</item>
+        <item>Shujalpur-SJP</item>
+        <item>Shyamnagar-SNR</item>
+        <item>Siajuli-SWJ</item>
+        <item>Sibsagar Town-SRTN</item>
+        <item>Siddhpur-SID</item>
+        <item>Sidhauli-SD</item>
+        <item>Sidmukh-SDMK</item>
+        <item>Sihapar-SIPR</item>
+        <item>Siho-SIHO</item>
+        <item>Sihor-SOJN</item>
+        <item>Sihora Road-SHR</item>
+        <item>Sikandarpur-SKQ</item>
+        <item>Sikandra Rao-SKA</item>
+        <item>Sikar Junction-SIKR</item>
+        <item>Sikir-SFK</item>
+        <item>Silanibari-SOB</item>
+        <item>Silao-SILO</item>
+        <item>Silapathar-SPTR</item>
+        <item>Silaut-SLT</item>
+        <item>Silchar-SCL</item>
+        <item>Siliguri Junction-SGUJ</item>
+        <item>Siliguru Town-SGUT</item>
+        <item>Silli-SLF</item>
+        <item>Simaluguri Junction-SLGR</item>
+        <item>Simaria-SAE</item>
+        <item>Simbhooli-SMBL</item>
+        <item>Simen Chapari-SMCP</item>
+        <item>Simhachalam-SCM</item>
+        <item>Simlagarh-SLG</item>
+        <item>Simultala-STL</item>
+        <item>Simurali-SMX</item>
+        <item>Sindhudurg-SNDD</item>
+        <item>Sindi-SNI</item>
+        <item>Sindkheda-SNK</item>
+        <item>Sindpan-SDPN</item>
+        <item>Sindri Town-SNDT</item>
+        <item>Sindurwa-SYW</item>
+        <item>Singanallur(Coimbatore)-SHIN</item>
+        <item>Singapur Road-SPRD</item>
+        <item>Singarayakonda-SKM</item>
+        <item>Singareni Colleries-SYI</item>
+        <item>Singarpur-SNPR</item>
+        <item>Singrauli-SGRL</item>
+        <item>Singwal-SGW</item>
+        <item>Sini Junction-SINI</item>
+        <item>Sion-SIN</item>
+        <item>Siras-SRAS</item>
+        <item>Sirathu-SRO</item>
+        <item>Sirhind Junction-SIR</item>
+        <item>Sirkazhi-SY</item>
+        <item>Sirli-SIF</item>
+        <item>Sirohi Road-SOH</item>
+        <item>Sirpur Kaghaznagar-SKZR</item>
+        <item>Sirpur Town-SRUR</item>
+        <item>Sirran-SIRN</item>
+        <item>Sirsa-SSA</item>
+        <item>Sisarka-SSKA</item>
+        <item>Sisvinhalli-SVHE</item>
+        <item>Siswa Bazar-SBZ</item>
+        <item>Sitamarhi-SMI</item>
+        <item>Sitapur-STP</item>
+        <item>Sitapur Cantonment-SCC</item>
+        <item>Sitapur City-SPC</item>
+        <item>Sitarampur-STN</item>
+        <item>Sithalavai-SEV</item>
+        <item>Sithouli-STLI</item>
+        <item>Sitimani-SII</item>
+        <item>Sivaganga-SVGA</item>
+        <item>Sivajinagar-SVJR</item>
+        <item>Sivakasi-SVKS</item>
+        <item>Siwaith-SWE</item>
+        <item>Siwan Junction-SV</item>
+        <item>Siwani-SWNI</item>
+        <item>Sodepur-SEP</item>
+        <item>Sogariya-SGAC</item>
+        <item>Sohagpur-SGP</item>
+        <item>Sohwal-SLW</item>
+        <item>Sojat Road-SOD</item>
+        <item>Sojitra-SJTR</item>
+        <item>Solan-SOL</item>
+        <item>Solan Brewery-SBY</item>
+        <item>Solapur Junction-SUR</item>
+        <item>Solapur Junction-SURM</item>
+        <item>Somanur-SNO</item>
+        <item>Somesar-SOS</item>
+        <item>Somna-SOM</item>
+        <item>Somnath-SMNH</item>
+        <item>Sompeta-SPT</item>
+        <item>Son Nagar-SEB</item>
+        <item>Sonagir-SOR</item>
+        <item>Sonarpur Junction-SPR</item>
+        <item>Sondha Road-SCN</item>
+        <item>Sonegaon-SNN</item>
+        <item>Songadh-SGD</item>
+        <item>Soni-SONI</item>
+        <item>Sonik-SIC</item>
+        <item>Sonipat Junction-SNP</item>
+        <item>Sonpur Junction-SEE</item>
+        <item>Sonwara-SWO</item>
+        <item>Sopur-SXZM</item>
+        <item>Sorbhog Junction-SBE</item>
+        <item>Sorupeta-SPQ</item>
+        <item>Soro-SORO</item>
+        <item>Soron Shukar Kshetra-SRNK</item>
+        <item>Sri Dungargarh-SDGH</item>
+        <item>Sri Kalahasti-KHT</item>
+        <item>Srikakulam Road-CHE</item>
+        <item>Srikrishna Nagar-SKN</item>
+        <item>Srinagar-SINA</item>
+        <item>Sriramnagar-SRNR</item>
+        <item>Srirampur, Assam-SRPB</item>
+        <item>Srirangam-SRGM</item>
+        <item>Srivilliputtur-SVPR</item>
+        <item>Subansiri-SUZ</item>
+        <item>Subedarganj-SFG</item>
+        <item>Subrahmanya Road-SBHR</item>
+        <item>Subzi Mandi-SZM</item>
+        <item>Suchipind-SCPD</item>
+        <item>Sudsar-SDF</item>
+        <item>Sujangarh-SUJH</item>
+        <item>Sujanpur-SJNP</item>
+        <item>Sukhisewaniyan-SUW</item>
+        <item>Sukhpar Roha-SRHA</item>
+        <item>Sukhpur-SUKP</item>
+        <item>Sukritipur-SQF</item>
+        <item>Suladhal-SUL</item>
+        <item>Sulah Himachal Pradesh-SLHP</item>
+        <item>Sulgare-SGRE</item>
+        <item>Sullurupeta-SPE</item>
+        <item>Sultanganj-SGG</item>
+        <item>Sultanpur-SLN</item>
+        <item>Sultanpur Lodi-SQR</item>
+        <item>Sulur Road (Coimbatore)-SUU</item>
+        <item>Sumer-SUMR</item>
+        <item>Summadevi-SUDV</item>
+        <item>Summer Hill-SHZ</item>
+        <item>Sumreri-SMRR</item>
+        <item>Sunam-SFM</item>
+        <item>SundaraperumalKoil-SPL</item>
+        <item>Sunderabad-SNBD</item>
+        <item>Sundlak-SDLK</item>
+        <item>Supaul-SOU</item>
+        <item>Suraimanpur-SIP</item>
+        <item>Surajgarh-SRGH</item>
+        <item>Surajpur-SUPR</item>
+        <item>Surajpur Road-SJQ</item>
+        <item>Surat-ST</item>
+        <item>Suratgarh Junction-SOG</item>
+        <item>Surathkal-SL</item>
+        <item>Suravali-SRVX</item>
+        <item>Sureli-SURL</item>
+        <item>Surendranagar-SUNR</item>
+        <item>Suriawan-SAW</item>
+        <item>Surla Road-SLRD</item>
+        <item>Surpura-SPO</item>
+        <item>Suwansa-SWS</item>
+        <item>Suwasra-SVA</item>
+        <item>Swamimalai-SWI</item>
+        <item>Swarupganj-SRPJ</item>
+        <item>Sanjuje Da Arey]-SJDA</item>
+        <item>Sankval-SKVL</item>
+        <item>Sonalium-LIM</item>
+        <item>Suravali-SRVX</item>
+        <item>Tadali-TAE</item>
+        <item>Tadepalligudem-TDD</item>
+        <item>Tadipatri-TU</item>
+        <item>Tadwal-TVL</item>
+        <item>Tahsil Bhadra-TSD</item>
+        <item>Tahsil Fatehpur-TSF</item>
+        <item>Tajpur-TJP</item>
+        <item>Tajpur Dehma-TJD</item>
+        <item>Takal-TAKL</item>
+        <item>Takari-TKR</item>
+        <item>Takarkhede-TKHE</item>
+        <item>Takia-TQA</item>
+        <item>Taksal-TSL</item>
+        <item>Taku-TAKU</item>
+        <item>Talaiyuthu-TAY</item>
+        <item>Talara-TLRA</item>
+        <item>Talakhajuri-TLKH</item>
+        <item>Talala Junction-TAV</item>
+        <item>Talvadiya Junction-TLZ</item>
+        <item>Talbahat-TBT</item>
+        <item>Talcher-TLHR</item>
+        <item>Talchhapar-TLC</item>
+        <item>Talegaon Dabhade-TGN</item>
+        <item>Talguppa-TLGP</item>
+        <item>Talheri Buzurg-THJ</item>
+        <item>Talli Saidasahu-TSS</item>
+        <item>Talod-TOD</item>
+        <item>Taloja-</item>
+        <item>Talwandi-TWB</item>
+        <item>Tambaram-TBM</item>
+        <item>Tamkuhi Road-TOI</item>
+        <item>Tamluk-TMZ</item>
+        <item>Tamuriya-TMA</item>
+        <item>Tanakpur-TPU</item>
+        <item>Tanda Urmar-TDO</item>
+        <item>Tandur railway station-TDU</item>
+        <item>Tangla-TNL</item>
+        <item>Tangra-TRA</item>
+        <item>Tankuppa-TKN</item>
+        <item>Tanuku-TNKU</item>
+        <item>Tanur-TA</item>
+        <item>Tapa-TAPA</item>
+        <item>Tapri-TPZ</item>
+        <item>Tarabari-TRBE</item>
+        <item>Taradevi-TVI</item>
+        <item>Tarak Nagar-TNX</item>
+        <item>Tarana Road-TAN</item>
+        <item>Taranga Hill-TRAH</item>
+        <item>Taraori-TRR</item>
+        <item>Taregna-TEA</item>
+        <item>Targaon-TAZ</item>
+        <item>Tarighat-TRG</item>
+        <item>Tarlupadu-TRL</item>
+        <item>Tarn Taran-TTO</item>
+        <item>Tarsai-TRSR</item>
+        <item>Tarsari Muria-TRSR</item>
+        <item>Tatanagar Junction-TATA</item>
+        <item>Tatibahar-TBH</item>
+        <item>Tatisilwai-TIS</item>
+        <item>Teghra-TGA</item>
+        <item>Teharka-TKA</item>
+        <item>Telam-TQM</item>
+        <item>Tellicherry-TLY</item>
+        <item>Tenali Junction-TEL</item>
+        <item>Theni-TENI</item>
+        <item>Tenkasi-TSI</item>
+        <item>Tenmalai-TML</item>
+        <item>Tetelia-TTLA</item>
+        <item>Tetulmari-TET</item>
+        <item>Tezpore-TZTB</item>
+        <item>Thakurkuchi-TKC</item>
+        <item>Thakurli-</item>
+        <item>Than Junction-THAN</item>
+        <item>Thana Bihpur Junction-THB</item>
+        <item>Thandla Rd-THDR</item>
+        <item>Thane-TNA</item>
+        <item>Thanjavur Junction-TJ</item>
+        <item>Thathana Mithri-THMR</item>
+        <item>Thawe Junction-THE</item>
+        <item>Thekeraguri-TGE</item>
+        <item>Therubali-THV</item>
+        <item>Thrissur-TCR</item>
+        <item>Trivandrum Central-TVC</item>
+        <item>Thirumullaivoyal-TMVL</item>
+        <item>Thiruninravur-TI</item>
+        <item>Thiruvananthapuram Pettah-TVP</item>
+        <item>Thoothukudi Melur Railway Station-TME</item>
+        <item>Thoothukudi Railway Station-TN</item>
+        <item>Thiruvarur Junction-TVR</item>
+        <item>Thivim railway station-THVM</item>
+        <item>Thokur-TOK</item>
+        <item>Thuria, India-THUR</item>
+        <item>Tibi-TIBI</item>
+        <item>Tihu-TIHU</item>
+        <item>Tikaria-TKYR</item>
+        <item>Tikekarwadi-TKKD</item>
+        <item>Tikunia-TQN</item>
+        <item>Tilak Bridge-TKJ</item>
+        <item>Tilak Nagar-TKNG</item>
+        <item>Tilaru-TIU</item>
+        <item>Tilaiya-TIA</item>
+        <item>Tilda-TLD</item>
+        <item>Tilhar-TLH</item>
+        <item>Tilrath-TIL</item>
+        <item>Tilwara-TWL</item>
+        <item>Timarni-TBN</item>
+        <item>Timba Road-TBA</item>
+        <item>Timmapur-TMX</item>
+        <item>Tinai Ghat-TGT</item>
+        <item>Tindivanam-TMV</item>
+        <item>Tinpahar Junction-TPH</item>
+        <item>Tinsukia Junction-TSK</item>
+        <item>Tipkai-TPK</item>
+        <item>Tipling-TPG</item>
+        <item>Tiptur-TTR</item>
+        <item>Tiruchirapalli Fort-TP</item>
+        <item>Tirodi-TRDI</item>
+        <item>Tirora-TRO</item>
+        <item>Tiruchirapalli Junction-TPJ</item>
+        <item>Tiruchendur-TCN</item>
+        <item>Tiruchirapalli Palakkarai-TPE</item>
+        <item>Tirukoilur-TRK</item>
+        <item>Tirumalairayanpattinam-TMPT</item>
+        <item>Tirumangalam-TMQ</item>
+        <item>Tirunagesvaram-TRM</item>
+        <item>Tirunelveli Junction-TEN</item>
+        <item>Tirupadripuliyur-TDPR</item>
+        <item>Tirupati-TPTY</item>
+        <item>Tirupattur Junction-TPT</item>
+        <item>Tiruppappuliyur-CUD</item>
+        <item>Tiruppur-TUP</item>
+        <item>Tirur-TIR</item>
+        <item>Tiruttani-TRT</item>
+        <item>Tiruttangal-TTL</item>
+        <item>Tiruturaipundi Junction-TTP</item>
+        <item>Tiruvalla-TRVL</item>
+        <item>Tiruvallur-TRL</item>
+        <item>Tiruvannamalai railway station-TNM</item>
+        <item>Tiruverumbur-TRB</item>
+        <item>Tiruvidaimarudur-TDR</item>
+        <item>Tiruvottiyur-TVT</item>
+        <item>Tisi-TISI</item>
+        <item>Tisua-TSA</item>
+        <item>Titabar-TTB</item>
+        <item>Titlagarh-TGH</item>
+        <item>Titlagarh Junction-TIG</item>
+        <item>Titwala-TL</item>
+        <item>Tivari-TIW</item>
+        <item>Todarpur-TDP</item>
+        <item>Tohana-TUN</item>
+        <item>Toranagallu-TNGL</item>
+        <item>Tori-TORI</item>
+        <item>Trichur-TCR</item>
+        <item>Trikarpur-TKQ</item>
+        <item>Trilochan Mahdo-TLMD</item>
+        <item>Tripunittura-TRTR</item>
+        <item>Tondiarpet-TNP</item>
+        <item>Tsunduru-TSR</item>
+        <item>Tughlakabad-TKD</item>
+        <item>Tukaithad-TTZ</item>
+        <item>Tulsipur-TLR</item>
+        <item>Tulwara Jhil-TLI</item>
+        <item>Tumkur-TK</item>
+        <item>Tumsar Road-TMR</item>
+        <item>Tundla Junction-TDL</item>
+        <item>Tuni-TUNI</item>
+        <item>Turbhe-TUH</item>
+        <item>Turtipar-TTI</item>
+        <item>Tuwa-TUWA</item>
+        <item>Twining Ganj-TWG</item>
+        <item>Tada-TXD</item>
+        <item>Ubarni-UBN</item>
+        <item>Uchana-UCA</item>
+        <item>Uchippuli-UCP</item>
+        <item>Udagamandalam-UAM</item>
+        <item>Udaipur City-UDZ</item>
+        <item>Udaipur Khurd Halt-UDKN</item>
+        <item>Udaipur Tripura-UDPU</item>
+        <item>Udaipura-UDPR</item>
+        <item>Udairampur-URP</item>
+        <item>Udalguri-ULG</item>
+        <item>Udalkachar-UKR</item>
+        <item>Udasar-UDS</item>
+        <item>Udgir-UDGR</item>
+        <item>Udhampur-UHP</item>
+        <item>Udhna Junction-UDN</item>
+        <item>Udramsar-UMS</item>
+        <item>Udupi-UD</item>
+        <item>Udvada-UVD</item>
+        <item>Udwantnagar Halt-UWNR</item>
+        <item>Udyankheri-UDK</item>
+        <item>Ugaon-UGN</item>
+        <item>Ugar Khurd-UGR</item>
+        <item>Ugarpur-UGP</item>
+        <item>Ugna Halt-UGNA</item>
+        <item>Ugrasenpur-URPR</item>
+        <item>Ugu-UGU</item>
+        <item>Ugwe-UGWE</item>
+        <item>Ujalvav-UJ</item>
+        <item>Ujhani-UJH</item>
+        <item>Ujiarpur-UJP</item>
+        <item>Ujjain Junction-UJN</item>
+        <item>Ukai Songadh-USD</item>
+        <item>Ukhali-UKH</item>
+        <item>Ukhra-UKA</item>
+        <item>Ukilerhat Halt-UKLH</item>
+        <item>Uklana-UKN</item>
+        <item>Ukshi-UKC</item>
+        <item>Ulavapadu-UPD</item>
+        <item>Ulhasnagar-ULNR</item>
+        <item>Ulindakonda-UKD</item>
+        <item>Ullal-ULL</item>
+        <item>Ulnabhari-ULL</item>
+        <item>Ulubaria-ULB</item>
+        <item>Ulundurpet-ULU</item>
+        <item>Umar Tali-UTA</item>
+        <item>Umardashi-UM</item>
+        <item>Umaria-UMR</item>
+        <item>Umariaispah Halt-UIH</item>
+        <item>Umarpada-UMPD</item>
+        <item>Umargam Road-UBR</item>
+        <item>Umda Nagar-UR</item>
+        <item>Umed-UMED</item>
+        <item>Umeshnagar-UMNR</item>
+        <item>Umra-UMRA</item>
+        <item>Umranala-ULA</item>
+        <item>Umram-UMM</item>
+        <item>Umred-URR</item>
+        <item>Umreth-UMH</item>
+        <item>Umri-UMRI</item>
+        <item>Umroli-UOI</item>
+        <item>Una-UNA</item>
+        <item>Una Himachal-UHL</item>
+        <item>Unai Vansada Rd-UN</item>
+        <item>Unaula-UNLA</item>
+        <item>Unchahar Junction-UCR</item>
+        <item>Unchaulia-UCH</item>
+        <item>Unchdih-UND</item>
+        <item>Unchhera-UHR</item>
+        <item>Unchi Bassi-UCB</item>
+        <item>Undasa Madhawpu-UDM</item>
+        <item>Undi-UNDI</item>
+        <item>Unguturu-VGT</item>
+        <item>Unhel-UNL</item>
+        <item>Unjalur-URL</item>
+        <item>Unjha-UJA</item>
+        <item>Unkal-UNK</item>
+        <item>Unnao Junction-ON</item>
+        <item>Untare Road-URD</item>
+        <item>Uplai-UPI</item>
+        <item>Upleta-UA</item>
+        <item>Uppal-OPL</item>
+        <item>Uppala-UAA</item>
+        <item>Uppalavai-UPW</item>
+        <item>Uppalur-UPL</item>
+        <item>Uppuguda-HPG</item>
+        <item>Uppugunduru-UGD</item>
+        <item>Urappakkam-UPM</item>
+        <item>Urdauli-UDX</item>
+        <item>Uren-UREN</item>
+        <item>Urga-URGA</item>
+        <item>Urkura-URK</item>
+        <item>Urlam-ULM</item>
+        <item>Urma-URMA</item>
+        <item>Uruli-URI</item>
+        <item>Usalapur-USL</item>
+        <item>Usia Khas-USK</item>
+        <item>Uska Bazar-UB</item>
+        <item>Usmanpur-UPR</item>
+        <item>Usra-USRA</item>
+        <item>Utarlai-UTL</item>
+        <item>Utarsanda-UTD</item>
+        <item>Utrahtia-UTR</item>
+        <item>Utran-URN</item>
+        <item>Utripura-UTP</item>
+        <item>Uttamarkovil-UKV</item>
+        <item>Uttangal Mangalam-UMG</item>
+        <item>Uttar Radhanagar Halt-UTN</item>
+        <item>Uttarpara-UPA</item>
+        <item>Uttukuli-UKL</item>
+        <item>Udumalpettai-UDT</item>
+        <item>V.O.C Nagar-VOC</item>
+        <item>Vachaspati Nagar-VPH</item>
+        <item>Vadaj-VRJ</item>
+        <item>Vadakara-BDJ</item>
+        <item>Vadal-VAL</item>
+        <item>Vadali-VAE</item>
+        <item>Vadali Luter Road-VLTR</item>
+        <item>Vadalur-VLU</item>
+        <item>Vadamadura-VDM</item>
+        <item>Vadanam Kurussi Halt-VDKS</item>
+        <item>Vadgaon-VDN</item>
+        <item>Vadgaon Nila-VDGN</item>
+        <item>Vadhvana-VAN</item>
+        <item>Vadippatti-VDP</item>
+        <item>Vadiya Devli-VDV</item>
+        <item>Vadlamannadu-VMD</item>
+        <item>Vadnagar-VDG</item>
+        <item>Vadod-VXD</item>
+        <item>Vadodara Junction-BRC</item>
+        <item>Vadtal Swaminarayan-VTL</item>
+        <item>Vadviyala-VVL</item>
+        <item>Vagdiya-VD</item>
+        <item>Vaghli-VGL</item>
+        <item>Vaibhavwadi Road-VBW</item>
+
+
+        <item>Saktesgarh-SKGH</item>
+        <item>Sakti-SKT</item>
+        <item>Salakati-SLKX</item>
+        <item>Salamatpur-SMT</item>
+        <item>Salar-SALE</item>
+        <item>Salarpur-SLRP</item>
+        <item>Salawas-SZ</item>
+        <item>Salchapra-SCA</item>
+        <item>Salekasa-SKS</item>
+        <item>Salem Junction-SA</item>
+        <item>Salem Market-SAMT</item>
+        <item>Salem Town-SXT</item>
+        <item>Salemgarhmasani-SJSM</item>
+        <item>Salempur Junction-SRU</item>
+        <item>Salogra-SLR</item>
+        <item>Salona-SLON</item>
+        <item>Salpura-SYL</item>
+        <item>Salur-SALR</item>
+        <item>Salwa-SAL</item>
+        <item>Samaguri-SMGR</item>
+        <item>Samakhiali-SIO</item>
+        <item>Samakhiali B G-SIOB</item>
+        <item>Samalkha-SMK</item>
+        <item>Samalpatti-SLY</item>
+        <item>Samalkot Junction-SLO</item>
+        <item>Samastipur Junction-SPJ</item>
+        <item>Samba-SMBX</item>
+        <item>Sambalpur-SBP</item>
+        <item>Sambalpur Road-SBPD</item>
+        <item>Sambhar Salt Lake-SBR</item>
+        <item>Samdhari Junction-SMR</item>
+        <item>Samlaya Junction-SMLA</item>
+        <item>Sampla-SPZ</item>
+        <item>Samrau-SRK</item>
+        <item>Samsi-SM</item>
+        <item>Sanehwal-SNL</item>
+        <item>Sanand-SAU</item>
+        <item>Sanaura-SWU</item>
+        <item>Sanawad-SWD</item>
+        <item>Sanchi-SCI</item>
+        <item>Sandal Kalan-SLKN</item>
+        <item>Sandila-SAN</item>
+        <item>Sanathnagar-SNF</item>
+        <item>Sandhurst Road-SNRD</item>
+        <item>Saneh Road-SNX</item>
+        <item>Sangar-SGRR</item>
+        <item>Sanganapur-SNGR</item>
+        <item>Sanganer-SNGN</item>
+        <item>Sangaria-SGRA</item>
+        <item>Sangat-SGF</item>
+        <item>Sangli-SLI</item>
+        <item>Sangameshwar Road-SGR</item>
+        <item>Sangola-SGLA</item>
+        <item>Sangrampur-SNU</item>
+        <item>Sangrana Sahib-SBS</item>
+        <item>Sangrur-SAG</item>
+        <item>Sanichara-SAC</item>
+        <item>Sanjan-SJN</item>
+        <item>Sankarankovil-SNKL</item>
+        <item>SankariDurg-SGE</item>
+        <item>Sankval-SKVL</item>
+        <item>Sanosara Nandra-SNSR</item>
+        <item>Sanosra-SOA</item>
+        <item>Sanpada-</item>
+        <item>Sant Road-SAT</item>
+        <item>Santacruz-STC</item>
+        <item>Santaldih-SNTD</item>
+        <item>Santalpur-SNLR</item>
+        <item>Santragachi Junction-SRC</item>
+        <item>Santir Bazar-SNTBR</item>
+        <item>Sanvordam Curchorem-DCR</item>
+        <item>Sanvatsar-SNVR</item>
+        <item>Sanvrad-SVO</item>
+        <item>Sapatgram-SPX</item>
+        <item>Saphale-SAH</item>
+        <item>Saradhna-SDH</item>
+        <item>Sarai Chandi-SYC</item>
+        <item>Sarai Harkhu-SVZ</item>
+        <item>Sarai Kansrai-SQN</item>
+        <item>Sarai Mir-SMZ</item>
+        <item>Sarai Rani-RKS</item>
+        <item>Sarangpur-SFW</item>
+        <item>Sardarnagar-SANR</item>
+        <item>Sardarshahr-SRDR</item>
+        <item>Sardiha-SUA</item>
+        <item>Sareigram-SGAM</item>
+        <item>Sareri-SSR</item>
+        <item>Sarkoni-SIQ</item>
+        <item>Sarnath-SRNT</item>
+        <item>Sarojini Nagar-SOJ</item>
+        <item>Sarola-SRL</item>
+        <item>Sarotra Road-SZA</item>
+        <item>Sarsawa-SSW</item>
+        <item>Sarupathar-SZR</item>
+        <item>Sarwari-SVD</item>
+        <item>Sasan Gir-SASG</item>
+        <item>Sasaram Junction-SSM</item>
+        <item>Sasni-SNS</item>
+        <item>Satadhar-STDR</item>
+        <item>Satara-STR</item>
+        <item>Sathajagat-STJT</item>
+        <item>Sathiaon-SAA</item>
+        <item>Sathin Road-SWF</item>
+        <item>Satna-STA</item>
+        <item>Satnali-STNL</item>
+        <item>Satuna-SCO</item>
+        <item>Satur-SRT</item>
+        <item>Saugor (Sagar)-SGO</item>
+        <item>Savarda-SVX</item>
+        <item>Savarkundla-SVKD</item>
+        <item>Savda-SAV</item>
+        <item>Sawai Madhopur-SWM</item>
+        <item>Sawai Madhopur Junction-SWMM</item>
+        <item>Sawantwadi Road-SWV</item>
+        <item>Sealdah-SDAH</item>
+        <item>Seawoods–Darave-</item>
+        <item>Secunderabad Junction-SC</item>
+        <item>Sehore-SEH</item>
+        <item>Sehramau-SW</item>
+        <item>Selu-SELU</item>
+        <item>Semarkheri-SRKI</item>
+        <item>Senapura-SEN</item>
+        <item>Senchoa Junction-SCE</item>
+        <item>Sendra-SEU</item>
+        <item>Sengottai-SCT</item>
+        <item>Seohara-SEO</item>
+        <item>Seoraphuli-SHE</item>
+        <item>Seram-SEM</item>
+        <item>Serampore-SRP</item>
+        <item>Settihally-SET</item>
+        <item>Sevagram-SEGM</item>
+        <item>Sevaliya-SVL</item>
+        <item>Sewapuri-SWPR</item>
+        <item>Sewri-SVE</item>
+        <item>Shadhoragaon-SHDR</item>
+        <item>Shahabad-SDB</item>
+        <item>Shahad-SHAD</item>
+        <item>Saharsa Junction-SHS</item>
+        <item>Shahbad Markanda-SHDM</item>
+        <item>Shahbad Mohammadpur-</item>
+        <item>Shahdol-SDL</item>
+        <item>Shahganj Junction-SHG</item>
+        <item>Shahjehanpur-SPN</item>
+        <item>Shahpur Patoree-SPP</item>
+        <item>Shahzad Nagar-SAR</item>
+        <item>Shajahanpur court-SXK</item>
+        <item>Shajapur-SFY</item>
+        <item>Shakti Nagar-SKTN</item>
+        <item>Shakurbasti-SSB</item>
+        <item>Shambhupura-SMP</item>
+        <item>Shamgarh-SGZ</item>
+        <item>Shamlaji Road-SJS</item>
+        <item>Shankargarh-SRJ</item>
+        <item>Shankarpalli-SKP</item>
+        <item>Shantipur-STB</item>
+        <item>Shapur Sorath Junction-SHH</item>
+        <item>Sharma-SHRM</item>
+        <item>SHDSPRA_PADMPRA-SAS</item>
+        <item>Shedbal-SED</item>
+        <item>Shegaon-SEG</item>
+        <item>Sheikpura-SHK</item>
+        <item>Shelu-</item>
+        <item>Shendri-SEI</item>
+        <item>Shenoli-SNE</item>
+        <item>Sheo Singh Pura-SHNX</item>
+        <item>Sheopur Kalan-SOE</item>
+        <item>Sherekan-SRKN</item>
+        <item>Shertalai-SRTL</item>
+        <item>Shikohabad Junction-SKB</item>
+        <item>Shimla-SML</item>
+        <item>Shimoga-SME</item>
+        <item>Shimoga Town-SMET</item>
+        <item>Shirdi (Sainagar Shirdi)-SNSI</item>
+        <item>Shiribagilu-</item>
+        <item>Shiroor-SHMI</item>
+        <item>Shirravde-SIW</item>
+        <item>Shirsoli-SS</item>
+        <item>Shisho-SHEO</item>
+        <item>Shiupur-SOP</item>
+        <item>Shivamogga-</item>
+        <item>Shivarampur-WSC</item>
+        <item>Shivnagar-SHNG</item>
+        <item>Shivni Shivapur-SVW</item>
+        <item>Shivpuri-SVPI</item>
+        <item>Shivrampur-SWC</item>
+        <item>Shivaji Bridge-CSB</item>
+        <item>Shoghi-SGS</item>
+        <item>Shohratgarh-SOT</item>
+        <item>Sholapur CB-SURC</item>
+        <item>Sholavandan-SDN</item>
+        <item>Shoranur Junction-SRR</item>
+        <item>Shri Amirgadh-SIM</item>
+        <item>Shri Ganganagar-SGNR</item>
+        <item>Shri Karanpur-SRW</item>
+        <item>Shri Madhopur-SMPR</item>
+        <item>Shri Mahabirji-SMBJ</item>
+        <item>Shri Mata Vaishno Devi Katra-SVDK</item>
+        <item>Shridham-SRID</item>
+        <item>Shrigonda Road-SGND</item>
+        <item>Shrikalyanpura-SKPA</item>
+        <item>ShriKshetra Nagzari-NGZ</item>
+        <item>Shrirajnagar-SAGR</item>
+        <item>Shrirangapatna-S</item>
+        <item>Shrivagilu-SVGL</item>
+        <item>Shujaatpur-SJT</item>
+        <item>Shujalpur-SJP</item>
+        <item>Shyamnagar-SNR</item>
+        <item>Siajuli-SWJ</item>
+        <item>Sibsagar Town-SRTN</item>
+        <item>Siddhpur-SID</item>
+        <item>Sidhauli-SD</item>
+        <item>Sidmukh-SDMK</item>
+        <item>Sihapar-SIPR</item>
+        <item>Siho-SIHO</item>
+        <item>Sihor-SOJN</item>
+        <item>Sihora Road-SHR</item>
+        <item>Sikandarpur-SKQ</item>
+        <item>Sikandra Rao-SKA</item>
+        <item>Sikar Junction-SIKR</item>
+        <item>Sikir-SFK</item>
+        <item>Silanibari-SOB</item>
+        <item>Silao-SILO</item>
+        <item>Silapathar-SPTR</item>
+        <item>Silaut-SLT</item>
+        <item>Silchar-SCL</item>
+        <item>Siliguri Junction-SGUJ</item>
+        <item>Siliguru Town-SGUT</item>
+        <item>Silli-SLF</item>
+        <item>Simaluguri Junction-SLGR</item>
+        <item>Simaria-SAE</item>
+        <item>Simbhooli-SMBL</item>
+        <item>Simen Chapari-SMCP</item>
+        <item>Simhachalam-SCM</item>
+        <item>Simlagarh-SLG</item>
+        <item>Simultala-STL</item>
+        <item>Simurali-SMX</item>
+        <item>Sindhudurg-SNDD</item>
+        <item>Sindi-SNI</item>
+        <item>Sindkheda-SNK</item>
+        <item>Sindpan-SDPN</item>
+        <item>Sindri Town-SNDT</item>
+        <item>Sindurwa-SYW</item>
+        <item>Singanallur(Coimbatore)-SHIN</item>
+        <item>Singapur Road-SPRD</item>
+        <item>Singarayakonda-SKM</item>
+        <item>Singareni Colleries-SYI</item>
+        <item>Singarpur-SNPR</item>
+        <item>Singrauli-SGRL</item>
+        <item>Singwal-SGW</item>
+        <item>Sini Junction-SINI</item>
+        <item>Sion-SIN</item>
+        <item>Siras-SRAS</item>
+        <item>Sirathu-SRO</item>
+        <item>Sirhind Junction-SIR</item>
+        <item>Sirkazhi-SY</item>
+        <item>Sirli-SIF</item>
+        <item>Sirohi Road-SOH</item>
+        <item>Sirpur Kaghaznagar-SKZR</item>
+        <item>Sirpur Town-SRUR</item>
+        <item>Sirran-SIRN</item>
+        <item>Sirsa-SSA</item>
+        <item>Sisarka-SSKA</item>
+        <item>Sisvinhalli-SVHE</item>
+        <item>Siswa Bazar-SBZ</item>
+        <item>Sitamarhi-SMI</item>
+        <item>Sitapur-STP</item>
+        <item>Sitapur Cantonment-SCC</item>
+        <item>Sitapur City-SPC</item>
+        <item>Sitarampur-STN</item>
+        <item>Sithalavai-SEV</item>
+        <item>Sithouli-STLI</item>
+        <item>Sitimani-SII</item>
+        <item>Sivaganga-SVGA</item>
+        <item>Sivajinagar-SVJR</item>
+        <item>Sivakasi-SVKS</item>
+        <item>Siwaith-SWE</item>
+        <item>Siwan Junction-SV</item>
+        <item>Siwani-SWNI</item>
+        <item>Sodepur-SEP</item>
+        <item>Sogariya-SGAC</item>
+        <item>Sohagpur-SGP</item>
+        <item>Sohwal-SLW</item>
+        <item>Sojat Road-SOD</item>
+        <item>Sojitra-SJTR</item>
+        <item>Solan-SOL</item>
+        <item>Solan Brewery-SBY</item>
+        <item>Solapur Junction-SUR</item>
+        <item>Solapur Junction-SURM</item>
+        <item>Somanur-SNO</item>
+        <item>Somesar-SOS</item>
+        <item>Somna-SOM</item>
+        <item>Somnath-SMNH</item>
+        <item>Sompeta-SPT</item>
+        <item>Son Nagar-SEB</item>
+        <item>Sonagir-SOR</item>
+        <item>Sonarpur Junction-SPR</item>
+        <item>Sondha Road-SCN</item>
+        <item>Sonegaon-SNN</item>
+        <item>Songadh-SGD</item>
+        <item>Soni-SONI</item>
+        <item>Sonik-SIC</item>
+        <item>Sonipat Junction-SNP</item>
+        <item>Sonpur Junction-SEE</item>
+        <item>Sonwara-SWO</item>
+        <item>Sopur-SXZM</item>
+        <item>Sorbhog Junction-SBE</item>
+        <item>Sorupeta-SPQ</item>
+        <item>Soro-SORO</item>
+        <item>Soron Shukar Kshetra-SRNK</item>
+        <item>Sri Dungargarh-SDGH</item>
+        <item>Sri Kalahasti-KHT</item>
+        <item>Srikakulam Road-CHE</item>
+        <item>Srikrishna Nagar-SKN</item>
+        <item>Srinagar-SINA</item>
+        <item>Sriramnagar-SRNR</item>
+        <item>Srirampur, Assam-SRPB</item>
+        <item>Srirangam-SRGM</item>
+        <item>Srivilliputtur-SVPR</item>
+        <item>Subansiri-SUZ</item>
+        <item>Subedarganj-SFG</item>
+        <item>Subrahmanya Road-SBHR</item>
+        <item>Subzi Mandi-SZM</item>
+        <item>Suchipind-SCPD</item>
+        <item>Sudsar-SDF</item>
+        <item>Sujangarh-SUJH</item>
+        <item>Sujanpur-SJNP</item>
+        <item>Sukhisewaniyan-SUW</item>
+        <item>Sukhpar Roha-SRHA</item>
+        <item>Sukhpur-SUKP</item>
+        <item>Sukritipur-SQF</item>
+        <item>Suladhal-SUL</item>
+        <item>Sulah Himachal Pradesh-SLHP</item>
+        <item>Sulgare-SGRE</item>
+        <item>Sullurupeta-SPE</item>
+        <item>Sultanganj-SGG</item>
+        <item>Sultanpur-SLN</item>
+        <item>Sultanpur Lodi-SQR</item>
+        <item>Sulur Road (Coimbatore)-SUU</item>
+        <item>Sumer-SUMR</item>
+        <item>Summadevi-SUDV</item>
+        <item>Summer Hill-SHZ</item>
+        <item>Sumreri-SMRR</item>
+        <item>Sunam-SFM</item>
+        <item>SundaraperumalKoil-SPL</item>
+        <item>Sunderabad-SNBD</item>
+        <item>Sundlak-SDLK</item>
+        <item>Supaul-SOU</item>
+        <item>Suraimanpur-SIP</item>
+        <item>Surajgarh-SRGH</item>
+        <item>Surajpur-SUPR</item>
+        <item>Surajpur Road-SJQ</item>
+        <item>Surat-ST</item>
+        <item>Suratgarh Junction-SOG</item>
+        <item>Surathkal-SL</item>
+        <item>Suravali-SRVX</item>
+        <item>Sureli-SURL</item>
+        <item>Surendranagar-SUNR</item>
+        <item>Suriawan-SAW</item>
+        <item>Surla Road-SLRD</item>
+        <item>Surpura-SPO</item>
+        <item>Suwansa-SWS</item>
+        <item>Suwasra-SVA</item>
+        <item>Swamimalai-SWI</item>
+        <item>Swarupganj-SRPJ</item>
+        <item>Sanjuje Da Arey]-SJDA</item>
+        <item>Sankval-SKVL</item>
+        <item>Sonalium-LIM</item>
+        <item>Suravali-SRVX</item>
+        <item>Tadali-TAE</item>
+        <item>Tadepalligudem-TDD</item>
+        <item>Tadipatri-TU</item>
+        <item>Tadwal-TVL</item>
+        <item>Tahsil Bhadra-TSD</item>
+        <item>Tahsil Fatehpur-TSF</item>
+        <item>Tajpur-TJP</item>
+        <item>Tajpur Dehma-TJD</item>
+        <item>Takal-TAKL</item>
+        <item>Takari-TKR</item>
+        <item>Takarkhede-TKHE</item>
+        <item>Takia-TQA</item>
+        <item>Taksal-TSL</item>
+        <item>Taku-TAKU</item>
+        <item>Talaiyuthu-TAY</item>
+        <item>Talara-TLRA</item>
+        <item>Talakhajuri-TLKH</item>
+        <item>Talala Junction-TAV</item>
+        <item>Talvadiya Junction-TLZ</item>
+        <item>Talbahat-TBT</item>
+        <item>Talcher-TLHR</item>
+        <item>Talchhapar-TLC</item>
+        <item>Talegaon Dabhade-TGN</item>
+        <item>Talguppa-TLGP</item>
+        <item>Talheri Buzurg-THJ</item>
+        <item>Talli Saidasahu-TSS</item>
+        <item>Talod-TOD</item>
+        <item>Taloja-</item>
+        <item>Talwandi-TWB</item>
+        <item>Tambaram-TBM</item>
+        <item>Tamkuhi Road-TOI</item>
+        <item>Tamluk-TMZ</item>
+        <item>Tamuriya-TMA</item>
+        <item>Tanakpur-TPU</item>
+        <item>Tanda Urmar-TDO</item>
+        <item>Tandur railway station-TDU</item>
+        <item>Tangla-TNL</item>
+        <item>Tangra-TRA</item>
+        <item>Tankuppa-TKN</item>
+        <item>Tanuku-TNKU</item>
+        <item>Tanur-TA</item>
+        <item>Tapa-TAPA</item>
+        <item>Tapri-TPZ</item>
+        <item>Tarabari-TRBE</item>
+        <item>Taradevi-TVI</item>
+        <item>Tarak Nagar-TNX</item>
+        <item>Tarana Road-TAN</item>
+        <item>Taranga Hill-TRAH</item>
+        <item>Taraori-TRR</item>
+        <item>Taregna-TEA</item>
+        <item>Targaon-TAZ</item>
+        <item>Tarighat-TRG</item>
+        <item>Tarlupadu-TRL</item>
+        <item>Tarn Taran-TTO</item>
+        <item>Tarsai-TRSR</item>
+        <item>Tarsari Muria-TRSR</item>
+        <item>Tatanagar Junction-TATA</item>
+        <item>Tatibahar-TBH</item>
+        <item>Tatisilwai-TIS</item>
+        <item>Teghra-TGA</item>
+        <item>Teharka-TKA</item>
+        <item>Telam-TQM</item>
+        <item>Tellicherry-TLY</item>
+        <item>Tenali Junction-TEL</item>
+        <item>Theni-TENI</item>
+        <item>Tenkasi-TSI</item>
+        <item>Tenmalai-TML</item>
+        <item>Tetelia-TTLA</item>
+        <item>Tetulmari-TET</item>
+        <item>Tezpore-TZTB</item>
+        <item>Thakurkuchi-TKC</item>
+        <item>Thakurli-</item>
+        <item>Than Junction-THAN</item>
+        <item>Thana Bihpur Junction-THB</item>
+        <item>Thandla Rd-THDR</item>
+        <item>Thane-TNA</item>
+        <item>Thanjavur Junction-TJ</item>
+        <item>Thathana Mithri-THMR</item>
+        <item>Thawe Junction-THE</item>
+        <item>Thekeraguri-TGE</item>
+        <item>Therubali-THV</item>
+        <item>Thrissur-TCR</item>
+        <item>Trivandrum Central-TVC</item>
+        <item>Thirumullaivoyal-TMVL</item>
+        <item>Thiruninravur-TI</item>
+        <item>Thiruvananthapuram Pettah-TVP</item>
+        <item>Thoothukudi Melur Railway Station-TME</item>
+        <item>Thoothukudi Railway Station-TN</item>
+        <item>Thiruvarur Junction-TVR</item>
+        <item>Thivim railway station-THVM</item>
+        <item>Thokur-TOK</item>
+        <item>Thuria, India-THUR</item>
+        <item>Tibi-TIBI</item>
+        <item>Tihu-TIHU</item>
+        <item>Tikaria-TKYR</item>
+        <item>Tikekarwadi-TKKD</item>
+        <item>Tikunia-TQN</item>
+        <item>Tilak Bridge-TKJ</item>
+        <item>Tilak Nagar-TKNG</item>
+        <item>Tilaru-TIU</item>
+        <item>Tilaiya-TIA</item>
+        <item>Tilda-TLD</item>
+        <item>Tilhar-TLH</item>
+        <item>Tilrath-TIL</item>
+        <item>Tilwara-TWL</item>
+        <item>Timarni-TBN</item>
+        <item>Timba Road-TBA</item>
+        <item>Timmapur-TMX</item>
+        <item>Tinai Ghat-TGT</item>
+        <item>Tindivanam-TMV</item>
+        <item>Tinpahar Junction-TPH</item>
+        <item>Tinsukia Junction-TSK</item>
+        <item>Tipkai-TPK</item>
+        <item>Tipling-TPG</item>
+        <item>Tiptur-TTR</item>
+        <item>Tiruchirapalli Fort-TP</item>
+        <item>Tirodi-TRDI</item>
+        <item>Tirora-TRO</item>
+        <item>Tiruchirapalli Junction-TPJ</item>
+        <item>Tiruchendur-TCN</item>
+        <item>Tiruchirapalli Palakkarai-TPE</item>
+        <item>Tirukoilur-TRK</item>
+        <item>Tirumalairayanpattinam-TMPT</item>
+        <item>Tirumangalam-TMQ</item>
+        <item>Tirunagesvaram-TRM</item>
+        <item>Tirunelveli Junction-TEN</item>
+        <item>Tirupadripuliyur-TDPR</item>
+        <item>Tirupati-TPTY</item>
+        <item>Tirupattur Junction-TPT</item>
+        <item>Tiruppappuliyur-CUD</item>
+        <item>Tiruppur-TUP</item>
+        <item>Tirur-TIR</item>
+        <item>Tiruttani-TRT</item>
+        <item>Tiruttangal-TTL</item>
+        <item>Tiruturaipundi Junction-TTP</item>
+        <item>Tiruvalla-TRVL</item>
+        <item>Tiruvallur-TRL</item>
+        <item>Tiruvannamalai railway station-TNM</item>
+        <item>Tiruverumbur-TRB</item>
+        <item>Tiruvidaimarudur-TDR</item>
+        <item>Tiruvottiyur-TVT</item>
+        <item>Tisi-TISI</item>
+        <item>Tisua-TSA</item>
+        <item>Titabar-TTB</item>
+        <item>Titlagarh-TGH</item>
+        <item>Titlagarh Junction-TIG</item>
+        <item>Titwala-TL</item>
+        <item>Tivari-TIW</item>
+        <item>Todarpur-TDP</item>
+        <item>Tohana-TUN</item>
+        <item>Toranagallu-TNGL</item>
+        <item>Tori-TORI</item>
+        <item>Trichur-TCR</item>
+        <item>Trikarpur-TKQ</item>
+        <item>Trilochan Mahdo-TLMD</item>
+        <item>Tripunittura-TRTR</item>
+        <item>Tondiarpet-TNP</item>
+        <item>Tsunduru-TSR</item>
+        <item>Tughlakabad-TKD</item>
+        <item>Tukaithad-TTZ</item>
+        <item>Tulsipur-TLR</item>
+        <item>Tulwara Jhil-TLI</item>
+        <item>Tumkur-TK</item>
+        <item>Tumsar Road-TMR</item>
+        <item>Tundla Junction-TDL</item>
+        <item>Tuni-TUNI</item>
+        <item>Turbhe-TUH</item>
+        <item>Turtipar-TTI</item>
+        <item>Tuwa-TUWA</item>
+        <item>Twining Ganj-TWG</item>
+        <item>Tada-TXD</item>
+        <item>Ubarni-UBN</item>
+        <item>Uchana-UCA</item>
+        <item>Uchippuli-UCP</item>
+        <item>Udagamandalam-UAM</item>
+        <item>Udaipur City-UDZ</item>
+        <item>Udaipur Khurd Halt-UDKN</item>
+        <item>Udaipur Tripura-UDPU</item>
+        <item>Udaipura-UDPR</item>
+        <item>Udairampur-URP</item>
+        <item>Udalguri-ULG</item>
+        <item>Udalkachar-UKR</item>
+        <item>Udasar-UDS</item>
+        <item>Udgir-UDGR</item>
+        <item>Udhampur-UHP</item>
+        <item>Udhna Junction-UDN</item>
+        <item>Udramsar-UMS</item>
+        <item>Udupi-UD</item>
+        <item>Udvada-UVD</item>
+        <item>Udwantnagar Halt-UWNR</item>
+        <item>Udyankheri-UDK</item>
+        <item>Ugaon-UGN</item>
+        <item>Ugar Khurd-UGR</item>
+        <item>Ugarpur-UGP</item>
+        <item>Ugna Halt-UGNA</item>
+        <item>Ugrasenpur-URPR</item>
+        <item>Ugu-UGU</item>
+        <item>Ugwe-UGWE</item>
+        <item>Ujalvav-UJ</item>
+        <item>Ujhani-UJH</item>
+        <item>Ujiarpur-UJP</item>
+        <item>Ujjain Junction-UJN</item>
+        <item>Ukai Songadh-USD</item>
+        <item>Ukhali-UKH</item>
+        <item>Ukhra-UKA</item>
+        <item>Ukilerhat Halt-UKLH</item>
+        <item>Uklana-UKN</item>
+        <item>Ukshi-UKC</item>
+        <item>Ulavapadu-UPD</item>
+        <item>Ulhasnagar-ULNR</item>
+        <item>Ulindakonda-UKD</item>
+        <item>Ullal-ULL</item>
+        <item>Ulnabhari-ULL</item>
+        <item>Ulubaria-ULB</item>
+        <item>Ulundurpet-ULU</item>
+        <item>Umar Tali-UTA</item>
+        <item>Umardashi-UM</item>
+        <item>Umaria-UMR</item>
+        <item>Umariaispah Halt-UIH</item>
+        <item>Umarpada-UMPD</item>
+        <item>Umargam Road-UBR</item>
+        <item>Umda Nagar-UR</item>
+        <item>Umed-UMED</item>
+        <item>Umeshnagar-UMNR</item>
+        <item>Umra-UMRA</item>
+        <item>Umranala-ULA</item>
+        <item>Umram-UMM</item>
+        <item>Umred-URR</item>
+        <item>Umreth-UMH</item>
+        <item>Umri-UMRI</item>
+        <item>Umroli-UOI</item>
+        <item>Una-UNA</item>
+        <item>Una Himachal-UHL</item>
+        <item>Unai Vansada Rd-UN</item>
+        <item>Unaula-UNLA</item>
+        <item>Unchahar Junction-UCR</item>
+        <item>Unchaulia-UCH</item>
+        <item>Unchdih-UND</item>
+        <item>Unchhera-UHR</item>
+        <item>Unchi Bassi-UCB</item>
+        <item>Undasa Madhawpu-UDM</item>
+        <item>Undi-UNDI</item>
+        <item>Unguturu-VGT</item>
+        <item>Unhel-UNL</item>
+        <item>Unjalur-URL</item>
+        <item>Unjha-UJA</item>
+        <item>Unkal-UNK</item>
+        <item>Unnao Junction-ON</item>
+        <item>Untare Road-URD</item>
+        <item>Uplai-UPI</item>
+        <item>Upleta-UA</item>
+        <item>Uppal-OPL</item>
+        <item>Uppala-UAA</item>
+        <item>Uppalavai-UPW</item>
+        <item>Uppalur-UPL</item>
+        <item>Uppuguda-HPG</item>
+        <item>Uppugunduru-UGD</item>
+        <item>Urappakkam-UPM</item>
+        <item>Urdauli-UDX</item>
+        <item>Uren-UREN</item>
+        <item>Urga-URGA</item>
+        <item>Urkura-URK</item>
+        <item>Urlam-ULM</item>
+        <item>Urma-URMA</item>
+        <item>Uruli-URI</item>
+        <item>Usalapur-USL</item>
+        <item>Usia Khas-USK</item>
+        <item>Uska Bazar-UB</item>
+        <item>Usmanpur-UPR</item>
+        <item>Usra-USRA</item>
+        <item>Utarlai-UTL</item>
+        <item>Utarsanda-UTD</item>
+        <item>Utrahtia-UTR</item>
+        <item>Utran-URN</item>
+        <item>Utripura-UTP</item>
+        <item>Uttamarkovil-UKV</item>
+        <item>Uttangal Mangalam-UMG</item>
+        <item>Uttar Radhanagar Halt-UTN</item>
+        <item>Uttarpara-UPA</item>
+        <item>Uttukuli-UKL</item>
+        <item>Udumalpettai-UDT</item>
+        <item>V.O.C Nagar-VOC</item>
+        <item>Vachaspati Nagar-VPH</item>
+        <item>Vadaj-VRJ</item>
+        <item>Vadakara-BDJ</item>
+        <item>Vadal-VAL</item>
+        <item>Vadali-VAE</item>
+        <item>Vadali Luter Road-VLTR</item>
+        <item>Vadalur-VLU</item>
+        <item>Vadamadura-VDM</item>
+        <item>Vadanam Kurussi Halt-VDKS</item>
+        <item>Vadgaon-VDN</item>
+        <item>Vadgaon Nila-VDGN</item>
+        <item>Vadhvana-VAN</item>
+        <item>Vadippatti-VDP</item>
+        <item>Vadiya Devli-VDV</item>
+        <item>Vadlamannadu-VMD</item>
+        <item>Vadnagar-VDG</item>
+        <item>Vadod-VXD</item>
+        <item>Vadodara Junction-BRC</item>
+        <item>Vadtal Swaminarayan-VTL</item>
+        <item>Vadviyala-VVL</item>
+        <item>Vagdiya-VD</item>
+        <item>Vaghli-VGL</item>
+        <item>Vaibhavwadi Road-VBW</item>
+
+        <item>Trikarpur-TKQ</item>
+        <item>Trilochan Mahdo-TLMD</item>
+
+        <item>Tripunittura-TRTR</item>
+    </string-array>
+</resources>
